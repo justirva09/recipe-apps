@@ -1,5 +1,7 @@
-import { View } from 'components';
+import { render } from '@testing-library/react';
+import { View, SplashScreen, CardRecipes, ButtonCategoryMenu,ButtonCategoryMain } from 'components';
 import { React } from 'libraries';
+
 
 
 const BaseHeader = () => (
@@ -13,9 +15,31 @@ const BaseHeader = () => (
 const Home = () => (
   <React.Fragment>
     <View className="container">
-      <BaseHeader />
       <View className="main-apps">
-        <h1>Home</h1>
+        <View classNames="home-header">
+          <View classNames="home_username">
+            <span>
+              Hallo !
+            </span>
+            <span>
+              Username
+            </span>
+          </View>
+            <span>Apa yang mau kamu masak hari ini?</span>
+          <View classNames="home_categ">
+            <View className="categ_row">
+              <ButtonCategoryMain />
+              <ButtonCategoryMain />
+              <ButtonCategoryMain />
+              <ButtonCategoryMain />
+            </View>
+          </View>
+        </View>
+        <span>Resep Terbaru</span>
+        <CardRecipes />
+        <View>
+          
+        </View>
       </View>
     </View>
   </React.Fragment>

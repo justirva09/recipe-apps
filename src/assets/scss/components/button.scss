@@ -1,0 +1,42 @@
+.button-container {
+  box-shadow: 2px 4px 8px 0px rgba(0, 0 ,0 , 0.25);
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: white;
+  transition: 0.5s;
+}
+.icon-color {
+  margin-bottom: -10px;
+  fill: black;
+}
+.icon-color :hover {
+  color: white;
+}
+
+.btn-img:hover {
+  color: white;
+  transition: 0.5s;
+}
+
+.button-container:hover {
+  transition: 0.5s;
+  background: #D3843D;
+  color : white;
+}
+
+.icon-color:hover {
+  fill: white;
+  transition: 0.5s;
+}
+.btn-name{
+  text-align: center;
+}
+.button-container h5 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+.button-container svg:hover {
+  fill: white;
+}
