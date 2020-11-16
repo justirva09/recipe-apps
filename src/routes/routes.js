@@ -1,4 +1,4 @@
-import {Home, Detail, Category} from 'pages';
+import {Home, Detail, Category, Profile} from 'pages';
 
 const routes = [
   {
@@ -18,6 +18,12 @@ const routes = [
     path: '/category',
     exact: true,
     component: Category
+  },
+  {
+    name: "Profile",
+    path: '/profile',
+    exact: true,
+    component: Profile
   }
 ];
 
