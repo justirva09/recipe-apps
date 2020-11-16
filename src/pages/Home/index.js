@@ -1,5 +1,5 @@
 import { render } from '@testing-library/react';
-import { View, SplashScreen, CardRecipes, ButtonCategoryMenu,ButtonCategoryMain } from 'components';
+import { View, SplashScreen, CardRecipes, ButtonCategoryMenu,ButtonCategoryMain, BlockRecentRecipe } from 'components';
 import { React } from 'libraries';
 
 
@@ -17,29 +17,10 @@ const Home = () => (
     <View className="container">
       <View className="main-apps">
         <View classNames="home-header">
-          <View classNames="home_username">
-            <span>
-              Hallo !
-            </span>
-            <span>
-              Username
-            </span>
-          </View>
-            <span>Apa yang mau kamu masak hari ini?</span>
-          <View classNames="home_categ">
-            <View className="categ_row">
-              <ButtonCategoryMain />
-              <ButtonCategoryMain />
-              <ButtonCategoryMain />
-              <ButtonCategoryMain />
-            </View>
-          </View>
+          HEADER
         </View>
         <span>Resep Terbaru</span>
-        <CardRecipes />
-        <View>
-          
-        </View>
+        <BlockRecentRecipe />
       </View>
     </View>
   </React.Fragment>
