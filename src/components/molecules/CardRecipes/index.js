@@ -1,37 +1,48 @@
-import {React, PropTypes} from "libraries";
+import {React, PropTypes, Link} from "libraries";
 import {View} from 'components/atoms';
 
-const CardRecipes = (props) =>{
+const CardRecipes = ({ data }) => {
+  const slugTitle = data.title
+  .toLowerCase()
+  .replace(/\s+/g, '-');
+  const colorLeveling = 
+    data.level === 'Mudah' ? '#4caf50' : 
+    data.level === 'Sulit' ? '#e91e63' : 
+    data.level === 'Sedang' ? '#ff9800' : '#333';
     return(
-      <div className="card-recipe">
-        <div className="card-row">
-        <div className="card-header">
-          <div className="card-thumb">
-            <img src="https://1.bp.blogspot.com/-UaObm5v9JDw/X6U5bPD83gI/AAAAAAAAAyg/g7gkfXJMcJUb19wBkR0kq3BwQOMlbEahACLcBGAsYHQ/s0/TIRTOID-NutrisiPahaAyam.jpg"/>
-          </div>
-        </div>
-          <div className="card-body">
-            <h2>{props.cardTitle}</h2>
-            <div className="div-Kosong"></div>
-            <div className="card-footer">
-            <span>{props.cardCateg}</span>
-            <span>{props.cardDiff}</span>
-          </div>
-          </div>
-        </div>
-    </div>
+    <View className="cardRecipe">
+      <View className="cardRecipe__inner">
+        <View className="cardRecipe--row">
+          <View className="cardRecipe__header">
+            <View className="cardRecipe__thumb">
+              <img src={data.images} alt={data.title ? data.title : 'Undefined'} />
+            </View>
+          </View>
+            <View className="cardRecipe__body">
+              <h2>
+                <Link to={`/detail/${data.id_resep}/${slugTitle}`}>{data.title}</Link>
+              </h2>
+              <View className="cardRecipe__body--bottom">
+              <span>{data.category}</span>
+              <span style={{color: `${colorLeveling}`}}>{data.level}</span>
+            </View>
+            </View>
+          </View>
+      </View>
+    </View>
     )
 }
 
 CardRecipes.defaultProps = {
-  cardTitle: 'Undefined',
-  cardCateg : 'Main Dish',
-  cardDiff : 'Mudah'
+  data: {
+    title: 'Undefined',
+    category: 'Main Dish',
+    level: 'Sedang'
+  }
 }
 
 CardRecipes.propTypes = {
-  cardTitle: PropTypes.string,
-  cardCateg: PropTypes.string,
-  cardDiff: PropTypes.string
+  data: PropTypes.object
 }
+
 export default CardRecipes ;

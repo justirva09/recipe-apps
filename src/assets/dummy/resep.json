@@ -1,0 +1,176 @@
+[
+  {
+     "id_resep":1,
+     "title":"Ayam Goreng Lengkuas Sajiku",
+     "level":"Sedang",
+     "images":"https://www.dapurumami.com/uploads/recipe/WJYla/Ayam%20Goreng%20Lengkuas%20ala%20Sajiku-2.jpg",
+     "category":"Main Dish",
+     "bahan":[
+        {
+           "nama":"Ayam",
+           "jumlah":"1 Ekor, 8 Potong"
+        },
+        {
+           "nama":"Bawang Putih",
+           "jumlah":"3 Siung"
+        },
+        {
+           "nama":"biji ketumbar, sangrai",
+           "jumlah":"1 sendok makan"
+        }
+     ],
+     "caraMasak":[
+        "Haluskan bawang putih, biji ketumbar, kemiri, kunyit dan jahe.",
+        "Panaskan minyak dalam wajan dengan api sedang. Tumis bumbu halus hingga harum, tambahkan daun salam, serai dan setengah dari lengkuas parut. Tumis kembali hingga bumbu matang. Tambahkan garam, lada dan sedikit air.",
+        "Masukkan potongan ayam, air, merica bubuk dan Sajiku® Ayam Goreng. Aduk rata dan masak (ungkep) dengan api kecil hingga ayam matang dan bumbu surut. Bolak-balik ayam sesekali. Apabila perlu, tambahkan air selama pemasakan.",
+        "Angkat ayam, tiriskan, dan tinggalkan sisa bumbu dalam wajan. Tambahkan sisa parutan lengkuas ke dalam bumbu. Masak kembali selama 5 menit.",
+        "Panaskan minyak yang cukup untuk menggoreng ayam di dalam wajan bersih. Goreng ayam hingga kematangan dan warna yang diinginkan. Goreng sisa bumbu di dalam minyak sambil diaduk hingga mengering. Angkat dan tiriskan.",
+        "Sajikan ayam goreng dan taburan bumbu lengkuas kering dengan nasi uduk, tempe dan tahu, sambal dan lalapan."
+     ]
+  },
+  {
+     "id_resep":2,
+     "title":"Sayur Lodeh Masako",
+     "level":"Mudah",
+     "images":"https://www.dapurumami.com/uploads/recipe/w951p/Sayur%20Lodeh%20Masako_940x576px.jpg",
+     "category":"Main Dish",
+     "bahan":[
+        {
+           "nama":"Buah nangka muda",
+           "jumlah":"200 gr potong-potong"
+        },
+        {
+           "nama":"Bawang Putih",
+           "jumlah":"3 Siung"
+        },
+        {
+           "nama":"biji ketumbar, sangrai",
+           "jumlah":"1 sendok makan"
+        }
+     ],
+     "caraMasak":[
+        "Haluskan bawang putih, biji ketumbar, kemiri, kunyit dan jahe.",
+        "Panaskan minyak dalam wajan dengan api sedang. Tumis bumbu halus hingga harum, tambahkan daun salam, serai dan setengah dari lengkuas parut. Tumis kembali hingga bumbu matang. Tambahkan garam, lada dan sedikit air.",
+        "Masukkan potongan ayam, air, merica bubuk dan Sajiku® Ayam Goreng. Aduk rata dan masak (ungkep) dengan api kecil hingga ayam matang dan bumbu surut. Bolak-balik ayam sesekali. Apabila perlu, tambahkan air selama pemasakan.",
+        "Angkat ayam, tiriskan, dan tinggalkan sisa bumbu dalam wajan. Tambahkan sisa parutan lengkuas ke dalam bumbu. Masak kembali selama 5 menit.",
+        "Panaskan minyak yang cukup untuk menggoreng ayam di dalam wajan bersih. Goreng ayam hingga kematangan dan warna yang diinginkan. Goreng sisa bumbu di dalam minyak sambil diaduk hingga mengering. Angkat dan tiriskan.",
+        "Sajikan ayam goreng dan taburan bumbu lengkuas kering dengan nasi uduk, tempe dan tahu, sambal dan lalapan."
+     ]
+  },
+  {
+     "id_resep":3,
+     "title":"Sayur Lodeh Masako",
+     "level":"Sulit",
+     "images":"https://www.dapurumami.com/uploads/recipe/w951p/Sayur%20Lodeh%20Masako_940x576px.jpg",
+     "category":"Main Dish",
+     "bahan":[
+        {
+           "nama":"Ayam",
+           "jumlah":"1 Ekor, 8 Potong"
+        },
+        {
+           "nama":"Bawang Putih",
+           "jumlah":"3 Siung"
+        },
+        {
+           "nama":"biji ketumbar, sangrai",
+           "jumlah":"1 sendok makan"
+        }
+     ],
+     "caraMasak":[
+        "Haluskan bawang putih, biji ketumbar, kemiri, kunyit dan jahe.",
+        "Panaskan minyak dalam wajan dengan api sedang. Tumis bumbu halus hingga harum, tambahkan daun salam, serai dan setengah dari lengkuas parut. Tumis kembali hingga bumbu matang. Tambahkan garam, lada dan sedikit air.",
+        "Masukkan potongan ayam, air, merica bubuk dan Sajiku® Ayam Goreng. Aduk rata dan masak (ungkep) dengan api kecil hingga ayam matang dan bumbu surut. Bolak-balik ayam sesekali. Apabila perlu, tambahkan air selama pemasakan.",
+        "Angkat ayam, tiriskan, dan tinggalkan sisa bumbu dalam wajan. Tambahkan sisa parutan lengkuas ke dalam bumbu. Masak kembali selama 5 menit.",
+        "Panaskan minyak yang cukup untuk menggoreng ayam di dalam wajan bersih. Goreng ayam hingga kematangan dan warna yang diinginkan. Goreng sisa bumbu di dalam minyak sambil diaduk hingga mengering. Angkat dan tiriskan.",
+        "Sajikan ayam goreng dan taburan bumbu lengkuas kering dengan nasi uduk, tempe dan tahu, sambal dan lalapan."
+     ]
+  },
+  {
+    "id_resep":4,
+    "title":"Sayur Lodeh Masako",
+    "level":"Sulit",
+    "images":"https://www.dapurumami.com/uploads/recipe/w951p/Sayur%20Lodeh%20Masako_940x576px.jpg",
+    "category":"Main Dish",
+    "bahan":[
+       {
+          "nama":"Ayam",
+          "jumlah":"1 Ekor, 8 Potong"
+       },
+       {
+          "nama":"Bawang Putih",
+          "jumlah":"3 Siung"
+       },
+       {
+          "nama":"biji ketumbar, sangrai",
+          "jumlah":"1 sendok makan"
+       }
+    ],
+    "caraMasak":[
+       "Haluskan bawang putih, biji ketumbar, kemiri, kunyit dan jahe.",
+       "Panaskan minyak dalam wajan dengan api sedang. Tumis bumbu halus hingga harum, tambahkan daun salam, serai dan setengah dari lengkuas parut. Tumis kembali hingga bumbu matang. Tambahkan garam, lada dan sedikit air.",
+       "Masukkan potongan ayam, air, merica bubuk dan Sajiku® Ayam Goreng. Aduk rata dan masak (ungkep) dengan api kecil hingga ayam matang dan bumbu surut. Bolak-balik ayam sesekali. Apabila perlu, tambahkan air selama pemasakan.",
+       "Angkat ayam, tiriskan, dan tinggalkan sisa bumbu dalam wajan. Tambahkan sisa parutan lengkuas ke dalam bumbu. Masak kembali selama 5 menit.",
+       "Panaskan minyak yang cukup untuk menggoreng ayam di dalam wajan bersih. Goreng ayam hingga kematangan dan warna yang diinginkan. Goreng sisa bumbu di dalam minyak sambil diaduk hingga mengering. Angkat dan tiriskan.",
+       "Sajikan ayam goreng dan taburan bumbu lengkuas kering dengan nasi uduk, tempe dan tahu, sambal dan lalapan."
+    ]
+ },
+ {
+  "id_resep":5,
+  "title":"Sayur Lodeh Masako",
+  "level":"Sulit",
+  "images":"https://www.dapurumami.com/uploads/recipe/w951p/Sayur%20Lodeh%20Masako_940x576px.jpg",
+  "category":"Main Dish",
+  "bahan":[
+     {
+        "nama":"Ayam",
+        "jumlah":"1 Ekor, 8 Potong"
+     },
+     {
+        "nama":"Bawang Putih",
+        "jumlah":"3 Siung"
+     },
+     {
+        "nama":"biji ketumbar, sangrai",
+        "jumlah":"1 sendok makan"
+     }
+  ],
+  "caraMasak":[
+     "Haluskan bawang putih, biji ketumbar, kemiri, kunyit dan jahe.",
+     "Panaskan minyak dalam wajan dengan api sedang. Tumis bumbu halus hingga harum, tambahkan daun salam, serai dan setengah dari lengkuas parut. Tumis kembali hingga bumbu matang. Tambahkan garam, lada dan sedikit air.",
+     "Masukkan potongan ayam, air, merica bubuk dan Sajiku® Ayam Goreng. Aduk rata dan masak (ungkep) dengan api kecil hingga ayam matang dan bumbu surut. Bolak-balik ayam sesekali. Apabila perlu, tambahkan air selama pemasakan.",
+     "Angkat ayam, tiriskan, dan tinggalkan sisa bumbu dalam wajan. Tambahkan sisa parutan lengkuas ke dalam bumbu. Masak kembali selama 5 menit.",
+     "Panaskan minyak yang cukup untuk menggoreng ayam di dalam wajan bersih. Goreng ayam hingga kematangan dan warna yang diinginkan. Goreng sisa bumbu di dalam minyak sambil diaduk hingga mengering. Angkat dan tiriskan.",
+     "Sajikan ayam goreng dan taburan bumbu lengkuas kering dengan nasi uduk, tempe dan tahu, sambal dan lalapan."
+  ]
+},
+{
+  "id_resep":6,
+  "title":"Sayur Lodeh Masako",
+  "level":"Sulit",
+  "images":"https://www.dapurumami.com/uploads/recipe/w951p/Sayur%20Lodeh%20Masako_940x576px.jpg",
+  "category":"Main Dish",
+  "bahan":[
+     {
+        "nama":"Ayam",
+        "jumlah":"1 Ekor, 8 Potong"
+     },
+     {
+        "nama":"Bawang Putih",
+        "jumlah":"3 Siung"
+     },
+     {
+        "nama":"biji ketumbar, sangrai",
+        "jumlah":"1 sendok makan"
+     }
+  ],
+  "caraMasak":[
+     "Haluskan bawang putih, biji ketumbar, kemiri, kunyit dan jahe.",
+     "Panaskan minyak dalam wajan dengan api sedang. Tumis bumbu halus hingga harum, tambahkan daun salam, serai dan setengah dari lengkuas parut. Tumis kembali hingga bumbu matang. Tambahkan garam, lada dan sedikit air.",
+     "Masukkan potongan ayam, air, merica bubuk dan Sajiku® Ayam Goreng. Aduk rata dan masak (ungkep) dengan api kecil hingga ayam matang dan bumbu surut. Bolak-balik ayam sesekali. Apabila perlu, tambahkan air selama pemasakan.",
+     "Angkat ayam, tiriskan, dan tinggalkan sisa bumbu dalam wajan. Tambahkan sisa parutan lengkuas ke dalam bumbu. Masak kembali selama 5 menit.",
+     "Panaskan minyak yang cukup untuk menggoreng ayam di dalam wajan bersih. Goreng ayam hingga kematangan dan warna yang diinginkan. Goreng sisa bumbu di dalam minyak sambil diaduk hingga mengering. Angkat dan tiriskan.",
+     "Sajikan ayam goreng dan taburan bumbu lengkuas kering dengan nasi uduk, tempe dan tahu, sambal dan lalapan."
+  ]
+}
+]

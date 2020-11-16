@@ -1,54 +1,79 @@
-.card-thumb {
-  height: 100%;
+.cardRecipe {
+  padding: 8px;
   width: 100%;
-}
-.card-row {
-  display: flex;
-  flex-wrap: wrap;
+  border-radius: 6px;
+  &:hover .cardRecipe__thumb img {
+    filter: brightness(0.7);
+    transition: all 0.35s ease;
+  }
+  &--row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__inner {
+    box-shadow: 2px 0px 15px 0.5px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+  }
+  &__thumb {
+    height: 100%;
+    width: 100%;
+    img {
+      max-height: 130px;
+      min-height: 125px;
+      width: 100%;
+      object-fit: cover;
+      height: 100%;
+    }
+  }
+  &__header {
+    width: 35%;
+  }
+  &__body {
+    padding: 15px;
+    width: 65%;
+    h2 {
+      font-size: 18px;
+      height: 100px;
+      word-break: break-word;
+      a {
+        color: #111;
+        text-decoration: none;
+        &:hover {
+          color: #e91e63;
+        }
+      }
+    }
+    &--bottom {
+      position: absolute;
+      bottom: 10px;
+      left: 168px;
+      right: 0;
+      display: flex;
+      justify-content: space-between;
+      span {
+        font-weight: bold;
+        color: #333;
+      }
+      span:nth-child(2) {
+        padding-right: 15px;
+      }
+    }
+  }
 }
 
-.card-body {
-  padding: 15px;
-  width: 50%;
-}
-
-.card-header {
-  width: 50%;
-}
-
-.card-footer {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.card-footer span:last-child {
-  font-weight: bold;
-  text-align: right;
-  color: lime;
-}
-
-.card-thumb img {
-  border-radius: 15px;
-  max-height: 155px;
-  min-height: 150px;
-  width: 100%;
-  object-fit: cover;
-  height: 100%;
-}
-
-.div-Kosong {
-  padding: 40px;
-}
-
-.card-recipe {
-  margin : 20px;
+.cardRecipe__recipe {
+  margin: 20px;
   border-radius: 15px;
   background-color: white;
   box-shadow: 3px 4px 15px rgba(0, 0, 0, 0.25);
 }
 
-.card-body h2 {
-  text-align: justify;
-  font-size: 18px;
+.widgetTitle {
+  padding: 15px 0;
+  border-bottom: 6px dotted #eee;
+  margin-bottom: 20px;
+  color: #555;
+  text-transform: uppercase;
 }
