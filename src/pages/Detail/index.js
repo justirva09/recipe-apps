@@ -1,14 +1,25 @@
-import { React } from 'libraries';
+import { BlockDetail } from 'components';
+import { React, useParams } from 'libraries';
+import Resep from 'assets/dummy/resep.json';
 
-const Detail = () => (
-  <React.Fragment>
-    <div className="container">
-      <div className="main-apps">
-        <h1>Test Detail</h1>
-      </div>
-    </div>
-  </React.Fragment>
-)
+const Detail = (props) => {
+  const [detailResep, setResep] = React.useState({});
+  const { id } = useParams();
+
+  React.useEffect(() => {
+    compareObjRecipe()
+  })
+
+  const compareObjRecipe = () => {
+    const detailId = parseInt(id)
+    Resep.filter(val => val.id_resep === detailId ? setResep(val) : null)
+  }
+  return(
+    <React.Fragment>
+      <BlockDetail data={detailResep} {...props}/>
+    </React.Fragment>
+  )
+}
 
 
 export default Detail;

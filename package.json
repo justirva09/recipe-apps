@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^12.1.10",
     "axios": "^0.21.0",
     "firebase": "^7.24.0",
+    "lodash": "^4.17.20",
     "moment": "^2.29.1",
     "node-sass": "^4.14.1",
     "nvm": "0.0.4",

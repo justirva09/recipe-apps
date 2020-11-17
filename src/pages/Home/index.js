@@ -1,16 +1,5 @@
-import { render } from '@testing-library/react';
-import { View, SplashScreen, CardRecipes, ButtonCategoryMenu,ButtonCategoryMain, BlockRecentRecipe } from 'components';
+import { View, BlockRecentRecipe } from 'components';
 import { React } from 'libraries';
-
-
-
-const BaseHeader = () => (
-  <header>
-    <View classNames="row">
-      <h1>test</h1>
-    </View>
-  </header>
-);
 
 const Home = () => (
   <React.Fragment>
@@ -19,7 +8,7 @@ const Home = () => (
         <View classNames="home-header">
           HEADER
         </View>
-        <span>Resep Terbaru</span>
+        <span>Hai, Selamat Datang <strong>username</strong></span>
         <BlockRecentRecipe />
       </View>
     </View>
