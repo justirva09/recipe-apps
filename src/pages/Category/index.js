@@ -53,7 +53,7 @@ const Category = () => {
     handleSearchChange(value);
     setBahanMakanan(value);
   }
-
+  document.title = `Recipe Apps - Pencarian`
   return(
     <React.Fragment>
       <View className="container">

@@ -14,6 +14,8 @@ const Detail = (props) => {
     const detailId = parseInt(id)
     Resep.filter(val => val.id_resep === detailId ? setResep(val) : null)
   }
+
+  document.title = `Recipe Apps - ${detailResep.title}`
   return(
     <React.Fragment>
       <BlockDetail data={detailResep} {...props}/>

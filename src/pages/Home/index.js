@@ -1,19 +1,22 @@
 import { View, BlockRecentRecipe } from 'components';
 import { React } from 'libraries';
 
-const Home = () => (
-  <React.Fragment>
-    <View className="container">
-      <View className="main-apps">
-        <View classNames="home-header">
-          HEADER
+const Home = () => {
+  document.title = `Recipe Apps`
+  return(
+    <React.Fragment>
+      <View className="container">
+        <View className="main-apps">
+          <View classNames="home-header">
+            HEADER
+          </View>
+          <span>Hai, Selamat Datang <strong>username</strong></span>
+          <BlockRecentRecipe />
         </View>
-        <span>Hai, Selamat Datang <strong>username</strong></span>
-        <BlockRecentRecipe />
       </View>
-    </View>
-  </React.Fragment>
-)
+    </React.Fragment>
+  )
+}
 
 
 export default Home;
