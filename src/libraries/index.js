@@ -2,13 +2,15 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import firebase from 'firebase';
 import moment from 'moment';
+import _ from 'lodash'
 
 export {
   React, 
   Component,
   PropTypes,
   firebase,
-  moment
+  moment,
+  _
 };
 
 export * from 'react';
