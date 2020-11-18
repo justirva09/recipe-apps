@@ -48,7 +48,7 @@ const Category = () => {
 
     setList(result);
   }
-
+  
   const handleChange = ({ target: { value } }) => {
     handleSearchChange(value);
     setBahanMakanan(value);

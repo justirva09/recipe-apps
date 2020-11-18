@@ -1,5 +1,6 @@
-import { View, BaseLayout } from "components";
+import { View, BaseLayout, SplashScreen } from "components";
 import { 
+  React,
   BrowserRouter, 
   Switch, 
   Route,
@@ -7,6 +8,7 @@ import {
   spring
 } from "libraries";
 import { routes } from 'routes';
+import { showPopup } from "services";
 
 function glide(val) {
   return spring(val, {
@@ -30,32 +32,52 @@ const pageTransitions = {
   }
 };
 
-const App = (props) => (
-  <BrowserRouter>
-    <Switch>
-      <BaseLayout>
-        <AnimatedSwitch
-          {...pageTransitions}
-          className="switch-wrapper"
-          mapStyles={styles => ({
-            opacity: styles.opacity,
-            transform: `translateX(${styles.offset}%)`
-          })}
-            >
-          {routes.map((val,i) => (
-            <Route 
-              key={i} 
-              path={val.path} 
-              exact={val.exact} 
-              name={val.name} 
-              component={val.component} 
-              {...props}
-            />
-          ))}
-        </AnimatedSwitch>
-      </BaseLayout>
-    </Switch>
-  </BrowserRouter>
-)
+const App = (props) => {
+  const [appLoading, setAppLoading] = React.useState(true);
+
+  React.useEffect(() => {
+    const init = async() => {
+      try {
+        
+      } catch (error) {
+        showPopup({
+          title: 'Terjadi Kesalahan!',
+          description: error.message
+        })
+      }
+      setAppLoading(false)
+    }
+    init()
+  }, [])
+
+  return(
+    <BrowserRouter>
+      {!appLoading && (
+        <BaseLayout>
+          <AnimatedSwitch
+            {...pageTransitions}
+            className="switch-wrapper"
+            mapStyles={styles => ({
+              opacity: styles.opacity,
+              transform: `translateX(${styles.offset}%)`
+            })}
+              >
+            {routes.map((val,i) => (
+              <Route 
+                key={i} 
+                path={val.path} 
+                exact={val.exact} 
+                name={val.name} 
+                component={val.component} 
+                {...props}
+              />
+            ))}
+          </AnimatedSwitch>
+        </BaseLayout>
+      )}
+      <SplashScreen show={appLoading} />
+    </BrowserRouter>
+  )
+}
 
 export default App;

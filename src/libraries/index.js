@@ -1,16 +1,15 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
-import firebase from 'firebase';
 import moment from 'moment';
 import _ from 'lodash'
-
+import cx from 'classnames'
 export {
   React, 
   Component,
   PropTypes,
-  firebase,
   moment,
-  _
+  _,
+  cx
 };
 
 export * from 'react';

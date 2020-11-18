@@ -1,11 +1,13 @@
 import { React, PropTypes, NavLink } from 'libraries';
 import { View } from 'components/atoms';
+import { Popup } from 'components/molecules';
 
-const BaseLayout = ({children}) => {
+const BaseLayout = ({children, showNav}) => {
   return(
     <View classNames="baseLayout">
       {children}
-      <View classNames="navbar">
+      {showNav && (
+        <View classNames="navbar">
           <NavLink exact={true} activeClassName='is-active' className="navbar__NavLink--item" to="/">
             <span className="navbar__icon">ICON</span>
             Home
@@ -26,7 +28,9 @@ const BaseLayout = ({children}) => {
             <span className="navbar__icon">ICON</span>
             Profile
           </NavLink>
-      </View>
+        </View>
+      )}
+      <Popup />
     </View>
   )
 }

@@ -8,6 +8,7 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "axios": "^0.21.0",
+    "classnames": "^2.2.6",
     "firebase": "^7.24.0",
     "lodash": "^4.17.20",
     "moment": "^2.29.1",

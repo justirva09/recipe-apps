@@ -1,33 +1,311 @@
 [
-   {
-      "id_resep":1,
-      "title":"Ayam Goreng Lengkuas Sajiku",
-      "level":"Sedang",
-      "images":"https://www.dapurumami.com/uploads/recipe/WJYla/Ayam%20Goreng%20Lengkuas%20ala%20Sajiku-2.jpg",
-      "category":"Main Dish",
-      "bahan":[
-         {
-            "nama" : "Ayam",
-            "jumlah": "1 Ekor, 8 Potong"
-          },
-          {
-            "nama" : "Bawang Putih",
-            "jumlah": "3 Siung"
-          },
-          {
-            "nama" : "biji ketumbar, sangrai",
-            "jumlah": "1 sendok makan"
-          }
-      ],
-      "caraMasak":[
-         "Haluskan bawang putih, biji ketumbar, kemiri, kunyit dan jahe.",
-         "Panaskan minyak dalam wajan dengan api sedang. Tumis bumbu halus hingga harum, tambahkan daun salam, serai dan setengah dari lengkuas parut. Tumis kembali hingga bumbu matang. Tambahkan garam, lada dan sedikit air.",
-         "Masukkan potongan ayam, air, merica bubuk dan Sajiku® Ayam Goreng. Aduk rata dan masak (ungkep) dengan api kecil hingga ayam matang dan bumbu surut. Bolak-balik ayam sesekali. Apabila perlu, tambahkan air selama pemasakan.",
-         "Angkat ayam, tiriskan, dan tinggalkan sisa bumbu dalam wajan. Tambahkan sisa parutan lengkuas ke dalam bumbu. Masak kembali selama 5 menit.",
-         "Panaskan minyak yang cukup untuk menggoreng ayam di dalam wajan bersih. Goreng ayam hingga kematangan dan warna yang diinginkan. Goreng sisa bumbu di dalam minyak sambil diaduk hingga mengering. Angkat dan tiriskan.",
-         "Sajikan ayam goreng dan taburan bumbu lengkuas kering dengan nasi uduk, tempe dan tahu, sambal dan lalapan."
-      ]
-   },
+      {
+         "id_resep":1,
+         "title":"Ayam Kecap Pedas",
+         "level":"Sedang",
+         "images":"https://i2.wp.com/resepkoki.id/wp-content/uploads/2020/09/Resep-Ayam-Kecap-Pedas.jpg?fit=1079%2C1202&ssl=1",
+         "category":"Main Dish",
+         "bahan":[
+            {
+               "nama":"Ayam",
+               "jumlah":"1 ekor (potong-potong)"
+            },
+            {
+               "nama":"Bawang Merah",
+               "jumlah":"5 buah"
+            },
+            {
+               "nama":"Bawang Putih",
+               "jumlah":"3 siung"
+            },
+            {
+               "nama":"Jahe",
+               "jumlah":"2 ruas jari"
+            },
+            {
+               "nama":"Cabai Merah Besar",
+               "jumlah":"3 buah"
+            },
+            {
+               "nama":"Cabai Rawit",
+               "jumlah":"5 buah"
+            },
+            {
+               "nama":"Kecap Manis",
+               "jumlah":"6 sendok makan"
+            },
+            {
+               "nama":"Saus Sambal",
+               "jumlah":"3 sendok makan"
+            },
+            {
+               "nama":"Daun Jeruk",
+               "jumlah":"2 lembar"
+            },
+            {
+               "nama":"Daun Bawang",
+               "jumlah":"3 tangkai (potong-potong)"
+            },
+            {
+               "nama":"Garam",
+               "jumlah":"secukupnya"
+            },
+            {
+               "nama":"Gula",
+               "jumlah":"secukupnya"
+            },
+            {
+               "nama":"Air",
+               "jumlah":"200 ml"
+            }
+         ],
+         "caraMasak":[
+            "Cuci bersih ayam, kemudian goreng ayam sampai matang tapi tidak sampai kering, sisihkan.",
+            "Iris-iris bawang merah, bawang putih, cabai merah, cabai rawit, jahe digeprek, kemudian tumis irisan bumbu dengan minyak secukupnya. Tambahkan daun jeruk. Tumis sampai harum.",
+            "Masukkan ayam yang sudah digoreng, tambahkan air, kecap manis, dan saus sambal. Beri gula dan garam sampai rasanya pas.",
+            "Masak sampai air menyusut dan bumbu meresap, sesaat sebelum diangkat tambahkan irisan daun bawang. Masak sebentar sampai daun bawang sedikit layu.",
+            "Angkat dan sajikan."
+         ]
+      },
+      {
+         "id_resep":2,
+         "title":"Oseng Tempe Cabe Ijo",
+         "level":"Mudah",
+         "images":"https://i0.wp.com/resepkoki.id/wp-content/uploads/2020/03/Resep-Oseng-Tempe-Cabe-Ijo.jpg?fit=1079%2C1118&ssl=1",
+         "category":"Main Dish",
+         "bahan":[
+            {
+               "nama":"Tempe",
+               "jumlah":"300 gram (2 papan)"
+            },
+            {
+               "nama":"Bawang Merah",
+               "jumlah":"5 butir (iris tipis)"
+            },
+            {
+               "nama":"Bawang Putih",
+               "jumlah":"3 siung (iris tipis)"
+            },
+            {
+               "nama":"Cabai Hijau Besar",
+               "jumlah":"10 Buah (iris serong)"
+            },
+            {
+               "nama":"Lengkuas",
+               "jumlah":"1 ruas jari"
+            },
+            {
+               "nama":"Kecap Manis",
+               "jumlah":"4 sendok makan"
+            },
+            {
+               "nama":"Garam",
+               "jumlah":"Secukupnya"
+            }
+         ],
+         "caraMasak":[
+            "Potong tempe kotak-kotak kecil kemudian goreng setengah kering, sisihkan.",
+            "Panaskan minyak, kemudian tumis bawang merah, bawang putih, lengkuas dan daun salam sampai harum, masukkan cabai hijau.",
+            "Masukkan tempe kemudian tambahkan kecap manis dan sedikit garam, aduk rata.",
+            "Jika takut terlalu pedas, Anda bisa hilangkan atau kurangi biji cabe ijo. Gunakan bagian kulitnya saja untuk memberi warna pada oseng tempe."
+         ]
+      },
+      {
+         "id_resep":3,
+         "title":"Sop Ceker",
+         "level":"Sedang",
+         "images":"https://i1.wp.com/resepkoki.id/wp-content/uploads/2018/02/Resep-Sop-Ceker.jpg?fit=1300%2C1225&ssl=1",
+         "category":"Main Dish",
+         "bahan":[
+            {
+               "nama":"Ceker ayam",
+               "jumlah":"500 gram"
+            },
+            {
+               "nama":"Bawang Putih",
+               "jumlah":"3 siung (memarkan lalu goreng)"
+            },
+            {
+               "nama":"Wortel",
+               "jumlah":"2 buah (iris bulat)"
+            },
+            {
+               "nama":"Kentang",
+               "jumlah":"1 buah (potong dadu)"
+            },
+            {
+               "nama":"Tomat",
+               "jumlah":"1 buah (potong-potong)"
+            },
+            {
+               "nama":"Daun Bawang",
+               "jumlah":"1 batang (simpulkan)"
+            },
+            {
+               "nama":"Seledri",
+               "jumlah":"1 batang (simpulkan)"
+            },
+            {
+               "nama":"Jahe",
+               "jumlah":"3 cm (memarkan)"
+            },
+            {
+               "nama":"Garam",
+               "jumlah":"1 sendok teh"
+            },
+            {
+               "nama":"Gula",
+               "jumlah":"1 sendok teh"
+            },
+            {
+               "nama":"Lada Bubuk",
+               "jumlah":"1/2 sendok teh"
+            },
+            {
+               "nama":"Pala Bubuk",
+               "jumlah":"1/2 sendok teh"
+            },
+            {
+               "nama":"Air",
+               "jumlah":"1 liter"
+            },
+            {
+               "nama":"Minyak",
+               "jumlah":"secukupnya (untuk menumis)"
+            }
+         ],
+         "caraMasak":[
+            "Dalam panci, rebus air hingga mendidih.",
+            "Panaskan sedikit minyak. Tumis bawang putih hingga harum. Masukkan tumisan ke dalam rebusan air.",
+            "Masukkan ceker, daun bawang, daun seledri, dan jahe. Masak dengan api kecil hingga ceker empuk dan matang.",
+            "Masukkan wortel, kentang, dan tomat. Bumbui dengan garam, gula, lada, dan pala. Aduk rata dan masak hingga sayuran matang. Koreksi rasanya. Angkat.",
+            "Siap disajikan."
+         ]
+      },
+      {
+         "id_resep":4,
+         "title":"Sate Kribo",
+         "level":"Mudah",
+         "images":"https://i2.wp.com/resepkoki.id/wp-content/uploads/2020/09/Resep-Sate-Kribo.jpg?fit=1079%2C1268&ssl=1",
+         "category":"Main Dish",
+         "bahan":[
+            {
+               "nama":"Sosis",
+               "jumlah":"10 buah"
+            },
+            {
+               "nama":"Mie kering keriting",
+               "jumlah":"2 bungkus"
+            },
+            {
+               "nama":"Terigu serbaguna",
+               "jumlah":"100 gram"
+            },
+            {
+               "nama":"Garam",
+               "jumlah":"1/2 sendok teh"
+            },
+            {
+               "nama":"Merica Bubuk",
+               "jumlah":"1/4 sendok teh"
+            },
+            {
+               "nama":"Tusuk Sate",
+               "jumlah":"10 buah"
+            },
+            {
+               "nama":"Air",
+               "jumlah":"secukupnya (untuk mengencerkan tepung)"
+            },
+            {
+               "nama":"Saus Sambal",
+               "jumlah":"secukupnya"
+            },
+            {
+               "nama":"Mayonnaise",
+               "jumlah":"secukupnya"
+            }
+         ],
+         "caraMasak":[
+            "Remukkan mie kering dengan tangan sampai hancur, kemudian taruh di piring.",
+            "Dalam wadah, campurkan tepung terigu, garam dan merica. Tambahkan air secukupnya dengan menuang sedikit-sedikit aduk sampai licin. Tekstur adonan harus kental supaya mie bisa menempel.",
+            "Tusuk sosis dengan tusuk sate, kemudian celupkan ke adonan tepung. Setelah itu, gulingkan ke mie kering yang sudah diremukkan. Tekan-tekan dengan tangan supaya adonan menempel sempurna. Lakukan hingga adonan habis.",
+            "Goreng sate mie dalam minyak panas deep frying sampai matang kecoklatan, angkat dan tiriskan.",
+            "Sajikan dengan saus sambal dan mayonaise sesuai selera."
+         ]
+      },
+      {
+         "id_resep":5,
+         "title":"Soto Daging Sapi Madura",
+         "level":"Sulit",
+         "images":"https://i2.wp.com/resepkoki.id/wp-content/uploads/2020/03/Resep-Soto-Daging-Sapi-Madura.jpg?fit=1079%2C1175&ssl=1",
+         "category":"Main Dish",
+         "bahan":[
+            {
+               "nama":"Daging sapi",
+               "jumlah":"500 gram"
+            },
+            {
+               "nama":"Air",
+               "jumlah":"2 liter"
+            },
+            {
+               "nama":"Daun Jeruk",
+               "jumlah":"4 lembar"
+            },
+            {
+               "nama":"Daun Salam",
+               "jumlah":"2 lembar"
+            },
+            {
+               "nama":"Serai",
+               "jumlah":"3 batang (memarkan)"
+            },
+            {
+               "nama":"Garam",
+               "jumlah":"secukupnya"
+            },
+            {
+               "nama":"Gula",
+               "jumlah":"secukupnya"
+            },
+            {
+               "nama":"Bawang Merah",
+               "jumlah":"8 butir (bumbu halus)"
+            },
+            {
+               "nama":"Bawang Putih",
+               "jumlah":"4 siung (bumbu halus)"
+            },
+            {
+               "nama":"Kemiri",
+               "jumlah":"3 butir (bumbu halus)"
+            },
+            {
+               "nama":"Kunyit",
+               "jumlah":"2 ruas jari (bumbu halus)"
+            },
+            {
+               "nama":"Jahe",
+               "jumlah":"3 ruas jari (bumbu halus)"
+            },
+            {
+               "nama":"Ketumbar",
+               "jumlah":"1 sendok teh (bumbu halus)"
+            },
+            {
+               "nama":"Lada",
+               "jumlah":"1/4 sendok teh (bumbu halus)"
+            }
+         ],
+         "caraMasak":[
+            "Remukkan mie kering dengan tangan sampai hancur, kemudian taruh di piring.",
+            "Dalam wadah, campurkan tepung terigu, garam dan merica. Tambahkan air secukupnya dengan menuang sedikit-sedikit aduk sampai licin. Tekstur adonan harus kental supaya mie bisa menempel.",
+            "Tusuk sosis dengan tusuk sate, kemudian celupkan ke adonan tepung. Setelah itu, gulingkan ke mie kering yang sudah diremukkan. Tekan-tekan dengan tangan supaya adonan menempel sempurna. Lakukan hingga adonan habis.",
+            "Goreng sate mie dalam minyak panas deep frying sampai matang kecoklatan, angkat dan tiriskan.",
+            "Sajikan dengan saus sambal dan mayonaise sesuai selera."
+         ]
+      },
    {
       "id_resep":6,
       "title":"Panna Cotta Strawberry",

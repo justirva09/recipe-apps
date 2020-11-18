@@ -13,12 +13,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 595px;
+  min-height: 100vh;
 }
 .splashscreen-logo img {
   width: 100%;
 }
-.categ_row {
-  display: flex;
-  flex-wrap: wrap;
+.splashscreen-background.LoadingScreen {
+  display: none;
+}
+
+.splashscreen-background.LoadingScreen.LoadingScreen--show.LoadingScreen--animate {
+  display: block;
 }
