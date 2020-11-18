@@ -1,35 +1,22 @@
-import { React, PropTypes, NavLink } from 'libraries';
+import { React, PropTypes, connect, useHistory } from 'libraries';
 import { View } from 'components/atoms';
 import { Popup } from 'components/molecules';
+import { profileSelector } from 'modules';
 
-const BaseLayout = ({children, showNav}) => {
+const BaseLayout = ({children, profile}) => {
+  const history = useHistory();
+
+  React.useEffect(() => {
+    if (profile) {
+      history.replace('/beranda');
+    } else {
+      history.replace('/')
+    }
+  }, [history, profile]);
+  
   return(
     <View classNames="baseLayout">
       {children}
-      {showNav && (
-        <View classNames="navbar">
-          <NavLink exact={true} activeClassName='is-active' className="navbar__NavLink--item" to="/">
-            <span className="navbar__icon">ICON</span>
-            Home
-          </NavLink>
-          <NavLink exact={true} activeClassName='is-active' className="navbar__NavLink--item" to="/category">
-            <span className="navbar__icon">ICON</span>
-            Category
-          </NavLink>
-          <NavLink exact={true} activeClassName='is-active' className="navbar__NavLink--item" to="/pencarian">
-            <span className="navbar__icon">ICON</span>
-            Pencarian
-          </NavLink>
-          <NavLink exact={true} activeClassName='is-active' className="navbar__NavLink--item" to="/about">
-            <span className="navbar__icon">ICON</span>
-            About
-          </NavLink>
-          <NavLink exact={true} activeClassName='is-active' className="navbar__NavLink--item" to="/profile">
-            <span className="navbar__icon">ICON</span>
-            Profile
-          </NavLink>
-        </View>
-      )}
       <Popup />
     </View>
   )
@@ -37,7 +24,16 @@ const BaseLayout = ({children, showNav}) => {
 
 
 BaseLayout.propsTypes = {
-  children: PropTypes.any
+  children: PropTypes.any,
+  profile: PropTypes.object
 }
 
-export default BaseLayout;
+BaseLayout.defaultProps = {
+  profile: null
+}
+
+const reduxState = state => ({
+  profile: profileSelector(state)
+});
+
+export default connect(reduxState)(BaseLayout);

@@ -5,6 +5,7 @@
          "level":"Sedang",
          "images":"https://i2.wp.com/resepkoki.id/wp-content/uploads/2020/09/Resep-Ayam-Kecap-Pedas.jpg?fit=1079%2C1202&ssl=1",
          "category":"Main Dish",
+         "slug": "main-dish",
          "bahan":[
             {
                "nama":"Ayam",
@@ -73,6 +74,7 @@
          "level":"Mudah",
          "images":"https://i0.wp.com/resepkoki.id/wp-content/uploads/2020/03/Resep-Oseng-Tempe-Cabe-Ijo.jpg?fit=1079%2C1118&ssl=1",
          "category":"Main Dish",
+         "slug": "main-dish",
          "bahan":[
             {
                "nama":"Tempe",
@@ -116,6 +118,7 @@
          "level":"Sedang",
          "images":"https://i1.wp.com/resepkoki.id/wp-content/uploads/2018/02/Resep-Sop-Ceker.jpg?fit=1300%2C1225&ssl=1",
          "category":"Main Dish",
+         "slug": "main-dish",
          "bahan":[
             {
                "nama":"Ceker ayam",
@@ -188,6 +191,7 @@
          "level":"Mudah",
          "images":"https://i2.wp.com/resepkoki.id/wp-content/uploads/2020/09/Resep-Sate-Kribo.jpg?fit=1079%2C1268&ssl=1",
          "category":"Main Dish",
+         "slug": "main-dish",
          "bahan":[
             {
                "nama":"Sosis",
@@ -240,6 +244,7 @@
          "level":"Sulit",
          "images":"https://i2.wp.com/resepkoki.id/wp-content/uploads/2020/03/Resep-Soto-Daging-Sapi-Madura.jpg?fit=1079%2C1175&ssl=1",
          "category":"Main Dish",
+         "slug": "main-dish",
          "bahan":[
             {
                "nama":"Daging sapi",
@@ -312,6 +317,7 @@
       "level":"Mudah",
       "images":"https://i2.wp.com/resepkoki.id/wp-content/uploads/2020/10/Resep-Panna-Cotta.jpg?fit=867%2C1300&ssl=1",
       "category":"Dessert",
+      "slug": "desert",
       "bahan":[
          {
             "nama":"Susu cair",
@@ -357,6 +363,7 @@
       "level":"Mudah",
       "images":"https://i0.wp.com/resepkoki.id/wp-content/uploads/2020/08/Resep-Puding-Mozaik.jpg?fit=975%2C1300&ssl=1",
       "category":"Dessert",
+      "slug": "desert",
       "bahan":[
          {
             "nama":"Agar-agar plain",
@@ -406,6 +413,7 @@
       "level":"Sedang",
       "images":"https://i1.wp.com/resepkoki.id/wp-content/uploads/2018/07/Resep-Puding-Casablanca.jpg?fit=975%2C1300&ssl=1",
       "category":"Dessert",
+      "slug": "desert",
       "bahan":[
          {
             "nama":"Telur",
@@ -457,6 +465,7 @@
       "level":"Mudah",
       "images":"https://i0.wp.com/resepkoki.id/wp-content/uploads/2017/05/Resep-Puding-Pepaya.jpg?fit=1062%2C1300&ssl=1",
       "category":"Dessert",
+      "slug": "desert",
       "bahan":[
          {
             "nama":"Pepaya matang",
@@ -495,6 +504,7 @@
       "level":"Mudah",
       "images":"https://i0.wp.com/resepkoki.id/wp-content/uploads/2016/09/Resep-Silky-Puding.jpg?fit=648%2C810&ssl=1",
       "category":"Dessert",
+      "slug": "desert",
       "bahan":[
          {
             "nama":"Jelly rasa leci",
@@ -536,6 +546,7 @@
       "level":"Mudah",
       "images":"https://i1.wp.com/resepkoki.id/wp-content/uploads/2020/03/Resep-King-Mango-Thai.jpg?fit=1112%2C1300&ssl=1",
       "category":"Drink",
+      "slug": "drink",
       "bahan":[
          {
             "nama":"Mangga",
@@ -568,6 +579,7 @@
       "level":"Sedang",
       "images":"https://i0.wp.com/resepkoki.id/wp-content/uploads/2020/05/Resep-Dalgona-Milo.jpg?fit=1137%2C1300&ssl=1",
       "category":"Drink",
+      "slug": "drink",
       "bahan":[
          {
             "nama":"Milo bubuk",
@@ -608,6 +620,7 @@
       "level":"Mudah",
       "images":"https://i1.wp.com/resepkoki.id/wp-content/uploads/2018/04/Resep-Jus-Buah-Naga-Stroberi.jpg?fit=1104%2C1300&ssl=1",
       "category":"Drink",
+      "slug": "drink",
       "bahan":[
          {
             "nama":"Buah Naga",
@@ -643,6 +656,7 @@
       "level":"Sulit",
       "images":"https://i0.wp.com/resepkoki.id/wp-content/uploads/2018/01/Resep-Overnight-Oat.jpg?fit=1232%2C1300&ssl=1",
       "category":"Drink",
+      "slug": "drink",
       "bahan":[
          {
             "nama":"Oat instant",
@@ -682,6 +696,7 @@
       "level":"Sedang",
       "images":"https://i2.wp.com/resepkoki.id/wp-content/uploads/2017/05/Resep-Es-Teler.jpg?fit=1300%2C1162&ssl=1",
       "category":"Drink",
+      "slug": "drink",
       "bahan":[
          {
             "nama":"Alpukat",

@@ -72,7 +72,6 @@ export const logout = async () => {
   const [res, err] = await handleAsync(firebaseService.logout());
   if (err) throw err;
   dispatch(clearProfile());
-  dispatch(clearUsers());
-  dispatch(clearUserContact());
+  // dispatch(clearUsers());
   return res;
 };

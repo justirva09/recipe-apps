@@ -1,1 +1,1 @@
-const profileSelector = state => state.profile;
+export const profileSelector = state => state.profile;

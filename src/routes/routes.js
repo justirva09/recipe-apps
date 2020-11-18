@@ -1,4 +1,4 @@
-import {Home, Detail, Category, Profile, LandingPages, Auth} from 'pages';
+import {Home, Detail, Category, Profile, LandingPages, Auth, SearchRecipe} from 'pages';
 
 const routes = [
   {
@@ -15,9 +15,15 @@ const routes = [
   },
   {
     name: "Category",
-    path: '/category',
+    path: '/category/:slug',
     exact: true,
     component: Category
+  },
+  {
+    name: "search",
+    path: '/search',
+    exact: true,
+    component: SearchRecipe
   },
   {
     name: "Profile",

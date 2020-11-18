@@ -4,6 +4,7 @@ import Detail from './Detail';
 import Home from './Home';
 import LandingPages from './LandingPage';
 import Profile from './Profile'
+import SearchRecipe from './SearchRecipe';
 
 
 export {
@@ -12,5 +13,6 @@ export {
   Category,
   Profile,
   Auth,
-  LandingPages
+  LandingPages,
+  SearchRecipe
 }

@@ -1,7 +1,53 @@
-@media screen and (max-width: 400px) {
+.LoadScreenData {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: 99999;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.screenAnimation {
+  animation: 0.5s ease-out 0s 1 slideInFromLeft;
+}
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 480px) {
   .Popup {
     &__box {
       width: unset !important;
     }
+    &__description {
+      word-break: break-all;
+    }
+  }
+  .col-md-6 {
+    width: 50% !important;
+  }
+  .cardRecipe__body--bottom {
+    left: 145px !important;
+  }
+  .cardRecipe__thumb img {
+    max-height: 150px !important;
+    min-height: 135px !important;
+  }
+  .categoryBlock__card {
+    flex: 0 0 25% !important;
+    max-width: 25% !important;
+  }
+  .categoryBlock__card:nth-child(2)
+    .categoryBlock__inner
+    .categoryBlock__icon
+    span {
+    display: none;
   }
 }

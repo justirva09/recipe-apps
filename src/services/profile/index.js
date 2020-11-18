@@ -1,6 +1,9 @@
 import firebase from 'firebase/app';
+import 'firebase/database'; // If using Firebase database
+import 'firebase/storage';  // If using Firebase storage
+import 'firebase/auth';  // If using Firebase Auth
 import { firebaseService, store, setProfile, clearProfile } from 'modules';
-import { createProfileObj } from 'helper';
+import { createProfileObj, handleAsync } from 'helper';
 
 const { dispatch } = store;
 
@@ -13,10 +16,9 @@ export const getProfile = () => {
   const promise = new Promise((resolve, reject) => {
     firebase.auth().onAuthStateChanged(
       async user => {
-        if (user) {
+        if(user) {
           let userData = await firebaseService.getUserData(user.uid);
-
-          if (!userData) {
+          if(!userData) {
             userData = await firebaseService.createUserData({
               name: user.displayName,
               email: user.email,
@@ -24,13 +26,12 @@ export const getProfile = () => {
               photo: user.photoURL
             });
           }
-
           const userObj = createProfileObj({ ...user, ...userData });
           dispatch(setProfile(userObj));
           resolve(user);
         } else {
           dispatch(clearProfile());
-          resolve(null);
+          resolve(null)
         }
       },
       error => {
@@ -40,8 +41,9 @@ export const getProfile = () => {
     );
   });
 
-  return promise;
+  return promise
 };
+
 
 /**
  * a Service for update current user data

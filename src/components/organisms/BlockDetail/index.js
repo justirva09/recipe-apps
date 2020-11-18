@@ -7,12 +7,14 @@ class BlockDetail extends React.Component {
     data: PropTypes.object,
     history: PropTypes.object
   }
+
   render(){
     const { data, history } = this.props;
     const colorLeveling = 
     data.level === 'Mudah' ? '#4caf50' : 
     data.level === 'Sulit' ? '#e91e63' : 
     data.level === 'Sedang' ? '#ff9800' : '#333';
+
     return(
       <React.Fragment>
         <View classNames="o-blockDetail">
@@ -20,7 +22,7 @@ class BlockDetail extends React.Component {
             <span onClick={() => history.goBack()} className="o-blockDetail__closeBtn">X</span>
             <img src={data.images} alt={data.title}  className="o-blockDetail__thumbnail--img"/>
           </View>
-          <View classNames="o-blockDetail__contentWrapper">
+          <View classNames="o-blockDetail__contentWrapper screenAnimation">
             <View classNames="container">
               <View classNames="o-blockDetail__content">
                   <View classNames="o-blockDetail__headerContent">
@@ -40,7 +42,7 @@ class BlockDetail extends React.Component {
                         ))
                       ): "Loading.."}
                     </Collapse>
-                    <Collapse title="Cara Masak" status={false}>
+                    <Collapse title="Cara Memasak" status={false}>
                     {!_.isEmpty(data.caraMasak) && _.isArray(data.caraMasak) ? (
                         data.caraMasak.map((val, i) => (
                           <FormText key={i} title={val} />

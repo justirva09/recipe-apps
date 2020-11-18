@@ -1,8 +1,8 @@
 import { React, useHistory } from 'libraries';
 import { Button, View } from 'components';
 import googleLogo from 'assets/images/google.svg'
-import { login, showPopup } from 'services';
-import { createMessageFirebase, validateEmail } from 'helper';
+import { login, loginGoogle, showPopup } from 'services';
+import { createMessageFirebase, handleAsync, validateEmail } from 'helper';
 
 const FormLogin = () => {
   const history = useHistory();
@@ -54,6 +54,28 @@ const FormLogin = () => {
       });
       setLoading(false);
     }
+  };
+
+  const submitGoogle = async () => {
+    setLoading(true);
+    const [res, err] = await handleAsync(loginGoogle());
+    setLoading(false);
+
+    if (err) {
+      showPopup({
+        title: 'Terjadi Kesalahan!',
+        description: err.message
+      });
+      throw err;
+    }
+
+    showPopup({
+      title: 'Berhasil Masuk',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis lorem bibendum, pulvinar est in, blandit sem. Pellentesque vitae mi eu quam tempor luctus in a purus. Duis quis sollicitudin tortor.'
+    });
+
+    return res;
   };
 
   return(
@@ -124,7 +146,7 @@ const FormLogin = () => {
             <p>Atau Masuk Dengan</p>
           </View>
           <View classNames="form__other--bottom">
-            <View classNames="form__btnLogin" style={{display: 'flex'}}>
+            <View onPress={submitGoogle} classNames="form__btnLogin" style={{display: 'flex'}}>
             <span
               style={{
                 backgroundImage: `url(${googleLogo})`, 
@@ -137,7 +159,7 @@ const FormLogin = () => {
                 display: 'block'
               }}
             >google</span>
-            <h4 className="form__otherText">Google</h4>
+            <h4 className="form__otherText">Login With Google</h4>
             </View>
           </View>
         </View>
