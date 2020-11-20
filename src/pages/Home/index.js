@@ -3,7 +3,7 @@ import { React } from 'libraries';
 import { logout } from 'services';
 
 const Home = () => {
-  document.title = `Recipe Apps`
+  document.title = `What in The Fridge's`
   return(
     <React.Fragment>
       <View className="container">

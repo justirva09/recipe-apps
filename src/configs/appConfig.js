@@ -4,9 +4,9 @@ const config = {
   dev: {
     appName: 'What in The Fridge',
     url: {
-      api: '',
-      assets: '',
-      origin: ''
+      api: 'http://recipe-apps.vercel.app',
+      assets: 'http://recipe-apps.vercel.app',
+      origin: 'http://recipe-apps.vercel.app'
     },
     firebase: {
       apiKey: "AIzaSyCHbWrKn0XpfuoA9Y71XR8AZu6CFioLhCM",
@@ -22,9 +22,9 @@ const config = {
   prod: {
     appName: 'What in The Fridge',
     url: {
-      api: '',
-      assets: '',
-      origin: ''
+      api: 'http://recipe-apps.vercel.app',
+      assets: 'http://recipe-apps.vercel.app',
+      origin: 'http://recipe-apps.vercel.app'
     },
     firebase: {
       apiKey: '',

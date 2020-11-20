@@ -55,6 +55,7 @@ const App = (props) => {
                     {...props}
                   />
                 ))}
+                <Route render={() => <h1>404</h1>}/>
             </Switch>
           )}
         <SplashScreen show={appLoading} />

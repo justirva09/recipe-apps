@@ -92,7 +92,7 @@ class Category extends React.Component {
             )
           })}
         </View>
-        <View classNames="row">
+        <View classNames="row screenAnimation">
           {slug === 'all' ? (
             resepList.map((value,index) => (
               <CardRecipes data={value} key={index} />
