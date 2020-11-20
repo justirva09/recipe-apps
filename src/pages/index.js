@@ -2,8 +2,9 @@ import Auth from './Auth';
 import Category from './Category';
 import Detail from './Detail';
 import Home from './Home';
+import Profile from './Profile';
+import About from './About';
 import LandingPages from './LandingPage';
-import Profile from './Profile'
 import SearchRecipe from './SearchRecipe';
 
 
@@ -12,6 +13,7 @@ export {
   Detail,
   Category,
   Profile,
+  About,
   Auth,
   LandingPages,
   SearchRecipe

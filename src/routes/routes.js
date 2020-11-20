@@ -1,4 +1,4 @@
-import {Home, Detail, Category, Profile, LandingPages, Auth, SearchRecipe} from 'pages';
+import {Home, Detail, Category, Profile, LandingPages, Auth, SearchRecipe, About} from 'pages';
 
 const routes = [
   {
@@ -30,6 +30,12 @@ const routes = [
     path: '/profile',
     exact: true,
     component: Profile
+  },
+  {
+    name: "About",
+    path: '/about',
+    exact: true,
+    component: About
   },
   {
     name: "Landing Page",
