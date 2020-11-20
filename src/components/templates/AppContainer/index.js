@@ -21,10 +21,6 @@ const AppContainer = ({children, showNav}) => {
             <span className="navbar__icon"><AiOutlineSearch size={24} /></span>
             Pencarian
           </NavLink>
-          {/* <NavLink  activeClassName='is-active' className="navbar__NavLink--item" to="/about">
-            <span className="navbar__icon">ICON</span>
-            About
-          </NavLink> */}
           <NavLink activeClassName='is-active' className="navbar__NavLink--item" to="/profile">
             <span className="navbar__icon"><AiOutlineUser size={24} /></span>
             Profile
