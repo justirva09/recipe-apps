@@ -1,176 +1,729 @@
 [
-  {
-     "id_resep":1,
-     "title":"Ayam Goreng Lengkuas Sajiku",
-     "level":"Sedang",
-     "images":"https://www.dapurumami.com/uploads/recipe/WJYla/Ayam%20Goreng%20Lengkuas%20ala%20Sajiku-2.jpg",
-     "category":"Main Dish",
-     "bahan":[
-        {
-           "nama":"Ayam",
-           "jumlah":"1 Ekor, 8 Potong"
-        },
-        {
-           "nama":"Bawang Putih",
-           "jumlah":"3 Siung"
-        },
-        {
-           "nama":"biji ketumbar, sangrai",
-           "jumlah":"1 sendok makan"
-        }
-     ],
-     "caraMasak":[
-        "Haluskan bawang putih, biji ketumbar, kemiri, kunyit dan jahe.",
-        "Panaskan minyak dalam wajan dengan api sedang. Tumis bumbu halus hingga harum, tambahkan daun salam, serai dan setengah dari lengkuas parut. Tumis kembali hingga bumbu matang. Tambahkan garam, lada dan sedikit air.",
-        "Masukkan potongan ayam, air, merica bubuk dan Sajiku® Ayam Goreng. Aduk rata dan masak (ungkep) dengan api kecil hingga ayam matang dan bumbu surut. Bolak-balik ayam sesekali. Apabila perlu, tambahkan air selama pemasakan.",
-        "Angkat ayam, tiriskan, dan tinggalkan sisa bumbu dalam wajan. Tambahkan sisa parutan lengkuas ke dalam bumbu. Masak kembali selama 5 menit.",
-        "Panaskan minyak yang cukup untuk menggoreng ayam di dalam wajan bersih. Goreng ayam hingga kematangan dan warna yang diinginkan. Goreng sisa bumbu di dalam minyak sambil diaduk hingga mengering. Angkat dan tiriskan.",
-        "Sajikan ayam goreng dan taburan bumbu lengkuas kering dengan nasi uduk, tempe dan tahu, sambal dan lalapan."
-     ]
-  },
-  {
-     "id_resep":2,
-     "title":"Sayur Lodeh Masako",
-     "level":"Mudah",
-     "images":"https://www.dapurumami.com/uploads/recipe/w951p/Sayur%20Lodeh%20Masako_940x576px.jpg",
-     "category":"Main Dish",
-     "bahan":[
-        {
-           "nama":"Buah nangka muda",
-           "jumlah":"200 gr potong-potong"
-        },
-        {
-           "nama":"Bawang Putih",
-           "jumlah":"3 Siung"
-        },
-        {
-           "nama":"biji ketumbar, sangrai",
-           "jumlah":"1 sendok makan"
-        }
-     ],
-     "caraMasak":[
-        "Haluskan bawang putih, biji ketumbar, kemiri, kunyit dan jahe.",
-        "Panaskan minyak dalam wajan dengan api sedang. Tumis bumbu halus hingga harum, tambahkan daun salam, serai dan setengah dari lengkuas parut. Tumis kembali hingga bumbu matang. Tambahkan garam, lada dan sedikit air.",
-        "Masukkan potongan ayam, air, merica bubuk dan Sajiku® Ayam Goreng. Aduk rata dan masak (ungkep) dengan api kecil hingga ayam matang dan bumbu surut. Bolak-balik ayam sesekali. Apabila perlu, tambahkan air selama pemasakan.",
-        "Angkat ayam, tiriskan, dan tinggalkan sisa bumbu dalam wajan. Tambahkan sisa parutan lengkuas ke dalam bumbu. Masak kembali selama 5 menit.",
-        "Panaskan minyak yang cukup untuk menggoreng ayam di dalam wajan bersih. Goreng ayam hingga kematangan dan warna yang diinginkan. Goreng sisa bumbu di dalam minyak sambil diaduk hingga mengering. Angkat dan tiriskan.",
-        "Sajikan ayam goreng dan taburan bumbu lengkuas kering dengan nasi uduk, tempe dan tahu, sambal dan lalapan."
-     ]
-  },
-  {
-     "id_resep":3,
-     "title":"Sayur Lodeh Masako",
-     "level":"Sulit",
-     "images":"https://www.dapurumami.com/uploads/recipe/w951p/Sayur%20Lodeh%20Masako_940x576px.jpg",
-     "category":"Main Dish",
-     "bahan":[
-        {
-           "nama":"Ayam",
-           "jumlah":"1 Ekor, 8 Potong"
-        },
-        {
-           "nama":"Bawang Putih",
-           "jumlah":"3 Siung"
-        },
-        {
-           "nama":"biji ketumbar, sangrai",
-           "jumlah":"1 sendok makan"
-        }
-     ],
-     "caraMasak":[
-        "Haluskan bawang putih, biji ketumbar, kemiri, kunyit dan jahe.",
-        "Panaskan minyak dalam wajan dengan api sedang. Tumis bumbu halus hingga harum, tambahkan daun salam, serai dan setengah dari lengkuas parut. Tumis kembali hingga bumbu matang. Tambahkan garam, lada dan sedikit air.",
-        "Masukkan potongan ayam, air, merica bubuk dan Sajiku® Ayam Goreng. Aduk rata dan masak (ungkep) dengan api kecil hingga ayam matang dan bumbu surut. Bolak-balik ayam sesekali. Apabila perlu, tambahkan air selama pemasakan.",
-        "Angkat ayam, tiriskan, dan tinggalkan sisa bumbu dalam wajan. Tambahkan sisa parutan lengkuas ke dalam bumbu. Masak kembali selama 5 menit.",
-        "Panaskan minyak yang cukup untuk menggoreng ayam di dalam wajan bersih. Goreng ayam hingga kematangan dan warna yang diinginkan. Goreng sisa bumbu di dalam minyak sambil diaduk hingga mengering. Angkat dan tiriskan.",
-        "Sajikan ayam goreng dan taburan bumbu lengkuas kering dengan nasi uduk, tempe dan tahu, sambal dan lalapan."
-     ]
-  },
-  {
-    "id_resep":4,
-    "title":"Sayur Lodeh Masako",
-    "level":"Sulit",
-    "images":"https://www.dapurumami.com/uploads/recipe/w951p/Sayur%20Lodeh%20Masako_940x576px.jpg",
-    "category":"Main Dish",
-    "bahan":[
-       {
-          "nama":"Ayam",
-          "jumlah":"1 Ekor, 8 Potong"
-       },
-       {
-          "nama":"Bawang Putih",
-          "jumlah":"3 Siung"
-       },
-       {
-          "nama":"biji ketumbar, sangrai",
-          "jumlah":"1 sendok makan"
-       }
-    ],
-    "caraMasak":[
-       "Haluskan bawang putih, biji ketumbar, kemiri, kunyit dan jahe.",
-       "Panaskan minyak dalam wajan dengan api sedang. Tumis bumbu halus hingga harum, tambahkan daun salam, serai dan setengah dari lengkuas parut. Tumis kembali hingga bumbu matang. Tambahkan garam, lada dan sedikit air.",
-       "Masukkan potongan ayam, air, merica bubuk dan Sajiku® Ayam Goreng. Aduk rata dan masak (ungkep) dengan api kecil hingga ayam matang dan bumbu surut. Bolak-balik ayam sesekali. Apabila perlu, tambahkan air selama pemasakan.",
-       "Angkat ayam, tiriskan, dan tinggalkan sisa bumbu dalam wajan. Tambahkan sisa parutan lengkuas ke dalam bumbu. Masak kembali selama 5 menit.",
-       "Panaskan minyak yang cukup untuk menggoreng ayam di dalam wajan bersih. Goreng ayam hingga kematangan dan warna yang diinginkan. Goreng sisa bumbu di dalam minyak sambil diaduk hingga mengering. Angkat dan tiriskan.",
-       "Sajikan ayam goreng dan taburan bumbu lengkuas kering dengan nasi uduk, tempe dan tahu, sambal dan lalapan."
-    ]
- },
- {
-  "id_resep":5,
-  "title":"Sayur Lodeh Masako",
-  "level":"Sulit",
-  "images":"https://www.dapurumami.com/uploads/recipe/w951p/Sayur%20Lodeh%20Masako_940x576px.jpg",
-  "category":"Main Dish",
-  "bahan":[
-     {
-        "nama":"Ayam",
-        "jumlah":"1 Ekor, 8 Potong"
-     },
-     {
-        "nama":"Bawang Putih",
-        "jumlah":"3 Siung"
-     },
-     {
-        "nama":"biji ketumbar, sangrai",
-        "jumlah":"1 sendok makan"
-     }
-  ],
-  "caraMasak":[
-     "Haluskan bawang putih, biji ketumbar, kemiri, kunyit dan jahe.",
-     "Panaskan minyak dalam wajan dengan api sedang. Tumis bumbu halus hingga harum, tambahkan daun salam, serai dan setengah dari lengkuas parut. Tumis kembali hingga bumbu matang. Tambahkan garam, lada dan sedikit air.",
-     "Masukkan potongan ayam, air, merica bubuk dan Sajiku® Ayam Goreng. Aduk rata dan masak (ungkep) dengan api kecil hingga ayam matang dan bumbu surut. Bolak-balik ayam sesekali. Apabila perlu, tambahkan air selama pemasakan.",
-     "Angkat ayam, tiriskan, dan tinggalkan sisa bumbu dalam wajan. Tambahkan sisa parutan lengkuas ke dalam bumbu. Masak kembali selama 5 menit.",
-     "Panaskan minyak yang cukup untuk menggoreng ayam di dalam wajan bersih. Goreng ayam hingga kematangan dan warna yang diinginkan. Goreng sisa bumbu di dalam minyak sambil diaduk hingga mengering. Angkat dan tiriskan.",
-     "Sajikan ayam goreng dan taburan bumbu lengkuas kering dengan nasi uduk, tempe dan tahu, sambal dan lalapan."
-  ]
-},
-{
-  "id_resep":6,
-  "title":"Sayur Lodeh Masako",
-  "level":"Sulit",
-  "images":"https://www.dapurumami.com/uploads/recipe/w951p/Sayur%20Lodeh%20Masako_940x576px.jpg",
-  "category":"Main Dish",
-  "bahan":[
-     {
-        "nama":"Ayam",
-        "jumlah":"1 Ekor, 8 Potong"
-     },
-     {
-        "nama":"Bawang Putih",
-        "jumlah":"3 Siung"
-     },
-     {
-        "nama":"biji ketumbar, sangrai",
-        "jumlah":"1 sendok makan"
-     }
-  ],
-  "caraMasak":[
-     "Haluskan bawang putih, biji ketumbar, kemiri, kunyit dan jahe.",
-     "Panaskan minyak dalam wajan dengan api sedang. Tumis bumbu halus hingga harum, tambahkan daun salam, serai dan setengah dari lengkuas parut. Tumis kembali hingga bumbu matang. Tambahkan garam, lada dan sedikit air.",
-     "Masukkan potongan ayam, air, merica bubuk dan Sajiku® Ayam Goreng. Aduk rata dan masak (ungkep) dengan api kecil hingga ayam matang dan bumbu surut. Bolak-balik ayam sesekali. Apabila perlu, tambahkan air selama pemasakan.",
-     "Angkat ayam, tiriskan, dan tinggalkan sisa bumbu dalam wajan. Tambahkan sisa parutan lengkuas ke dalam bumbu. Masak kembali selama 5 menit.",
-     "Panaskan minyak yang cukup untuk menggoreng ayam di dalam wajan bersih. Goreng ayam hingga kematangan dan warna yang diinginkan. Goreng sisa bumbu di dalam minyak sambil diaduk hingga mengering. Angkat dan tiriskan.",
-     "Sajikan ayam goreng dan taburan bumbu lengkuas kering dengan nasi uduk, tempe dan tahu, sambal dan lalapan."
-  ]
-}
+      {
+         "id_resep":1,
+         "title":"Ayam Kecap Pedas",
+         "level":"Sedang",
+         "images":"https://i2.wp.com/resepkoki.id/wp-content/uploads/2020/09/Resep-Ayam-Kecap-Pedas.jpg?fit=1079%2C1202&ssl=1",
+         "category":"Main Dish",
+         "slug": "main-dish",
+         "bahan":[
+            {
+               "nama":"Ayam",
+               "jumlah":"1 ekor (potong-potong)"
+            },
+            {
+               "nama":"Bawang Merah",
+               "jumlah":"5 buah"
+            },
+            {
+               "nama":"Bawang Putih",
+               "jumlah":"3 siung"
+            },
+            {
+               "nama":"Jahe",
+               "jumlah":"2 ruas jari"
+            },
+            {
+               "nama":"Cabai Merah Besar",
+               "jumlah":"3 buah"
+            },
+            {
+               "nama":"Cabai Rawit",
+               "jumlah":"5 buah"
+            },
+            {
+               "nama":"Kecap Manis",
+               "jumlah":"6 sendok makan"
+            },
+            {
+               "nama":"Saus Sambal",
+               "jumlah":"3 sendok makan"
+            },
+            {
+               "nama":"Daun Jeruk",
+               "jumlah":"2 lembar"
+            },
+            {
+               "nama":"Daun Bawang",
+               "jumlah":"3 tangkai (potong-potong)"
+            },
+            {
+               "nama":"Garam",
+               "jumlah":"secukupnya"
+            },
+            {
+               "nama":"Gula",
+               "jumlah":"secukupnya"
+            },
+            {
+               "nama":"Air",
+               "jumlah":"200 ml"
+            }
+         ],
+         "caraMasak":[
+            "Cuci bersih ayam, kemudian goreng ayam sampai matang tapi tidak sampai kering, sisihkan.",
+            "Iris-iris bawang merah, bawang putih, cabai merah, cabai rawit, jahe digeprek, kemudian tumis irisan bumbu dengan minyak secukupnya. Tambahkan daun jeruk. Tumis sampai harum.",
+            "Masukkan ayam yang sudah digoreng, tambahkan air, kecap manis, dan saus sambal. Beri gula dan garam sampai rasanya pas.",
+            "Masak sampai air menyusut dan bumbu meresap, sesaat sebelum diangkat tambahkan irisan daun bawang. Masak sebentar sampai daun bawang sedikit layu.",
+            "Angkat dan sajikan."
+         ]
+      },
+      {
+         "id_resep":2,
+         "title":"Oseng Tempe Cabe Ijo",
+         "level":"Mudah",
+         "images":"https://i0.wp.com/resepkoki.id/wp-content/uploads/2020/03/Resep-Oseng-Tempe-Cabe-Ijo.jpg?fit=1079%2C1118&ssl=1",
+         "category":"Main Dish",
+         "slug": "main-dish",
+         "bahan":[
+            {
+               "nama":"Tempe",
+               "jumlah":"300 gram (2 papan)"
+            },
+            {
+               "nama":"Bawang Merah",
+               "jumlah":"5 butir (iris tipis)"
+            },
+            {
+               "nama":"Bawang Putih",
+               "jumlah":"3 siung (iris tipis)"
+            },
+            {
+               "nama":"Cabai Hijau Besar",
+               "jumlah":"10 Buah (iris serong)"
+            },
+            {
+               "nama":"Lengkuas",
+               "jumlah":"1 ruas jari"
+            },
+            {
+               "nama":"Kecap Manis",
+               "jumlah":"4 sendok makan"
+            },
+            {
+               "nama":"Garam",
+               "jumlah":"Secukupnya"
+            }
+         ],
+         "caraMasak":[
+            "Potong tempe kotak-kotak kecil kemudian goreng setengah kering, sisihkan.",
+            "Panaskan minyak, kemudian tumis bawang merah, bawang putih, lengkuas dan daun salam sampai harum, masukkan cabai hijau.",
+            "Masukkan tempe kemudian tambahkan kecap manis dan sedikit garam, aduk rata.",
+            "Jika takut terlalu pedas, Anda bisa hilangkan atau kurangi biji cabe ijo. Gunakan bagian kulitnya saja untuk memberi warna pada oseng tempe."
+         ]
+      },
+      {
+         "id_resep":3,
+         "title":"Sop Ceker",
+         "level":"Sedang",
+         "images":"https://i1.wp.com/resepkoki.id/wp-content/uploads/2018/02/Resep-Sop-Ceker.jpg?fit=1300%2C1225&ssl=1",
+         "category":"Main Dish",
+         "slug": "main-dish",
+         "bahan":[
+            {
+               "nama":"Ceker ayam",
+               "jumlah":"500 gram"
+            },
+            {
+               "nama":"Bawang Putih",
+               "jumlah":"3 siung (memarkan lalu goreng)"
+            },
+            {
+               "nama":"Wortel",
+               "jumlah":"2 buah (iris bulat)"
+            },
+            {
+               "nama":"Kentang",
+               "jumlah":"1 buah (potong dadu)"
+            },
+            {
+               "nama":"Tomat",
+               "jumlah":"1 buah (potong-potong)"
+            },
+            {
+               "nama":"Daun Bawang",
+               "jumlah":"1 batang (simpulkan)"
+            },
+            {
+               "nama":"Seledri",
+               "jumlah":"1 batang (simpulkan)"
+            },
+            {
+               "nama":"Jahe",
+               "jumlah":"3 cm (memarkan)"
+            },
+            {
+               "nama":"Garam",
+               "jumlah":"1 sendok teh"
+            },
+            {
+               "nama":"Gula",
+               "jumlah":"1 sendok teh"
+            },
+            {
+               "nama":"Lada Bubuk",
+               "jumlah":"1/2 sendok teh"
+            },
+            {
+               "nama":"Pala Bubuk",
+               "jumlah":"1/2 sendok teh"
+            },
+            {
+               "nama":"Air",
+               "jumlah":"1 liter"
+            },
+            {
+               "nama":"Minyak",
+               "jumlah":"secukupnya (untuk menumis)"
+            }
+         ],
+         "caraMasak":[
+            "Dalam panci, rebus air hingga mendidih.",
+            "Panaskan sedikit minyak. Tumis bawang putih hingga harum. Masukkan tumisan ke dalam rebusan air.",
+            "Masukkan ceker, daun bawang, daun seledri, dan jahe. Masak dengan api kecil hingga ceker empuk dan matang.",
+            "Masukkan wortel, kentang, dan tomat. Bumbui dengan garam, gula, lada, dan pala. Aduk rata dan masak hingga sayuran matang. Koreksi rasanya. Angkat.",
+            "Siap disajikan."
+         ]
+      },
+      {
+         "id_resep":4,
+         "title":"Sate Kribo",
+         "level":"Mudah",
+         "images":"https://i2.wp.com/resepkoki.id/wp-content/uploads/2020/09/Resep-Sate-Kribo.jpg?fit=1079%2C1268&ssl=1",
+         "category":"Main Dish",
+         "slug": "main-dish",
+         "bahan":[
+            {
+               "nama":"Sosis",
+               "jumlah":"10 buah"
+            },
+            {
+               "nama":"Mie kering keriting",
+               "jumlah":"2 bungkus"
+            },
+            {
+               "nama":"Terigu serbaguna",
+               "jumlah":"100 gram"
+            },
+            {
+               "nama":"Garam",
+               "jumlah":"1/2 sendok teh"
+            },
+            {
+               "nama":"Merica Bubuk",
+               "jumlah":"1/4 sendok teh"
+            },
+            {
+               "nama":"Tusuk Sate",
+               "jumlah":"10 buah"
+            },
+            {
+               "nama":"Air",
+               "jumlah":"secukupnya (untuk mengencerkan tepung)"
+            },
+            {
+               "nama":"Saus Sambal",
+               "jumlah":"secukupnya"
+            },
+            {
+               "nama":"Mayonnaise",
+               "jumlah":"secukupnya"
+            }
+         ],
+         "caraMasak":[
+            "Remukkan mie kering dengan tangan sampai hancur, kemudian taruh di piring.",
+            "Dalam wadah, campurkan tepung terigu, garam dan merica. Tambahkan air secukupnya dengan menuang sedikit-sedikit aduk sampai licin. Tekstur adonan harus kental supaya mie bisa menempel.",
+            "Tusuk sosis dengan tusuk sate, kemudian celupkan ke adonan tepung. Setelah itu, gulingkan ke mie kering yang sudah diremukkan. Tekan-tekan dengan tangan supaya adonan menempel sempurna. Lakukan hingga adonan habis.",
+            "Goreng sate mie dalam minyak panas deep frying sampai matang kecoklatan, angkat dan tiriskan.",
+            "Sajikan dengan saus sambal dan mayonaise sesuai selera."
+         ]
+      },
+      {
+         "id_resep":5,
+         "title":"Soto Daging Sapi Madura",
+         "level":"Sulit",
+         "images":"https://i2.wp.com/resepkoki.id/wp-content/uploads/2020/03/Resep-Soto-Daging-Sapi-Madura.jpg?fit=1079%2C1175&ssl=1",
+         "category":"Main Dish",
+         "slug": "main-dish",
+         "bahan":[
+            {
+               "nama":"Daging sapi",
+               "jumlah":"500 gram"
+            },
+            {
+               "nama":"Air",
+               "jumlah":"2 liter"
+            },
+            {
+               "nama":"Daun Jeruk",
+               "jumlah":"4 lembar"
+            },
+            {
+               "nama":"Daun Salam",
+               "jumlah":"2 lembar"
+            },
+            {
+               "nama":"Serai",
+               "jumlah":"3 batang (memarkan)"
+            },
+            {
+               "nama":"Garam",
+               "jumlah":"secukupnya"
+            },
+            {
+               "nama":"Gula",
+               "jumlah":"secukupnya"
+            },
+            {
+               "nama":"Bawang Merah",
+               "jumlah":"8 butir (bumbu halus)"
+            },
+            {
+               "nama":"Bawang Putih",
+               "jumlah":"4 siung (bumbu halus)"
+            },
+            {
+               "nama":"Kemiri",
+               "jumlah":"3 butir (bumbu halus)"
+            },
+            {
+               "nama":"Kunyit",
+               "jumlah":"2 ruas jari (bumbu halus)"
+            },
+            {
+               "nama":"Jahe",
+               "jumlah":"3 ruas jari (bumbu halus)"
+            },
+            {
+               "nama":"Ketumbar",
+               "jumlah":"1 sendok teh (bumbu halus)"
+            },
+            {
+               "nama":"Lada",
+               "jumlah":"1/4 sendok teh (bumbu halus)"
+            }
+         ],
+         "caraMasak":[
+            "Remukkan mie kering dengan tangan sampai hancur, kemudian taruh di piring.",
+            "Dalam wadah, campurkan tepung terigu, garam dan merica. Tambahkan air secukupnya dengan menuang sedikit-sedikit aduk sampai licin. Tekstur adonan harus kental supaya mie bisa menempel.",
+            "Tusuk sosis dengan tusuk sate, kemudian celupkan ke adonan tepung. Setelah itu, gulingkan ke mie kering yang sudah diremukkan. Tekan-tekan dengan tangan supaya adonan menempel sempurna. Lakukan hingga adonan habis.",
+            "Goreng sate mie dalam minyak panas deep frying sampai matang kecoklatan, angkat dan tiriskan.",
+            "Sajikan dengan saus sambal dan mayonaise sesuai selera."
+         ]
+      },
+   {
+      "id_resep":6,
+      "title":"Panna Cotta Strawberry",
+      "level":"Mudah",
+      "images":"https://i2.wp.com/resepkoki.id/wp-content/uploads/2020/10/Resep-Panna-Cotta.jpg?fit=867%2C1300&ssl=1",
+      "category":"Dessert",
+      "slug": "desert",
+      "bahan":[
+         {
+            "nama":"Susu cair",
+            "jumlah":"300 ml"
+         },
+         {
+            "nama":"Whipping cream cair",
+            "jumlah":"300 ml"
+         },
+         {
+            "nama":"Gelatin bubuk",
+            "jumlah":"3 sendok teh"
+         },
+         {
+            "nama":"Gula pasir",
+            "jumlah":"80 gram"
+         },
+         {
+            "nama":"Strawberry",
+            "jumlah":"150 gram"
+         },
+         {
+            "nama":"Gula pasir",
+            "jumlah":"50 gram"
+         },
+         {
+            "nama":"Perasan lemon",
+            "jumlah":"1 sendok teh (optional)"
+         }
+      ],
+      "caraMasak":[
+         "Saus strawberry: Potong-potong kecil buah strawberry, campur dengan gula pasir kemudian masak sampai mengental, tambahkan perasan lemon, aduk rata. Matikan api, sisihkan.",
+         "Larutkan gelatin bubuk dengan 50 ml susu, diamkan 10 menit hingga mengembang.",
+         "Masak sisa susu cair, whipping cream dan gula pasir dalam panci. Aduk terus sampai timbul gelembung-gelembung kecil di bagian pinggir panci (tidak sampai mendidih), matikan api.",
+         "Masukkan campuran gelatin dan susu dalam panci, aduk rata hingga gelatin larut. Diamkan sampai hangat kuku baru tuang dalam cetakan.",
+         "Dinginkan di kulkas minimal 3 jam baru diberi topping saus strawberry.",
+         "Sajikan dingin agar lebih nikmat."
+      ]
+   },
+   {
+      "id_resep":7,
+      "title":"Puding Mozaik",
+      "level":"Mudah",
+      "images":"https://i0.wp.com/resepkoki.id/wp-content/uploads/2020/08/Resep-Puding-Mozaik.jpg?fit=975%2C1300&ssl=1",
+      "category":"Dessert",
+      "slug": "desert",
+      "bahan":[
+         {
+            "nama":"Agar-agar plain",
+            "jumlah":"1 bungkus"
+         },
+         {
+            "nama":"Jelly bubuk plain",
+            "jumlah":"1 sendok teh"
+         },
+         {
+            "nama":"Susu cair",
+            "jumlah":"800 ml"
+         },
+         {
+            "nama":"Gula pasir",
+            "jumlah":"120 gram"
+         },
+         {
+            "nama":"Agar-agar plain",
+            "jumlah":"1 bungkus"
+         },
+         {
+            "nama":"Gula pasir ",
+            "jumlah":"120 gram"
+         },
+         {
+            "nama":"Air ",
+            "jumlah":"800 ml"
+         },
+         {
+            "nama":"Pewarna makanan biru, kuning, hijau dan merah ",
+            "jumlah":"secukupnya"
+         }
+      ],
+      "caraMasak":[
+         "Buat bahan untuk puding warna-warni terlebih dahulu, campur agar-agar, gula pasir dan air, masak sampai mendidih sambil diaduk. Matikan api.",
+         "Bagi menjadi 4 bagian, beri sedikit pewarna biru, kuning, hijau, merah pada masing-masing bagian, aduk rata. Dinginkan sampai mengeras, kemudian potong kotak-kotak kecil, sisihkan.",
+         "Masak puding susu, campur agar-agar, jelly bubuk, susu cair dan gula pasir sampai mendidih. Matikan api, diamkan hingga uap panasnya hilang.",
+         "Tata potongan puding warna-warni secara acak dalam cetakan puding. Kemudian, tuang puding susu sedikit-sedikit supaya potongan puding warna warni tidak mengapung.",
+         "Dinginkan puding sampai mengeras dalam kulkas. Setelah itu, keluarkan dari cetakan.",
+         "Potong-potong dan sajikan."
+      ]
+   },
+   {
+      "id_resep":8,
+      "title":"Puding Casablanca Pandan Coklat",
+      "level":"Sedang",
+      "images":"https://i1.wp.com/resepkoki.id/wp-content/uploads/2018/07/Resep-Puding-Casablanca.jpg?fit=975%2C1300&ssl=1",
+      "category":"Dessert",
+      "slug": "desert",
+      "bahan":[
+         {
+            "nama":"Telur",
+            "jumlah":"3 butir"
+         },
+         {
+            "nama":"Gula pasir",
+            "jumlah":"200 gram"
+         },
+         {
+            "nama":"Tepung terigu serbaguna ",
+            "jumlah":"30 gram"
+         },
+         {
+            "nama":"Margarin, lelehkan",
+            "jumlah":"50 gram"
+         },
+         {
+            "nama":"Agar-agar plain 7 gram",
+            "jumlah":"2 bungkus"
+         },
+         {
+            "nama":"Susu cair full cream ",
+            "jumlah":"800 ml"
+         },
+         {
+            "nama":"Pasta pandan",
+            "jumlah":"1/2 sendok teh"
+         },
+         {
+            "nama":"Coklat bubuk, larutkan dengan sedikit air hangat ",
+            "jumlah":"10 gram"
+         }
+      ],
+      "caraMasak":[
+         "Masak agar-agar sampai mendidih dengan susu cair dan 100 gram gula pasir, sisihkan.",
+         "Kocok telur dan 100 gram gula pasir, sampai gula larut dan adonan mengental, masukkan tepung terigu mixer dengan kecepatan rendah, masukkan margarin leleh, kocok rata.",
+         "Masukkan agar-agar ke dalam kocokan telur, aduk rata pakai whisk.",
+         "Bagi adonan menjadi 2, beri masing-masing bagian dengan pasta pandan dan coklat.",
+         "Tuang ke dalam loyang ukuran 21 x 9 x 7 yang sudah dialasi kertas roti dan dioles margarin agak tebal.",
+         "Panggang suhu 160°C selama kurang lebih 20 menit, sampai muncul gelembung-gelembung kecil di tepian puding.",
+         "Angkat dan biarkan uap panasnya hilang, simpan di kulkas kemudian potong-potong dan sajikan.",
+         "TIPS: Begitu terlihat timbul gelembung kecil pada tepi adonan puding, segera angkat pudding. Itu menandakan pudding sudah mendidih dan matang. Kalau terlalu lama puding akan luber."
+      ]
+   },
+   {
+      "id_resep":9,
+      "title":"Puding Pepaya",
+      "level":"Mudah",
+      "images":"https://i0.wp.com/resepkoki.id/wp-content/uploads/2017/05/Resep-Puding-Pepaya.jpg?fit=1062%2C1300&ssl=1",
+      "category":"Dessert",
+      "slug": "desert",
+      "bahan":[
+         {
+            "nama":"Pepaya matang",
+            "jumlah":"1 buah"
+         },
+         {
+            "nama":"Agar plain / tanpa rasa",
+            "jumlah":"1 bungkus"
+         },
+         {
+            "nama":"Susu cair",
+            "jumlah":"700 ml"
+         },
+         {
+            "nama":"Gula pasir ",
+            "jumlah":"150 gram"
+         },
+         {
+            "nama":"Biji selasih",
+            "jumlah":"1 sendok teh"
+         }
+      ],
+      "caraMasak":[
+         "Rendam biji selasih dalam air dingin matang hingga mengembang lalu tiriskan. Sisihkan.",
+         "Potong sedikit saja atau 1/4 bagian atas buah pepaya secara melintang. Keluarkan bijinya lalu keruk daging pepaya (jangan terlalu dalam) dengan menggunakan sendok koktail (sendok buah bulat). Sisihkan bulatan daging pepaya. Kupas kulit pepaya. Sisihkan.",
+         "Didihkan agar, susu cair, dan gula sambil diaduk-aduk. Matikan api. Biarkan selama 5 menit sampai uap panasnya hilang.",
+         "Tuang selasih ke dalam buah pepaya. Lalu masukkan juga bulatan daging pepaya (jangan semuanya).",
+         "Tuang larutan agar ke dalam buah pepaya. Biarkan hingga dingin lalu masukkan ke dalam kulkas.",
+         "Potong-potong buah pepaya dan siap disajikan.",
+         "TIPS: Jangan langsung tuang larutan agar ke dalam buah pepaya dalam kondisi panas supaya buah tidak benyek atau lembek."
+      ]
+   },
+   {
+      "id_resep":10,
+      "title":"Silky Puding",
+      "level":"Mudah",
+      "images":"https://i0.wp.com/resepkoki.id/wp-content/uploads/2016/09/Resep-Silky-Puding.jpg?fit=648%2C810&ssl=1",
+      "category":"Dessert",
+      "slug": "desert",
+      "bahan":[
+         {
+            "nama":"Jelly rasa leci",
+            "jumlah":"1 sachet"
+         },
+         {
+            "nama":"Susu kental manis",
+            "jumlah":"1 kaleng"
+         },
+         {
+            "nama":"Air",
+            "jumlah":"1 liter"
+         },
+         {
+            "nama":"Tepung maizena, larutkan dengan air ",
+            "jumlah":"1 sendok makan"
+         },
+         {
+            "nama":"Pewarna makanan ",
+            "jumlah":"secukupnya"
+         },
+         {
+            "nama":"Garam",
+            "jumlah":"1/2 sendok teh"
+         }
+      ],
+      "caraMasak":[
+         "Campur susu, garam, air dan jelly.",
+         "Masak di api kecil sambil diaduk agar tidak menggumpal.",
+         "Setelah mendidih masukan larutan meizena kemudian aduk hingga merata, masak sebentar saja.",
+         "Berikan pewarna makanan sesuai selera. Aduk rata.",
+         "Tuang kedalam cup. Dinginkan.",
+         "TIPS: Jika mau dibuat layer, tunggu sampai lapisan bawah membeku dahulu, baru tuang lapisan atasnya."
+      ]
+   },
+   {
+      "id_resep":11,
+      "title":"King Mango Thai",
+      "level":"Mudah",
+      "images":"https://i1.wp.com/resepkoki.id/wp-content/uploads/2020/03/Resep-King-Mango-Thai.jpg?fit=1112%2C1300&ssl=1",
+      "category":"Drink",
+      "slug": "drink",
+      "bahan":[
+         {
+            "nama":"Mangga",
+            "jumlah":"3 buah"
+         },
+         {
+            "nama":"Whip cream",
+            "jumlah":"50 ml dan 100 ml (cair)"
+         },
+         {
+            "nama":"Susu Kental Manis",
+            "jumlah":"6 sendok makan "
+         },
+         {
+            "nama":"Es Batu",
+            "jumlah":"1 cup"
+         }
+      ],
+      "caraMasak":[
+         "Potong kotak semua mangga, sisihkan.",
+         "blender mangga dan whip cream, lalu tuang dalam wadah tertutup. Simpan dalam freezer selama 4 jam.",
+         "Dalam wadah, mixer whip cream dengan kecepatan tinggi sampai mengembang dan kaku. Simpan dalam lemari es.",
+         "blender mangga, susu kental manis dan es batu sampai halus dan tercampur rata.",
+         "ambil gelas panjang, tuang jus mangga hingga 3/4 gelas, lalu semprotkan whipcream, tambahkan 2 sdm sorbet mangga, lalu taruh potongan mangga diatasnya."
+      ]
+   },
+   {
+      "id_resep":12,
+      "title":"Dalgona Milo",
+      "level":"Sedang",
+      "images":"https://i0.wp.com/resepkoki.id/wp-content/uploads/2020/05/Resep-Dalgona-Milo.jpg?fit=1137%2C1300&ssl=1",
+      "category":"Drink",
+      "slug": "drink",
+      "bahan":[
+         {
+            "nama":"Milo bubuk",
+            "jumlah":"3 sendok makan"
+         },
+         {
+            "nama":"Whip cream",
+            "jumlah":"3 sendok makan (bubuk)"
+         },
+         {
+            "nama":"Gula Pasir",
+            "jumlah":"2 sendok makan"
+         },
+         {
+            "nama":"Air dingin",
+            "jumlah":"3 sendok makan"
+         },
+         {
+            "nama":"Susu Cair UHT",
+            "jumlah":"200 ml"
+         },
+         {
+            "nama":"Es Batu",
+            "jumlah":"1 cup"
+         }
+      ],
+      "caraMasak":[
+         "Campurkan milo, whip cream bubuk, dan gula pasir, aduk rata. Lalu tambahkan air dingin.",
+         "Mixer dengan kecepatan tinggi sampai mengembang dan bertekstur creamy, sisihkan.",
+         "Dalam gelas masukan es batu, dan tuang susu cair. Tambahkan dalgona milo di atas susu.",
+         "Taburi dengan sedikit milo untuk garnish. Siap dinikmati.",
+         "Bisa juga mengganti whip cream bubuk dengan yang cair"
+      ]
+   },
+   {
+      "id_resep":13,
+      "title":"Jus Buah Naga Stroberi",
+      "level":"Mudah",
+      "images":"https://i1.wp.com/resepkoki.id/wp-content/uploads/2018/04/Resep-Jus-Buah-Naga-Stroberi.jpg?fit=1104%2C1300&ssl=1",
+      "category":"Drink",
+      "slug": "drink",
+      "bahan":[
+         {
+            "nama":"Buah Naga",
+            "jumlah":"1 buah"
+         },
+         {
+            "nama":"Strawberry",
+            "jumlah":"10 buah"
+         },
+         {
+            "nama":"Susu Kental Manis",
+            "jumlah":"2 sendok makan"
+         },
+         {
+            "nama":"Air",
+            "jumlah":"200 ml"
+         },
+         {
+            "nama":"Es Batu",
+            "jumlah":"Secukupnya"
+         }
+      ],
+      "caraMasak":[
+         "Blender buah naga dan strawberry bersama susu kental manis dan air hingga halus.",
+         "Susu kental manis dapat diganti dengan gula pasir sesuai selera.",
+         "Tuang jus ke dalam gelas saji. Beri es batu.",
+         "Siap disajikan."
+      ]
+   },
+   {
+      "id_resep":14,
+      "title":"Overnight Oat",
+      "level":"Sulit",
+      "images":"https://i0.wp.com/resepkoki.id/wp-content/uploads/2018/01/Resep-Overnight-Oat.jpg?fit=1232%2C1300&ssl=1",
+      "category":"Drink",
+      "slug": "drink",
+      "bahan":[
+         {
+            "nama":"Oat instant",
+            "jumlah":"2 bungkus (35 gram)"
+         },
+         {
+            "nama":"Yogurt",
+            "jumlah":"250 ml"
+         },
+         {
+            "nama":"Mangga Harum Manis",
+            "jumlah":"1 buah (potong dadu)"
+         },
+         {
+            "nama":"Naga Merah",
+            "jumlah":"1 buah (potong dadu)"
+         },
+         {
+            "nama":"Delima",
+            "jumlah":"1/4 buah"
+         },
+         {
+            "nama":"Biji chia",
+            "jumlah":"1 sendok teh"
+         }
+      ],
+      "caraMasak":[
+         "Dalam wadah yang memiliki tutup, campurkan oat instan dengan yogurt dan susu cair. Aduk rata lalu tutup rapat. Simpan dalam kulkas semalaman.",
+         "Masing-masing, bagi buah jadi 4 bagian. Sisihkan.",
+         "Siapkan mangkuk atau gelas saji. Masukkan 1/4 bagian oat yang telah didiamkan semalaman. Taruh 1 bagian buah. Tutup dengan 1/4 bagian oat lagi. Kemudian beri topping 1 bagian buah di atasnya dan taburi dengan biji chia. Ulangi langkah ini hingga semua oat dan buah habis.",
+         "Siap disajikan."
+      ]
+   },
+   {
+      "id_resep":15,
+      "title":"Es Teler",
+      "level":"Sedang",
+      "images":"https://i2.wp.com/resepkoki.id/wp-content/uploads/2017/05/Resep-Es-Teler.jpg?fit=1300%2C1162&ssl=1",
+      "category":"Drink",
+      "slug": "drink",
+      "bahan":[
+         {
+            "nama":"Alpukat",
+            "jumlah":"1 buah"
+         },
+         {
+            "nama":"Buah nangka",
+            "jumlah":"2 biji (suwir)"
+         },
+         {
+            "nama":"Kelapa Muda",
+            "jumlah":"1 buah"
+         },
+         {
+            "nama":"Susu Kental Manis",
+            "jumlah":"4 sendok makan"
+         },
+         {
+            "nama":"Es Batu",
+            "jumlah":"secukupnya"
+         }
+      ],
+      "caraMasak":[
+         "Dalam gelas saji, taruh es batu secukupnya.",
+         "Masukkan daging buah alpukat, kelapa muda, dan nangka.",
+         "Siram dengan susu kental manis.",
+         "Siap disajikan."
+      ]
+   }
 ]

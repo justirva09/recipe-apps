@@ -1,24 +1,27 @@
 .container {
   margin: auto;
   max-width: 500px;
+  margin-bottom: calc(100% - 85%);
 }
-body{
-  background-image: url("https://etanee.id/static/media/body-pattern.09a0373a.png");
+body {
+  background-image: url('https://etanee.id/static/media/body-pattern.09a0373a.png');
 }
-.splashscreen-background{
-  background-color: #D3843D;
+.splashscreen-background {
+  background-color: #d3843d;
   text-align: center;
   padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 595px;
-
+  min-height: 100vh;
 }
 .splashscreen-logo img {
   width: 100%;
 }
-.categ_row{
-  display: flex;
-  flex-wrap: wrap;
+.splashscreen-background.LoadingScreen {
+  display: none;
+}
+
+.splashscreen-background.LoadingScreen.LoadingScreen--show.LoadingScreen--animate {
+  display: block;
 }

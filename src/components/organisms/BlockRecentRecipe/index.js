@@ -13,7 +13,7 @@ class BlockRecentRecipe extends Component {
         <View classNames="widgetTitle">
           <h2>Resep Terbaru</h2>
         </View>
-        <View classNames="row">
+        <View classNames="row screenAnimation">
           {dataResep.map((value, index) => (
             <CardRecipes data={value} key={index} />
             ))}

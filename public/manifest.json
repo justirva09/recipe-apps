@@ -1,9 +1,9 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Recipe Apps",
+  "name": "A web app to find recipes by matching the ingredients, that you've in the refrigerator",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "logo.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
@@ -18,8 +18,8 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#e91e63",
   "background_color": "#ffffff"
 }

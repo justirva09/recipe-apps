@@ -1,8 +1,11 @@
+import Auth from './Auth';
 import Category from './Category';
 import Detail from './Detail';
 import Home from './Home';
 import Profile from './Profile';
 import About from './About';
+import LandingPages from './LandingPage';
+import SearchRecipe from './SearchRecipe';
 
 
 export {
@@ -10,5 +13,8 @@ export {
   Detail,
   Category,
   Profile,
-  About
+  About,
+  Auth,
+  LandingPages,
+  SearchRecipe
 }

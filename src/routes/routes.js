@@ -1,9 +1,9 @@
-import {Home, Detail, Category, Profile,About} from 'pages';
+import {Home, Detail, Category, Profile, LandingPages, Auth, SearchRecipe, About} from 'pages';
 
 const routes = [
   {
     name: "Home",
-    path: '/',
+    path: '/beranda',
     exact: true,
     component: Home
   },
@@ -15,9 +15,15 @@ const routes = [
   },
   {
     name: "Category",
-    path: '/category',
+    path: '/category/:slug',
     exact: true,
     component: Category
+  },
+  {
+    name: "search",
+    path: '/search',
+    exact: true,
+    component: SearchRecipe
   },
   {
     name: "Profile",
@@ -30,6 +36,18 @@ const routes = [
     path: '/about',
     exact: true,
     component: About
+  },
+  {
+    name: "Landing Page",
+    path: '/',
+    exact: true,
+    component: LandingPages
+  },
+  {
+    name: "Login",
+    path: '/login',
+    exact: true,
+    component: Auth
   }
 ];
 

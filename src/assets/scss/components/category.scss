@@ -1,0 +1,29 @@
+.categoryBlock__card {
+  text-align: center;
+  font-size: 14px;
+}
+
+.categoryBlock__inner {
+  box-shadow: 0px 2px 15px 0.5px rgba(0, 0, 0, 0.1);
+  padding: 8px;
+  border-radius: 6px;
+  background-size: 100%;
+  filter: brightness(0.9);
+}
+
+.categoryBlock__card:hover .categoryBlock__inner {
+  cursor: pointer;
+  filter: brightness(0.7);
+}
+
+.categoryBlock__icon {
+  visibility: hidden;
+}
+
+.categoryBlock__widgetTitle {
+  margin: 1rem auto;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  border-bottom: 5px dotted #eee;
+  color: #444;
+}

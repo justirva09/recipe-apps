@@ -23,7 +23,11 @@ const CardRecipes = ({ data }) => {
                 <Link to={`/detail/${data.id_resep}/${slugTitle}`}>{data.title}</Link>
               </h2>
               <View className="cardRecipe__body--bottom">
-              <span>{data.category}</span>
+              <span>
+                <Link to={`/category/${data.slug}`} style={{textDecoration:'none', color: '#444'}}>
+                {data.category}
+              </Link>
+              </span>
               <span style={{color: `${colorLeveling}`}}>{data.level}</span>
             </View>
             </View>
