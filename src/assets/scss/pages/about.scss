@@ -1,0 +1,50 @@
+.about{
+  &__header{
+    background-color: #e49853;
+  }
+  
+    &__logo{
+      padding: 30px;
+      width: 100%;
+      text-align: center;
+
+      img{
+        width: 100%;
+      }
+    }
+    &__desc{
+      color: white;
+      padding: 0px 15px 15px 15px;
+      text-align: center;
+    }
+    &_us{
+      padding: 20px;
+    }
+        &__row{
+          display: flex;
+          flex-wrap: wrap;
+        }
+    &__card{
+      .card{
+        &__header{
+          padding: 15px 0px
+        }
+        &__title{
+          margin: 20px;
+          box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+        }
+        &__body{
+          padding: 20px;
+        }
+        &__name{
+          background-color: #e49853;
+          margin-bottom: 10px;
+          padding: 15px;
+        }
+        &__jobdesk{
+          padding: 10px;
+        }
+      }
+    }
+
+}
