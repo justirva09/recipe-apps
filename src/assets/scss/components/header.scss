@@ -1,0 +1,29 @@
+.headerBlock__pict {
+  position: relative;
+}
+
+.headerBlock {
+  position: relative;
+  margin-top: 2rem;
+}
+
+.headerBlock__pict {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+}
+
+.headerBlock__pict--img {
+  width: 50px;
+  height: 50px;
+  background: #333;
+  border-radius: 100px;
+  cursor: pointer;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.headerBlock__username {
+  line-height: 1.6;
+}

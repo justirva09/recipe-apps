@@ -1,6 +1,7 @@
 import { PropTypes, React, _, connect } from 'libraries';
 import { FormText, View, Button } from 'components/atoms';
 import { Collapse } from 'components/molecules';
+import ReactDOMServer from 'react-dom/server'
 import {
   EmailShareButton,
   WhatsappShareButton,
@@ -52,8 +53,8 @@ class BlockDetail extends React.Component {
     data.category === 'Main Dish' ? 'Hidangan Utama' :
     data.category === 'Dessert' ? 'Pencuci Mulut' :
     data.category === 'Drink' ? 'Minuman' : null;
-    return(
-      <React.Fragment>  
+      return(
+        <React.Fragment>  
         <MetaHeader title={data.title} category={category} images={data.images} url={`${appConfig.url.api}/detail/${data.id_resep}/${!_.isEmpty(data) && _.isObject(data) ? data.title.toLowerCase().replace(/\s+/g, '-') : null}`} />  
         <View classNames="o-blockDetail">
           <View classNames="o-blockDetail__thumbnail">
@@ -73,14 +74,15 @@ class BlockDetail extends React.Component {
                       </View>
                       <View classNames="o-blockDetail__headerContent--bottom" style={{marginTop: '2rem'}}>
                         <EmailShareButton 
+                        className="btn-email-share"
                           title={data.title} 
                           url={`${appConfig.url.api}/detail/${data.id_resep}/${!_.isEmpty(data) && _.isObject(data) ? data.title.toLowerCase().replace(/\s+/g, '-') : null}`}
                           subject={`Resep ${category} dijamin bikin ngiler!`}
                           body={`Halo ini aku ${profile.name}, aku ingin mengirimkan resep ${data.title} yang super enak! `}
                           >
-                          <Button>Email</Button>
+                          <EmailIcon />
                         </EmailShareButton>
-                        <Button onClick={() => this.addToBookmark(data)} style={{marginLeft: 5}}>Simpan Resep</Button>
+                        {/* <Button onClick={() => this.addToBookmark(data)} style={{marginLeft: 5}}>Simpan Resep</Button> */}
                       </View>
                   </View>
                   <View classNames="o-blockDetail__bodyContent">

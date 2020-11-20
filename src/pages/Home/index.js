@@ -1,4 +1,4 @@
-import { View, BlockRecentRecipe } from 'components';
+import { View, BlockRecentRecipe, Header } from 'components';
 import { React } from 'libraries';
 import { logout } from 'services';
 
@@ -7,6 +7,7 @@ const Home = () => {
   return(
     <React.Fragment>
       <View className="container">
+        <Header />
         <BlockRecentRecipe />
       </View>
     </React.Fragment>

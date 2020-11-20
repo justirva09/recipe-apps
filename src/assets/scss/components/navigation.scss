@@ -39,3 +39,7 @@
     transition: all 0.25s ease;
   }
 }
+
+.navbar__NavLink--item.is-active {
+  color: #d3843d;
+}
