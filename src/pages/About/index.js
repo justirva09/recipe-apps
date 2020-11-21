@@ -1,6 +1,11 @@
 import {React, Component} from 'libraries';
-import {View} from 'components'
+import {View, CardAbout} from 'components'
+import profileData from 'assets/dummy/profile.json';
+
 class About extends Component{
+  state = {
+    data : profileData
+  }
   render(){
     return(
       <React.Fragment>
@@ -11,29 +16,17 @@ class About extends Component{
                 <img src="https://1.bp.blogspot.com/-sdWb9hBXEWY/X6JgxZ7WDuI/AAAAAAAAAxg/NPqR6MV5feMgPNTR_WGg0VK4vWAcsVx4gCLcBGAsYHQ/s0/logo11_3_12058%2B1.png" />
               </View>
               <View className="about__desc">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                WTF Apps (What's in The Fridge) adalah aplikasi yang bertujuan untuk mencari resep makanan berdasarkan bahan makanan yang dimiliki user yang bisa di input kedalam sistem.
               </View>
             </View>
             <View className="about_body">
+              <View className="about__team">
+                Our Team
+              </View>
               <View className="about_us">
-                <View className="card__about">
-                  <View className="card__header">
-                    <View className="card__title">
-                      What's in The Fridge
-                    </View>
-                    <View className="card__thumb">
-                      <img src="https://1.bp.blogspot.com/-sdWb9hBXEWY/X6JgxZ7WDuI/AAAAAAAAAxg/NPqR6MV5feMgPNTR_WGg0VK4vWAcsVx4gCLcBGAsYHQ/s0/logo11_3_12058%2B1.png" />
-                    </View>
-                  </View>
-                  <View className="card__body">
-                    <View className="card__name">
-                      Irvan
-                    </View>
-                    <View className="card__jobdesk">
-                      Scrum Master
-                    </View>
-                  </View>
-                </View>
+                {profileData.map((data, index) =>(
+                  <CardAbout data={data} key={index} />
+                ))}
               </View>
             </View>
           </View>

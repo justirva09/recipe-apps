@@ -1,12 +1,13 @@
 .about{
   &__header{
+    padding: 20px;
     background-color: #e49853;
   }
   
     &__logo{
       padding: 30px;
-      width: 100%;
-      text-align: center;
+      width: 75%;
+      margin : auto;
 
       img{
         width: 100%;
@@ -18,33 +19,61 @@
       text-align: center;
     }
     &_us{
-      padding: 20px;
+      padding: 30px;
     }
         &__row{
           display: flex;
           flex-wrap: wrap;
         }
-    &__card{
-      .card{
-        &__header{
-          padding: 15px 0px
-        }
-        &__title{
-          margin: 20px;
-          box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
-        }
-        &__body{
-          padding: 20px;
-        }
-        &__name{
-          background-color: #e49853;
-          margin-bottom: 10px;
-          padding: 15px;
-        }
-        &__jobdesk{
-          padding: 10px;
-        }
-      }
+    &__team{
+      padding: 20px;
+      font-size: 50px;
+      text-align: center;
+      border-bottom: 6px dotted #80808040;
+      margin-left: 20px;
+      margin-right: 20px;
     }
+    
 
+}
+.card{
+  &__about{
+    border-radius: 10px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+    margin: 20px;
+  }
+  &__header{
+    position: relative;
+    background-color: #e49853;
+    padding: 64px;
+    border-radius: 10px 10px 0px 0px;
+  }
+  &__thumb{
+    width: 35%;
+    margin: auto;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    left: 0;
+    img{
+      border-radius: 63%;
+      max-height: 135px;
+      width: 100%;
+      min-height: 135px;
+      object-fit: cover;
+    }
+  }
+  &__body{
+    padding: 20px;
+    margin-top: 50px;
+  }
+  &__name{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  &__jobdesk{
+    text-align: center;
+  }
+  
 }
