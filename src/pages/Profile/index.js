@@ -55,7 +55,7 @@ const Profile = ({ profile, history }) => {
       return showPopup({
         title: 'Terjadi Kesalahan!',
         description:
-          `Wahh, File foto kamu sampai ${sizeImages} itu terlalu besar!, ini tidak baik untuk server kita! Ukuran file foto harus kurang dari 8mb. Coba kompres dulu ya!`
+          `Wahh, File foto kamu sampai ${sizeImages} itu terlalu besar!, ini tidak baik untuk server kita! Ukuran file foto harus kurang dari 2mb. Coba kompres dulu ya!`
       });
     }
 
