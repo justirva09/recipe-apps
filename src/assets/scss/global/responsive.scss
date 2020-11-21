@@ -9,10 +9,19 @@
   align-items: center;
 }
 
-.screenAnimation {
-  animation: 0.5s ease-out 0s 1 slideInFromLeft;
+button.react-share__ShareButton.btn-email-share {
+  background: #e49853 !important;
+  padding: 8px !important;
+  width: 30%;
+  border-radius: 3px;
+  color: #fff !important;
+  font-size: 14px !important;
 }
-@keyframes slideInFromLeft {
+
+.screenAnimation {
+  animation: 0.5s ease-out 0s 1 slideBottomFromTop;
+}
+@keyframes slideBottomFromTop {
   0% {
     transform: translateY(100%);
   }

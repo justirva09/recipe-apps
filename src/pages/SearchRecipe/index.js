@@ -66,7 +66,7 @@ const SearchRecipe = () => {
             placeholder="Ketikkan Bahan Makanan"
           />
         </View>
-        <View classNames="row">
+        <View classNames="row screenAnimation">
           {list.map((value,index) => (
           <CardRecipes data={value} key={index} />
           ))}

@@ -1,5 +1,5 @@
 import { BlockDetail, View } from 'components';
-import { React, useParams, _ } from 'libraries';
+import { React, useParams } from 'libraries';
 import Resep from 'assets/dummy/resep.json';
 import loadingScreen from 'assets/images/Loading.gif';
 
