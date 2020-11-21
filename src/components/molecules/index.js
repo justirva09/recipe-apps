@@ -2,10 +2,12 @@ import CardRecipes from './CardRecipes';
 import Collapse from './Collapse';
 import Popup from './Popup';
 import SplashScreen from './SplashScreen';
+import CardAbout from './CardAbout';
 
 export {
   CardRecipes,
   Collapse,
   SplashScreen,
-  Popup
+  Popup,
+  CardAbout
 }

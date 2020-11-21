@@ -1,0 +1,33 @@
+[
+  {
+    "nim" : "12345567",
+    "nama" : "Irvan Rudy Afandi",
+    "images" : "https://1.bp.blogspot.com/-LB0_9_AsQio/X7iAbXine4I/AAAAAAAAA18/RVG-rz2NsGsutAX0rTU4bVel1N7diQJzACLcBGAsYHQ/s0/WhatsApp%2BImage%2B2020-11-21%2Bat%2B07.09.55.jpeg",
+    "job" : "Scrum Master"
+  },
+  {
+    "nim" : "12345567",
+    "nama" : "Faqih",
+    "images" : "https://1.bp.blogspot.com/-i_ryjJ7bORY/X7iAQz9AD2I/AAAAAAAAA10/fchUaqORFzoWP6Imx2gBArw2XWh7EVNfACLcBGAsYHQ/s0/WhatsApp%2BImage%2B2020-11-21%2Bat%2B07.09.54.jpeg",
+    "job" : "Tester"
+  },
+  {
+    "nim" : "12345567",
+    "nama" : "Dede Ismail",
+    "images" : "https://1.bp.blogspot.com/-48gGxm0tDWU/X7iAJzmyCfI/AAAAAAAAA1w/uVkFUMkn2LkGSQ-HJmLhopEl9Cz8FONPwCLcBGAsYHQ/s0/WhatsApp%2BImage%2B2020-11-21%2Bat%2B07.09.54%2B%25281%2529.jpeg",
+    "job" : "UI/UX Desainer"
+  },
+  {
+    "nim" : "12345567",
+    "nama" : "M.Rizal Pangestu",
+    "images" : "https://1.bp.blogspot.com/-STkeakupHgY/X7iJvnjy0MI/AAAAAAAAA2c/_5bOaL0iqjkTm4ofc69W7QkAjTP52X3ewCLcBGAsYHQ/s0/IMG_31978%2B3x4.jpg",
+    "job" : "UI/UX Desainer"
+  },
+  {
+    "nim" : "12345567",
+    "nama" : "Muhammad Irva",
+    "images" : "https://media-exp1.licdn.com/dms/image/C5603AQGwxikmOe1Rxw/profile-displayphoto-shrink_200_200/0?e=1611187200&v=beta&t=c1yd586AoqBQyDnVH5K1TNSwjqZM24wx9QPibAg7sq0",
+    "job" : "Developer"
+  }
+
+]
