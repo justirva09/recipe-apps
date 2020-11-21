@@ -1,16 +1,11 @@
 import { PropTypes, React, _, connect } from 'libraries';
-import { FormText, View, Button } from 'components/atoms';
+import { FormText, View } from 'components/atoms';
 import { Collapse } from 'components/molecules';
-import ReactDOMServer from 'react-dom/server'
 import {
   EmailShareButton,
-  WhatsappShareButton,
-  WhatsappIcon,
-  EmailIcon
 } from "react-share";
 import { appConfig } from 'configs';
 import { profileSelector,  } from 'modules';
-import { showPopup } from 'services';
 import { MetaHeader } from 'components/templates';
 
 class BlockDetail extends React.Component {
@@ -30,17 +25,6 @@ class BlockDetail extends React.Component {
     resep.push(data);
     localStorage.setItem('resep', JSON.stringify(resep));
   }
-
-  // filterBookmark = () => {
-  //   var retrievedData = localStorage.getItem("resep");
-  //   var result = JSON.parse(retrievedData)
-  //   if(result === null) {
-  //     return false;
-  //   }
-  //  const filtered = result.filter(val => val.id_resep === val.id_resep ? console.log : this.setState({isExists: false}));
-  //  console.log(this.state.isExists)
-  // }
-
 
   render(){
     const { data, history, profile } = this.props;
@@ -80,9 +64,8 @@ class BlockDetail extends React.Component {
                           subject={`Resep ${category} dijamin bikin ngiler!`}
                           body={`Halo ini aku ${profile.name}, aku ingin mengirimkan resep ${data.title} yang super enak! `}
                           >
-                          <EmailIcon />
+                          Email
                         </EmailShareButton>
-                        {/* <Button onClick={() => this.addToBookmark(data)} style={{marginLeft: 5}}>Simpan Resep</Button> */}
                       </View>
                   </View>
                   <View classNames="o-blockDetail__bodyContent">

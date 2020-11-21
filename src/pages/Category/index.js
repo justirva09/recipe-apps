@@ -1,4 +1,4 @@
-import { React, useParams } from 'libraries';
+import { React } from 'libraries';
 import { View, CardRecipes } from 'components';
 import resepList from 'assets/dummy/resep.json';
 
