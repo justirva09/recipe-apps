@@ -18,6 +18,14 @@ button.react-share__ShareButton.btn-email-share {
   font-size: 14px !important;
 }
 
+.about__container {
+  margin-bottom: calc(120px - 0%);
+}
+.slick-list,
+.slick-track {
+  touch-action: pan-y;
+}
+
 .screenAnimation {
   animation: 0.5s ease-out 0s 1 slideBottomFromTop;
 }
@@ -58,5 +66,8 @@ button.react-share__ShareButton.btn-email-share {
     .categoryBlock__icon
     span {
     display: none;
+  }
+  .about_us {
+    padding: unset !important;
   }
 }

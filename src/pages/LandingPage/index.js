@@ -81,7 +81,7 @@ const FormLogin = () => {
   return(
     <React.Fragment>
       <View classNames="form__header">
-        <View classNames="row">
+        {/* <View classNames="row">
           <View 
             onClick={setLoginForm} 
             classNames={`col-md-6 form__headerTitle ${isRegister ? '' : 'active'}`}
@@ -94,11 +94,11 @@ const FormLogin = () => {
           >
             <h4>Daftar</h4>
           </View>
-        </View>
+        </View> */}
       </View>
       <View classNames="form__body">
         <View classNames="container" style={{marginTop:'2rem'}}>
-          {isRegister ? (
+          {/* {isRegister ? (
           <View classNames="blockRegister">
             <View classNames="form-group">
               <input 
@@ -140,10 +140,10 @@ const FormLogin = () => {
               <Button onClick={submitLogin} color="primary">Masuk</Button>
             </View>
           </View>
-          )}
+          )} */}
           <View classNames="form__other">
             <View classNames="form__other--separator"></View>
-            <p>Atau Masuk Dengan</p>
+            <p>Masuk Dengan</p>
           </View>
           <View classNames="form__other--bottom">
             <View onPress={submitGoogle} classNames="form__btnLogin" style={{display: 'flex'}}>
@@ -159,7 +159,7 @@ const FormLogin = () => {
                 display: 'block'
               }}
             >google</span>
-            <h4 className="form__otherText">Login With Google</h4>
+            <h4 className="form__otherText">Google</h4>
             </View>
           </View>
         </View>

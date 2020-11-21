@@ -725,5 +725,848 @@
          "Siram dengan susu kental manis.",
          "Siap disajikan."
       ]
-   }
+   },
+   {
+      "id_resep":16,
+      "title":"Nasi Goreng Tek Tek",
+      "level":"Sedang",
+      "images":"https://i1.wp.com/resepkoki.id/wp-content/uploads/2020/11/Resep-Nasi-Goreng-Tek-Tek.jpg?fit=975%2C1300&ssl=1",
+      "category":"Main Dish",
+      "bahan":[
+         {
+            "nama":"Nasi pera",
+            "jumlah":"300 gram"
+         },
+         {
+            "nama":"Sawi hijau",
+            "jumlah":"1/2 ikat (potong-potong)"
+         },
+         {
+            "nama":"Ayam goreng",
+            "jumlah":"150 gram (suwir)"
+         },
+         {
+            "nama":"Telur",
+            "jumlah":"1 butir"
+         },
+         {
+            "nama":"Daun bawang",
+            "jumlah":"2 tangkai (potong-potong)"
+         },
+         {
+            "nama":"Bawang merah",
+            "jumlah":"3 butir"
+         },
+         {
+            "nama":"Bawang putih",
+            "jumlah":" 2 siung"
+         },
+         {
+            "nama":"Kemiri",
+            "jumlah":"2 butir"
+         },
+         {
+            "nama":"Merica bubuk",
+            "jumlah":"1/4 sendok teh"
+         },
+         {
+            "nama":"Kecap manis",
+            "jumlah":"5 sendok makan"
+         },
+         {
+            "nama":"Garam",
+            "jumlah":"secukupnya"
+         },
+         {
+            "nama":"Minyak goreng",
+            "jumlah":"3 sendok makan"
+         },
+         {
+            "nama":"Minyak wijen",
+            "jumlah":"1 sendok teh"
+         },
+         {
+            "nama":"Bawang goreng",
+            "jumlah":"secukupnya"
+         },
+         {
+            "nama":"Kerupuk udang kecil",
+            "jumlah":"secukupnya"
+         },
+         {
+            "nama":"Mentimun",
+            "jumlah":"secukupnya"
+         },
+         {
+            "nama":"Tomat",
+            "jumlah":"secukupnya"
+         },
+         {
+            "nama":"Acar",
+            "jumlah":"secukupnya"
+         }
+      ],
+      "caraMasak":[
+         "Uleg halus bawang merah, bawang putih, dan kemiri. Tambahkan minyak wijen, kemudian tumis bumbu hingga harum.",
+         "Masukkan telur, kemudian orak arik. Setelah telur matang, masukkan nasi, sawi, dan ayam goreng yang sudah disuwir. Aduk nasi hingga rata.",
+         "Bumbui dengan garam, merica bubuk, dan kecap manis. Aduk-aduk hingga bumbu merata, koreksi rasanya.",
+         "Setelah matang, siap disajikan dengan bawang goreng, telur ceplok, kerupuk udang, irisan mentimun dan tomat, serta acar.",
+         "Jika suka pedas, tambahkan cabai rawit bersama dengan bumbu yang dihaluskan."
+      ]
+   },
+   {
+      "id_resep":17,
+      "title":"Seblak Basah Bandung",
+      "level":"Mudah",
+      "images":"https://i1.wp.com/resepkoki.id/wp-content/uploads/2017/05/Resep-Seblak-Basah.jpg?fit=1300%2C1001&ssl=1",
+      "category":"Main Dish",
+      "bahan":[
+         {
+            "nama":"Kerupuk orange mentah",
+            "jumlah":"100 gram (rendam 15 menit)"
+         },
+         {
+            "nama":"Telur",
+            "jumlah":"1 butir"
+         },
+         {
+            "nama":"Bakso",
+            "jumlah":"5 butir (iris)"
+         },
+         {
+            "nama":"Sosis",
+            "jumlah":"1 butir (iris)"
+         },
+         {
+            "nama":"Daun Bawang",
+            "jumlah":"1 batang (iris)"
+         },
+         {
+            "nama":"Cabai rawit merah",
+            "jumlah":"2 buah (iris)"
+         },
+         {
+            "nama":"Garam",
+            "jumlah":"1/4 sendok teh"
+         },
+         {
+            "nama":"Kaldu bubuk",
+            "jumlah":"1/4 sendok teh"
+         },
+         {
+            "nama":"Air",
+            "jumlah":"300 ml"
+         },
+         {
+            "nama":"Minyak",
+            "jumlah":"secukupnya (untuk menumis)"
+         },
+         {
+            "nama":"Bawang putih",
+            "jumlah":"2 siung (bumbu halus)"
+         },
+         {
+            "nama":"Kencur",
+            "jumlah":"2 cm (bumbu halus)"
+         },
+         {
+            "nama":"Cabai Merah Keriting",
+            "jumlah":"2 buah (bumbu halus)"
+         }
+      ],
+      "caraMasak":[
+         "Panaskan minyak dalam wajan, lalu masukkan telur kocok dan diamkan sesaat sampai agak set/padat lalu aduk-aduk (seperti membuat telur orak arik). Sisihkan di pinggir wajan.",
+         "Masukkan bumbu halus dan tumis sampai wangi.",
+         "Masukkan daun bawang, cabe rawit, ayam suwir, bakso, dan sosis. Aduk sampai semua tercampur rata.",
+         "Tuangkan air. Aduk rata.",
+         "Masukkan kerupuk. Aduk rata sampai kerupuk jadi empuk. Angkat.",
+         "Siap disajikan.",
+         "Selain kerupuk, seblak juga bisa dikombinasikan dengan pasta seperti macaroni, kwetiau, batagor, ceker, dan lainnya sesuai selera.",
+         "Jika air sudah menyusut tapi kerupuk belum cukup empuk maka bisa ditambahkan air lagi."
+      ]
+   },
+   {
+      "id_resep":18,
+      "title":"Spaghetti Seafood",
+      "level":"Sulit",
+      "images":"https://i0.wp.com/resepkoki.id/wp-content/uploads/2020/11/Resep-Spaghetti-Seafood-Marinara-1.jpg?fit=975%2C1300&ssl=1",
+      "category":"Main Dish",
+      "bahan":[
+         {
+            "nama":"Spaghetti",
+            "jumlah":"150 gram"
+         },
+         {
+            "nama":"Udang kupas",
+            "jumlah":"100 gram"
+         },
+         {
+            "nama":"Cumi",
+            "jumlah":"100 gram (potong-potong)"
+         },
+         {
+            "nama":"Kerang hijau",
+            "jumlah":"100 gram"
+         },
+         {
+            "nama":"Parsley segar",
+            "jumlah":"1 sendok makan (cincang)"
+         },
+         {
+            "nama":"Olive oil",
+            "jumlah":"1 sendok teh"
+         },
+         {
+            "nama":"Tomat",
+            "jumlah":"4 buah (Blender halus)"
+         },
+         {
+            "nama":"Pasta tomat",
+            "jumlah":"3 sendok makan"
+         },
+         {
+            "nama":"Bawang putih",
+            "jumlah":"2 siung (cincang halus)"
+         },
+         {
+            "nama":"Bawang bombay",
+            "jumlah":" 1/2 buah (cincang halus)"
+         },
+         {
+            "nama":"Lada hitam",
+            "jumlah":"1/2 sendok teh"
+         },
+         {
+            "nama":"Gula",
+            "jumlah":"1/2 sendok makan"
+         },
+         {
+            "nama":"Garam",
+            "jumlah":"secukupnya"
+         }
+      ],
+      "caraMasak":[
+         "Didihkan air di panci, tambahkan sedikit garam. Rebus spaghetti sampai hampir matang atau 3/4 matang, karena kematangannya akan diselesaikan saat dimasak dengan saus, tiriskan. Kemudian beri olive oil dan aduk rata supaya spaghetti tidak lengket.",
+         "Tumis bawang putih dan bawang bombay, masukkan seafood urut mulai dari waktu yang diperlukan untuk memasaknya, dimulai dari cumi dan kerang, kemudian udang. Masak sampai udang berubah warna.",
+         "Masukkan tomat yang sudah diblender dan pasta tomat, masak sampai air menyusut. Setelah air menyusut tambahkan lada hitam, garam dan gula, aduk rata.",
+         "Masukkan spaghetti, aduk rata. Masak sebentar sampai bumbu meresap, spaghetti matang, dan saus sedikit asat. Koreksi rasanya.",
+         "Sajikan dengan taburan daun parsley segar cincang.",
+         "Supaya spaghetti tidak lengket, jika tidak ada olive oil bisa ganti dengan minyak goreng."
+      ]
+   },
+   {
+      "id_resep":19,
+      "title":"Tumis Brokoli Kembang Kol",
+      "level":"sedang",
+      "images":"https://i1.wp.com/resepkoki.id/wp-content/uploads/2017/05/Resep-Tumis-brokoli-kembang-kol.jpg?fit=1300%2C1254&ssl=1",
+      "category":"Main Dish",
+      "bahan":[
+         {
+            "nama":"Brokoli",
+            "jumlah":"100 gram"
+         },
+         {
+            "nama":"Kembang kol",
+            "jumlah":"100 gram"
+         },
+         {
+            "nama":"Udang",
+            "jumlah":" 50 gram"
+         },
+         {
+            "nama":"Bawang bombay",
+            "jumlah":"1/2 buah (cincang)"
+         },
+         {
+            "nama":"Bawang putih",
+            "jumlah":"2 siung (iris tipis)"
+         },
+         {
+            "nama":"Cabai merah",
+            "jumlah":"2 buah (iris serong)"
+         },
+         {
+            "nama":"Cabai hijau",
+            "jumlah":"2 buah (iris serong)"
+         },
+         {
+            "nama":"Tomat",
+            "jumlah":" 1 buah (potong-potong)"
+         },
+         {
+            "nama":"Garam",
+            "jumlah":"1 sendok teh"
+         },
+         {
+            "nama":"Gula",
+            "jumlah":"1/2 sendok teh"
+         },
+         {
+            "nama":"Lada halus",
+            "jumlah":"1/4 sendok makan"
+         },
+         {
+            "nama":"Saus tiram",
+            "jumlah":"1/2 sendok makan"
+         },
+         {
+            "nama":"Air",
+            "jumlah":"200 ml"
+         },
+         {
+            "nama":"Minyak",
+            "jumlah":"3 sendok makan (untuk menumis)"
+         }
+      ],
+      "caraMasak":[
+         "Potong brokoli dan kembang kol menurut kuntumnya. Cuci bersih. Sisihkan.",
+         "Bersihkan udang. Buang kepalanya. Sisihkkan.",
+         "Panaskan minyak. Tumis bawang bombay dan bawang putih hingga layu dan harum.",
+         "Masukkan cabai merah, cabai hijau, dan udang. Aduk hingga udang berubah warna.",
+         "Masukkan brokoli dan kembang kol. Aduk rata.",
+         "Tambahkan garam, gula, lada, saus tiram, tomat, dan air. Aduk rata dan masak hingga semua bahan matang. Koreksi rasanya. Angkat.",
+         "Siap disajikan.",
+         "Apabila suka tumisan dengan kuah kental, sesaat sebelum diangkat bisa tambahkan 1 sdm maizena yang dilarutkan dengan sedikit air."
+      ]
+   },
+   {
+      "id_resep":20,
+      "title":"Omelet Telur",
+      "level":"Mudah",
+      "images":"https://i2.wp.com/resepkoki.id/wp-content/uploads/2017/07/Resep-Omelette.jpg?fit=1300%2C980&ssl=1",
+      "category":"Main Dish",
+      "bahan":[
+         {
+            "nama":"Telur ayam",
+            "jumlah":"2 butir"
+         },
+         {
+            "nama":"Bawang bombai",
+            "jumlah":"2 sendok makan (cincang kasar)"
+         },
+         {
+            "nama":"Paprika",
+            "jumlah":"2 sendok makan (potong kotak-kotak)"
+         },
+         {
+            "nama":"Tomat",
+            "jumlah":"2 sendok makan (potong kotak-kotak)"
+         },
+         {
+            "nama":"Jamur champignon",
+            "jumlah":"2 buah (iris tipis)"
+         },
+         {
+            "nama":"Sosis",
+            "jumlah":"2 buah (iris tipis)"
+         },
+         {
+            "nama":"Keju mozzarella",
+            "jumlah":"1 sendok makan (poyong lotak-kotak)"
+         },
+         {
+            "nama":"Keju cheddar",
+            "jumlah":"1 sendok makan (parut)"
+         },
+         {
+            "nama":"Susu cair",
+            "jumlah":"3 sendok makan"
+         },
+         {
+            "nama":"Garam",
+            "jumlah":"1/2 sendok teh"
+         },
+         {
+            "nama":"Merica",
+            "jumlah":"1/4 sendok teh"
+         },
+         {
+            "nama":"Margarin",
+            "jumlah":"2 sendok makan (untuk menumis)"
+         }
+      ],
+      "caraMasak":[
+         "Dalam wadah, kocok telur bersama keju parut, susu cair,  garam, dan merica hingga rata. Sisihkan.",
+         "Panaskan margarin. Tumis bawang bombai, paprika, jamur, dan sosis. Masak hingga bombai harum dan jamur matang. Ratakan bahan ke seluruh wajan. Kecilkan api.",
+         "Tuang kocokan telur dan masak hingga setengah matang.",
+         "Masukkan tomat dan keju kotak-kotak. Lipat omelet jadi bentuk setengah lingkaran. Tutup wajan sebentar dan masak sampai keju meleleh. Angkat.",
+         "Siap disajikan.",
+         "Omelet bisa dikreasikan dengan isian sesuai selera, seperti daging asap, ayam suwir, dan sayur bayam.",
+         " Pastikan bagian bawah atau luar omelet sudah agak kering sehingga tidak hancur saat dilipat."
+      ]
+   },
+     {
+        "id_resep":21,
+        "title":"Puding Buah Naga",
+        "level":"Mudah",
+        "images":"https://i0.wp.com/resepkoki.id/wp-content/uploads/2017/04/Resep-Puding-buah-naga.jpg?fit=1300%2C1300&ssl=1",
+        "category":"Dessert",
+        "bahan":[
+           {
+              "nama":"Agar-agar bubuk plain bening",
+              "jumlah":"1 bungkus (7 gram)"
+           },
+           {
+              "nama":"Jelly bubuk plain",
+              "jumlah":"2 sendok teh"
+           },
+           {
+              "nama":"Susu full cream",
+              "jumlah":"650 ml"
+           },
+           {
+              "nama":"Buah naga merah",
+              "jumlah":"200 gram"
+           },
+           {
+              "nama":"Air matang",
+              "jumlah":"800 ml"
+           },
+           {
+              "nama":"Gula pasir",
+              "jumlah":"110 gram"
+           },
+           {
+              "nama":"Selasih",
+              "jumlah":"2 sendok teh (rendam hingga mekar)"
+           },
+           {
+              "nama":"Air perasan jeruk nipis",
+              "jumlah":"2 sendok teh"
+           }
+        ],
+        "caraMasak":[
+           "Blender buah naga dengan 50 ml air. Sisihkan.",
+           "Dalam panci, masukkan bubuk agar-agar dan jelly, gula, serta 750 ml air. Aduk rata. Hidupkan api dan masak dengan api sedang. Aduk sesekali dan biarkan hingga mendidih. Matikan api.",
+           "Tuang jus buah naga, selasih, dan air perasan jeruk nipis. Aduk rata.",
+           "Siapkan cetakan. Bilasi dengan air sebelumnya.",
+           "Siap disajikan.",
+           "Cetakan yang dibilas air bertujuan agar puding yang telah mengeras nanti bisa lebih gampang dikeluarkan."
+        ]
+     },
+     {
+        "id_resep":22,
+        "title":"Puding Karamel",
+        "level":"Sulit",
+        "images":"https://i1.wp.com/resepkoki.id/wp-content/uploads/2017/06/Resep-Puding-Karamel.jpg?fit=975%2C1300&ssl=1",
+        "category":"Dessert",
+        "bahan":[
+           {
+              "nama":"Telur",
+              "jumlah":"4 butir"
+           },
+           {
+              "nama":"Susu",
+              "jumlah":"500 ml"
+           },
+           {
+              "nama":"Gula pasir",
+              "jumlah":"10 sendok makan"
+           },
+           {
+              "nama":"Butter",
+              "jumlah":"secukupnya (untuk mengoles loyang)"
+           },
+           {
+              "nama":"Cetakan puding",
+              "jumlah":"8 buah (120 ml)"
+           },
+           {
+              "nama":"Gula pasir",
+              "jumlah":"8 sendok makan (untuk saus)"
+           },
+           {
+              "nama":"Air",
+              "jumlah":"2 sendok makan (untuk saus)"
+           },
+           {
+              "nama":"Air panas",
+              "jumlah":"4 sendok makan"
+           }
+        ],
+        "caraMasak":[
+           "Olesi cetakan pudding dengan butter atau margarin. Sisihkan.",
+           "Saus karamel: masak gula dan air dengan api sedang. Jangan diaduk, biarkan gula larut perlahan hingga warnanya berubah jadi coklat keemasan. Matikan api. Tuang air panas sedikit demi sedikit sambil menggoyang-goyangkan panci agar semuanya tercampur rata. Tuang saus karamel ke cetakan puding. Sisihkan.",
+           "Dalam wadah, kocok lepas telur. Sisihkan.",
+           "Dalam panci, panaskan susu bersama gula pasir. Masak hingga gula larut, tidak perlu sampai mendidih. Angkat dan tunggu agak dingin.",
+           "Tuang adonan ke dalam cetakan puding.",
+           "Kukus dalam panci kukusan yang telah dipanaskan terlebih dulu (sekitar 30 menit sebelumnya). Tutuplah panci menggunakan tutup yang telah dibungkus kain lap bersih.",
+           "Masak hingga pudding mengeras. Angkat.",
+           "Dinginkan lalu keluarkan puding dari cetakan dengan membaliknya dan mengeluarkan puding ke atas piring saji.",
+           "Siap disajikan.",
+           "Ketika memasak saus karamel, jangan mengaduk-aduknya dengan sendok karena akan sangat lengket. Cukup menggoyang pancinya agar karamel bisa tercampur dan matang sempurna."
+        ]
+     },
+     {
+        "id_resep":23,
+        "title":"Puding Susu",
+        "level":"Mudah",
+        "images":"https://i0.wp.com/resepkoki.id/wp-content/uploads/2017/11/Resep-Puding-susu.jpg?fit=1300%2C1105&ssl=1",
+        "category":"Dessert",
+        "bahan":[
+           {
+              "nama":"Agar-agar bubuk plain",
+              "jumlah":"1 bungkus"
+           },
+           {
+              "nama":"Susu cair",
+              "jumlah":"1 liter"
+           },
+           {
+              "nama":"Gula pasir",
+              "jumlah":"200 gram"
+           },
+           {
+              "nama":"Aneka buah potong (apel, semangka, nanas, melon)",
+              "jumlah":"secukupnya"
+           }
+        ],
+        "caraMasak":[
+           "Dalam panci, masukkan agar-agar dan gula pasir lalu aduk rata.",
+           "Tuang susu cair, aduk dengan balon whisk hingga tidak ada yang bergerindil.",
+           "Masak hingga mendidih sambil terus diaduk. Matikan api dan hilangkan uap panasnya sebentar.",
+           "Tuang adonan ke dalam cetakan. Biarkan hingga dingin. Simpan dalam kulkas selama beberapa saat.",
+           "Siap disajikan dengan aneka potongan buah.",
+           "Basahi cetakan puding dengan air agar puding mudah dikeluarkan dari cetakan."
+        ]
+     },
+     {
+        "id_resep":24,
+        "title":"Puding Mangga",
+        "level":"Sedang",
+        "images":"https://i2.wp.com/resepkoki.id/wp-content/uploads/2017/11/Resep-Puding-Mangga.jpg?fit=1040%2C1300&ssl=1",
+        "category":"Dessert",
+        "bahan":[
+           {
+              "nama":"Mangga",
+              "jumlah":"500 gram"
+           },
+           {
+              "nama":"Susu cair",
+              "jumlah":"1 liter"
+           },
+           {
+              "nama":"Agar-agar plain",
+              "jumlah":"2 bungkus"
+           },
+           {
+              "nama":"Nutrijell plain",
+              "jumlah":"1 sendok teh"
+           },
+           {
+              "nama":"Gula pasir",
+              "jumlah":"150 gram"
+           },
+           {
+              "nama":"Garam",
+              "jumlah":"1/4 sendok teh"
+           },
+           {
+              "nama":"Susu cair",
+              "jumlah":"600 ml (untuk vla)"
+           },
+           {
+              "nama":"Gula Pasir",
+              "jumlah":"100 gram (untuk vla)"
+           },
+           {
+              "nama":"Vanilla",
+              "jumlah":"1/2 sendok teh (untuk vla)"
+           },
+           {
+              "nama":"Tepung maizena",
+              "jumlah":"1 sdm (larutkan dalan air, untuk vla)"
+           }
+        ],
+        "caraMasak":[
+           "Cuci bersih buah mangga, kemudian kupas dan potong - potong.",
+           "Blender mangga dan susu cair hingga halus lalu saring.",
+           "Masukkan adonan hasil saringan ke dalam panci. Tambahkan agar-agar, nutrijell, gula pasir, dan garam. Masak hingga mendidih sambil terus diaduk. Angkat.",
+           "Tuang adonan ke dalam cetakan puding atau gelas saji.",
+           "Taruh potongan mangga diatasnya sebagai garnish.",
+           "Dinginkan sampai hilang uap panasnya, kemudian masukkan ke kulkas.",
+           "Saat sudah dingin, maka puding siap disajikan.",
+           "Masukkan bahan fla yaitu susu, gula, dan vanili ke dalam panci. Masak dengan api sedang sambil terus diaduk hingga mendidih.",
+           "Kecilkan api, tuang larutan maizena. Aduk rata sampai mengental. Koreksi rasanya. Angkat lalu dinginkan.",
+           "Siap disajikan bersama puding mangga.",
+           "Bila ingin lebih manis, Anda bisa tambahkan takaran gula sesuai selera. Sesuaikan juga dengan tingkat kemanisan mangga."
+        ]
+     },
+     {
+        "id_resep":25,
+        "title":"Pudot (Puding Sedot)",
+        "level":"Mudah",
+        "images":"https://i0.wp.com/resepkoki.id/wp-content/uploads/2019/06/Resep-Pudot.jpg?fit=1031%2C1280&ssl=1",
+        "category":"Dessert",
+        "bahan":[
+           {
+              "nama":"Susu cair full cream",
+              "jumlah":"1,5 liter"
+           },
+           {
+              "nama":"Nutrijell plain",
+              "jumlah":"1/2 bungkus"
+           },
+           {
+              "nama":"Gula pasir",
+              "jumlah":"5 sendok makan"
+           },
+           {
+              "nama":"Tepung maizena",
+              "jumlah":"1 sendok makan (larutkan sedikit susu cair)"
+           },
+           {
+              "nama":"Bubuk Milkshake, rasa coklat",
+              "jumlah":"25 gram"
+           },
+           {
+              "nama":"Bubuk Milkshake, rasa vanila blue",
+              "jumlah":"25 gram"
+           },
+           {
+              "nama":"Bubuk Milkshake, rasa mangga",
+              "jumlah":"25 gram"
+           },
+           {
+              "nama":"Bubuk Milkshake, rasa melon",
+              "jumlah":"25 gram"
+           },
+           {
+              "nama":"Nutrisari rasa jeruk",
+              "jumlah":"25 gram"
+           }
+        ],
+        "caraMasak":[
+           "Campur susu cair, nutrijell, gula pasir , dan larutan maizena aduk rata. Masak diatas api kecil aduk terus agar bagian bawah tidak gosong.",
+           "Setelah mendidih, matikan api aduk terus sampai uap berkurang.",
+           "Bagi puding menjadi 5 bagian, masing-masing 300 ml.",
+           "Tuang tiap bungkus milkshake dan nutrisari kedalam pudding aduk rata. Tuang kedalam cetakan sesuai selera. Simpan dalam kulkas.",
+           "Bubuk Milkshake dapat diganti dengan pewarna makanan dan perasa makanan, atau minuman saset lainnya. Namun, untuk pewarna dan perasa makanan tambahkan gula dengan takaran umum untuk membuat puding."
+        ]
+     },
+       {
+          "id_resep":26,
+          "title":"Teh Tarik",
+          "level":"Mudah",
+          "images":"https://i1.wp.com/resepkoki.id/wp-content/uploads/2020/02/Resep-Teh-Tarik.jpg?fit=1079%2C1230&ssl=1",
+          "category":"Drink",
+          "bahan":[
+             {
+                "nama":"Teh",
+                "jumlah":"3 kantung"
+             },
+             {
+                "nama":"Susu kental manis",
+                "jumlah":"100 ml"
+             },
+             {
+                "nama":"Air panas",
+                "jumlah":"600 ml"
+             },
+             {
+                "nama":"Es Batu",
+                "jumlah":"1 cup"
+             }
+          ],
+          "caraMasak":[
+             "Seduh teh dengan air panas sampai menghasilkan warna pekat. Ambil kantung teh nya.",
+             "Tuang susu kental manis kedalam gelas besar bergagang, tuang teh kedalam gelas, aduk rata.",
+             "Siapkan gelas lainnya, kemudian tuang teh dari gelas satu ke gelas lainnya bergantian dengan cara menuang dari gelas yang ditinggikan. Lakukan berulang-ulang sampai teh menghasilkan busa.",
+             "Tuang teh dalam gelas saji, teh tarik siap dinikmati.",
+             "Untuk hasil yang lebih nikmat, gunakan teh ceylon."
+          ]
+       },
+       {
+          "id_resep":27,
+          "title":"Kolak Durian",
+          "level":"Sedang",
+          "images":"https://i1.wp.com/resepkoki.id/wp-content/uploads/2020/01/Resep-Kolak-Durian-1.jpg?fit=1080%2C1163&ssl=1",
+          "category":"Drink",
+          "bahan":[
+             {
+                "nama":"Beras ketan",
+                "jumlah":"250 gram"
+             },
+             {
+                "nama":"Daging durian",
+                "jumlah":"800 gram"
+             },
+             {
+                "nama":"Gula merah",
+                "jumlah":"80 gram"
+             },
+             {
+                "nama":"Gula pasir",
+                "jumlah":"100 gram"
+             },
+             {
+                "nama":"Garam",
+                "jumlah":"1/2 sendok teh"
+             },
+             {
+                "nama":"Daun pandan",
+                "jumlah":"2 lembar"
+             },
+             {
+                "nama":"Santan",
+                "jumlah":"1 liter"
+             }
+          ],
+          "caraMasak":[
+             "Rendam beras ketan selama 2 jam, kukus sampai matang selama 30 menit, sisihkan.",
+             "Kolak Durian: Rebus santan bersama gula merah, gula pasir, garam, daun pandan sampai mendidih sambil sesekali diaduk supaya santan tidak pecah.",
+             "Setelah mendidih masukkan daging durian, tunggu sampai mendidih lagi kemudian angkat.",
+             "Tata ketan kukus secukupnya dalam mangkuk, siram dengan kolak durian.",
+             "Sajikan hangat, atau beri es batu sesuai selera.",
+             "Setelah buah durian dimasukkan jangan dimasak terlalu lama, setelah mendidih aduk sebentar dan segera matikan api supaya buah tidak hancur."
+          ]
+       },
+       {
+          "id_resep":28,
+          "title":"Thai Tea",
+          "level":"Sedang",
+          "images":"https://i0.wp.com/resepkoki.id/wp-content/uploads/2019/12/Resep-Thai-Tea.jpg?fit=1040%2C1300&ssl=1",
+          "category":"Drink",
+          "bahan":[
+             {
+                "nama":"Teh hitam",
+                "jumlah":"2 sendok makan"
+             },
+             {
+                "nama":"Air",
+                "jumlah":"400 ml"
+             },
+             {
+                "nama":"Susu full cream",
+                "jumlah":"100 ml"
+             },
+             {
+                "nama":"Susu kental manis",
+                "jumlah":"3 sendok makan"
+             },
+             {
+                "nama":"Gula pasir",
+                "jumlah":"Secukupnya (70 gram)"
+             },
+             {
+                "nama":"Kayu manis",
+                "jumlah":"1/4 sendok teh"
+             },
+             {
+                "nama":"Kembang lawang",
+                "jumlah":"1 buah"
+             },
+             {
+                "nama":"Cengkeh",
+                "jumlah":"2 buah"
+             },
+             {
+                "nama":"Es batu",
+                "jumlah":"Secukupnya"
+             }
+          ],
+          "caraMasak":[
+             "Panaskan air lalu masukan teh, kayu manis, kembang lawang dan cengkeh. didihkan hingga kental.",
+             "Setelah teh panas, masukan gula dan aduk rata. Biarkan uap panasnya hilang.",
+             "Campur teh dengan 3 sendok makan susu kental manis, aduk rata.",
+             "Tambahkan es batu, siram dengan susu full cream. Siap disajikan."
+          ]
+       },
+       {
+          "id_resep":29,
+          "title":"Es Lidah Buaya",
+          "level":"Sulit",
+          "images":"https://i2.wp.com/resepkoki.id/wp-content/uploads/2017/05/Resep-Es-lidah-buaya.jpg?fit=1085%2C1300&ssl=1",
+          "category":"Drink",
+          "bahan":[
+             {
+                "nama":"Lidah buaya",
+                "jumlah":"500 gram"
+             },
+             {
+                "nama":"Garam",
+                "jumlah":" 1 sendok teh"
+             },
+             {
+                "nama":"Kapur sirih",
+                "jumlah":"1 sendok makan"
+             },
+             {
+                "nama":"Daun pandan",
+                "jumlah":"4 lembar"
+             },
+             {
+                "nama":"Gula pasir",
+                "jumlah":"100 gram"
+             },
+             {
+                "nama":"Lemon",
+                "jumlah":"1 buah (perasan airnya)"
+             },
+             {
+                "nama":"Biji selasih",
+                "jumlah":"1 sendok teh (rendam air panas)"
+             },
+             {
+                "nama":"Sirup melon",
+                "jumlah":"secukupnya"
+             },
+             {
+                "nama":"Air matang",
+                "jumlah":"secukupnya"
+             },
+             {
+                "nama":"Es batu",
+                "jumlah":"secukupnya"
+             }
+          ],
+          "caraMasak":[
+             "Kupas kulit lidah buaya lalu potong-potong dagingnya jadi bentuk dadu. Cuci bersih dan tiriskan.",
+             "Dalam wadah, campur air dengan garam dan kapur sirih. Aduk rata. Rendam potongan lidah buaya selama 1 jam. Bilas lidah buaya hingga lendirnya hilang. Tiriskan.",
+             "Dalam panci, didihkan air bersama gula, daun pandan, dan air perasan lemon.",
+             "Masukkan lidah buaya dan aduk rata. Masak selama 5 menit dengan api sedang. Angkat dan tiriskan. Sisihkan air rebusannya.",
+             "Dalam gelas saji, taruh lidah buaya, selasih, dan es batu. Beri sirup secukupnya dan tuang air rebusan.",
+             "Siap disajikan."
+          ]
+       },
+       {
+          "id_resep":30,
+          "title":"Susu Kedelai",
+          "level":"Sedang",
+          "images":"https://i1.wp.com/resepkoki.id/wp-content/uploads/2017/04/Resep-Susu-kedelai.jpg?fit=1300%2C1300&ssl=1",
+          "category":"Drink",
+          "bahan":[
+             {
+                "nama":"Kacang kedelai",
+                "jumlah":"100 gram"
+             },
+             {
+                "nama":"Gula pasir",
+                "jumlah":"100 gram"
+             },
+             {
+                "nama":"Garam",
+                "jumlah":"1/4 sendok teh"
+             },
+             {
+                "nama":"Jahe",
+                "jumlah":"1 ruas (memarkan)"
+             },
+             {
+                "nama":"Air matang",
+                "jumlah":"2 liter"
+             },
+             {
+                "nama":"Kain tipis",
+                "jumlah":"secukupnya (untuk menyaring)"
+             }
+          ],
+          "caraMasak":[
+             "Cuci bersih kedelai dan rendam dalam air banyak selama semalaman agar lunak. Buang kulit arinya lalu cuci lagi hingga bersih. Tiriskan.",
+             "Dalam blender, masukkan kacang kedelai dan 1/2 liter air. Blender hingga halus lalu saring dengan kain tipis.",
+             "Blender kembali ampas sisa saringan dengan 1/2 liter air. Saring kembali dengan kain tipis.",
+             "Dalam panci, tuang susu kedelai. Masukkan daun pandan, jahe, gula, garam, dan air. Masak sambil terus diaduk hingga mendidih. Langsung matikan api.",
+             "Siap disajikan hangat atau dingin."
+          ]
+       }
 ]

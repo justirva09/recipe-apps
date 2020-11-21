@@ -1,0 +1,29 @@
+.col-featured {
+  position: relative;
+  border-radius: 11px;
+  overflow: hidden;
+  img {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    max-height: 200px;
+    min-height: 200px;
+  }
+  &__title {
+    position: absolute;
+    bottom: 0;
+    background: #000000a8;
+    left: 0;
+    color: #fff;
+    right: 0;
+    padding: 10px;
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+  &__row {
+    margin-bottom: 25px;
+    margin-top: 40px;
+  }
+}

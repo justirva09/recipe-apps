@@ -3,7 +3,6 @@ import {View} from "components"
 
 
 const CardAbout = ({data}) =>{
-  console.log(data);
   return(
   <View className="card__about">
     <View className="card__header">

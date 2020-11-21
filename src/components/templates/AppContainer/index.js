@@ -1,7 +1,7 @@
 import { React, PropTypes, NavLink } from 'libraries';
 import { View } from 'components/atoms';
 import { Popup } from 'components/molecules';
-import { AiOutlineAppstore, AiOutlineTags, AiOutlineUser, AiOutlineSearch } from "react-icons/ai";
+import { AiOutlineAppstore, AiOutlineTags, AiOutlineUser, AiOutlineSearch, AiOutlineDeploymentUnit } from "react-icons/ai";
 
 const AppContainer = ({children, showNav}) => {
   return(
@@ -20,6 +20,10 @@ const AppContainer = ({children, showNav}) => {
           <NavLink  activeClassName='is-active' className="navbar__NavLink--item" to="/search">
             <span className="navbar__icon"><AiOutlineSearch size={24} /></span>
             Search
+          </NavLink>
+          <NavLink  activeClassName='is-active' className="navbar__NavLink--item" to="/about">
+            <span className="navbar__icon"><AiOutlineDeploymentUnit size={24} /></span>
+            About
           </NavLink>
           <NavLink activeClassName='is-active' className="navbar__NavLink--item" to="/profile">
             <span className="navbar__icon"><AiOutlineUser size={24} /></span>
