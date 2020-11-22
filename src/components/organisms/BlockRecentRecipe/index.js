@@ -16,7 +16,47 @@ class BlockRecentRecipe extends Component {
       console.log(err)
     }
   }
+
+  handleRand = (array) => {
+    var tmp, current, top = array.length;
+      if(top) while(--top) {
+        current = Math.floor(Math.random() * (top + 1));
+        tmp = array[current];
+        array[current] = array[top];
+        array[top] = tmp;
+      }
+      return array;
+    }
+
+    randomArray = (array = []) =>{
+      var randomIndex = Math.floor((Math.random()*array.length));
+      console.log('randomIndex', randomIndex)
+      return array[randomIndex]
+    }
+    
+    
+    getRandomRecipe = (data) => {
+      var newArray = [];
+      var max = 3;
+      while(newArray.length < data.length) {
+        var item = this.randomArray(data);
+        var hasItem = false;
+    
+        newArray.forEach(val => {
+          if(val == item) {
+            hasItem = true;
+          }
+        })
+        if(!hasItem) {
+          newArray.push(item)
+        }
+      }
+      return newArray;
+    }
+
   render() {
+    const a = this.handleRand(dataResep)
+    console.log(a)
     return(
       <section className="section-container">
         <View classNames="widgetTitle">

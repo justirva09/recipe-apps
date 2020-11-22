@@ -133,14 +133,6 @@ const Profile = ({ profile, history }) => {
                   Kembali
                 </Button>
                 <Button 
-                  color="secondary" 
-                  block 
-                  style={{marginTop: 8}}
-                  onClick={() => history.push('/about')}
-                >
-                  About
-                </Button>
-                <Button 
                   color="danger" 
                   block 
                   style={{marginTop: 8}}

@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { render } from 'react-snapshot';
 import 'assets/scss/index.scss';
 import './index.css';
 import App from './App';
@@ -8,7 +8,7 @@ import { Provider } from 'libraries';
 import { store } from 'modules';
 
 
-ReactDOM.render(
+render(
   <React.StrictMode>
     <Provider store={store}>
       <App />

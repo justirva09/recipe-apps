@@ -732,6 +732,7 @@
       "level":"Sedang",
       "images":"https://i1.wp.com/resepkoki.id/wp-content/uploads/2020/11/Resep-Nasi-Goreng-Tek-Tek.jpg?fit=975%2C1300&ssl=1",
       "category":"Main Dish",
+      "slug": "main-dish",
       "bahan":[
          {
             "nama":"Nasi pera",
@@ -813,13 +814,14 @@
          "Setelah matang, siap disajikan dengan bawang goreng, telur ceplok, kerupuk udang, irisan mentimun dan tomat, serta acar.",
          "Jika suka pedas, tambahkan cabai rawit bersama dengan bumbu yang dihaluskan."
       ]
-   },
-   {
+    },
+    {
       "id_resep":17,
       "title":"Seblak Basah Bandung",
       "level":"Mudah",
       "images":"https://i1.wp.com/resepkoki.id/wp-content/uploads/2017/05/Resep-Seblak-Basah.jpg?fit=1300%2C1001&ssl=1",
       "category":"Main Dish",
+      "slug": "main-dish",
       "bahan":[
          {
             "nama":"Kerupuk orange mentah",
@@ -884,13 +886,14 @@
          "Selain kerupuk, seblak juga bisa dikombinasikan dengan pasta seperti macaroni, kwetiau, batagor, ceker, dan lainnya sesuai selera.",
          "Jika air sudah menyusut tapi kerupuk belum cukup empuk maka bisa ditambahkan air lagi."
       ]
-   },
-   {
+    },
+    {
       "id_resep":18,
       "title":"Spaghetti Seafood",
       "level":"Sulit",
       "images":"https://i0.wp.com/resepkoki.id/wp-content/uploads/2020/11/Resep-Spaghetti-Seafood-Marinara-1.jpg?fit=975%2C1300&ssl=1",
       "category":"Main Dish",
+      "slug": "main-dish",
       "bahan":[
          {
             "nama":"Spaghetti",
@@ -953,13 +956,14 @@
          "Sajikan dengan taburan daun parsley segar cincang.",
          "Supaya spaghetti tidak lengket, jika tidak ada olive oil bisa ganti dengan minyak goreng."
       ]
-   },
-   {
+    },
+    {
       "id_resep":19,
       "title":"Tumis Brokoli Kembang Kol",
       "level":"sedang",
       "images":"https://i1.wp.com/resepkoki.id/wp-content/uploads/2017/05/Resep-Tumis-brokoli-kembang-kol.jpg?fit=1300%2C1254&ssl=1",
       "category":"Main Dish",
+      "slug": "main-dish",
       "bahan":[
          {
             "nama":"Brokoli",
@@ -1028,13 +1032,14 @@
          "Siap disajikan.",
          "Apabila suka tumisan dengan kuah kental, sesaat sebelum diangkat bisa tambahkan 1 sdm maizena yang dilarutkan dengan sedikit air."
       ]
-   },
-   {
+    },
+    {
       "id_resep":20,
       "title":"Omelet Telur",
       "level":"Mudah",
       "images":"https://i2.wp.com/resepkoki.id/wp-content/uploads/2017/07/Resep-Omelette.jpg?fit=1300%2C980&ssl=1",
       "category":"Main Dish",
+      "slug": "main-dish",
       "bahan":[
          {
             "nama":"Telur ayam",
@@ -1094,13 +1099,14 @@
          "Omelet bisa dikreasikan dengan isian sesuai selera, seperti daging asap, ayam suwir, dan sayur bayam.",
          " Pastikan bagian bawah atau luar omelet sudah agak kering sehingga tidak hancur saat dilipat."
       ]
-   },
+    },
      {
         "id_resep":21,
         "title":"Puding Buah Naga",
         "level":"Mudah",
         "images":"https://i0.wp.com/resepkoki.id/wp-content/uploads/2017/04/Resep-Puding-buah-naga.jpg?fit=1300%2C1300&ssl=1",
         "category":"Dessert",
+        "slug": "desert",
         "bahan":[
            {
               "nama":"Agar-agar bubuk plain bening",
@@ -1150,6 +1156,7 @@
         "level":"Sulit",
         "images":"https://i1.wp.com/resepkoki.id/wp-content/uploads/2017/06/Resep-Puding-Karamel.jpg?fit=975%2C1300&ssl=1",
         "category":"Dessert",
+        "slug": "desert",
         "bahan":[
            {
               "nama":"Telur",
@@ -1203,6 +1210,7 @@
         "level":"Mudah",
         "images":"https://i0.wp.com/resepkoki.id/wp-content/uploads/2017/11/Resep-Puding-susu.jpg?fit=1300%2C1105&ssl=1",
         "category":"Dessert",
+        "slug": "desert",
         "bahan":[
            {
               "nama":"Agar-agar bubuk plain",
@@ -1236,6 +1244,7 @@
         "level":"Sedang",
         "images":"https://i2.wp.com/resepkoki.id/wp-content/uploads/2017/11/Resep-Puding-Mangga.jpg?fit=1040%2C1300&ssl=1",
         "category":"Dessert",
+        "slug": "desert",
         "bahan":[
            {
               "nama":"Mangga",
@@ -1298,6 +1307,7 @@
         "level":"Mudah",
         "images":"https://i0.wp.com/resepkoki.id/wp-content/uploads/2019/06/Resep-Pudot.jpg?fit=1031%2C1280&ssl=1",
         "category":"Dessert",
+        "slug": "desert",
         "bahan":[
            {
               "nama":"Susu cair full cream",
@@ -1350,6 +1360,7 @@
           "level":"Mudah",
           "images":"https://i1.wp.com/resepkoki.id/wp-content/uploads/2020/02/Resep-Teh-Tarik.jpg?fit=1079%2C1230&ssl=1",
           "category":"Drink",
+          "slug": "drink",
           "bahan":[
              {
                 "nama":"Teh",
@@ -1382,6 +1393,7 @@
           "level":"Sedang",
           "images":"https://i1.wp.com/resepkoki.id/wp-content/uploads/2020/01/Resep-Kolak-Durian-1.jpg?fit=1080%2C1163&ssl=1",
           "category":"Drink",
+          "slug": "drink",
           "bahan":[
              {
                 "nama":"Beras ketan",
@@ -1427,6 +1439,7 @@
           "level":"Sedang",
           "images":"https://i0.wp.com/resepkoki.id/wp-content/uploads/2019/12/Resep-Thai-Tea.jpg?fit=1040%2C1300&ssl=1",
           "category":"Drink",
+          "slug": "drink",
           "bahan":[
              {
                 "nama":"Teh hitam",
@@ -1478,6 +1491,7 @@
           "level":"Sulit",
           "images":"https://i2.wp.com/resepkoki.id/wp-content/uploads/2017/05/Resep-Es-lidah-buaya.jpg?fit=1085%2C1300&ssl=1",
           "category":"Drink",
+          "slug": "drink",
           "bahan":[
              {
                 "nama":"Lidah buaya",
@@ -1535,6 +1549,7 @@
           "level":"Sedang",
           "images":"https://i1.wp.com/resepkoki.id/wp-content/uploads/2017/04/Resep-Susu-kedelai.jpg?fit=1300%2C1300&ssl=1",
           "category":"Drink",
+          "slug": "drink",
           "bahan":[
              {
                 "nama":"Kacang kedelai",
