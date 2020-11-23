@@ -3,7 +3,7 @@ import 'firebase/database'; // If using Firebase database
 import 'firebase/storage';  // If using Firebase storage
 import 'firebase/auth';  // If using Firebase Auth
 import { firebaseService, store, setProfile, clearProfile } from 'modules';
-import { createProfileObj, handleAsync } from 'helper';
+import { createProfileObj } from 'helper';
 
 const { dispatch } = store;
 

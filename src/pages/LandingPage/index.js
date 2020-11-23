@@ -1,66 +1,66 @@
-import { React, useHistory } from 'libraries';
-import { Button, View } from 'components';
+import { React } from 'libraries';
+import { View } from 'components';
 import googleLogo from 'assets/images/google.svg'
-import { login, loginGoogle, showPopup } from 'services';
-import { createMessageFirebase, handleAsync, validateEmail } from 'helper';
+import { loginGoogle, showPopup } from 'services';
+import { handleAsync } from 'helper';
 
 const FormLogin = () => {
-  const history = useHistory();
-  const [isRegister, setForm] = React.useState(false)
+  // const history = useHistory();
+  // const [isRegister, setForm] = React.useState(false)
   const [loading, setLoading] = React.useState(false);
-  const [email, changeEmail] = React.useState('', { name: 'email' });
-  const [password, changePassword] = React.useState('');
+  // const [email, changeEmail] = React.useState('', { name: 'email' });
+  // const [password, changePassword] = React.useState('');
 
-  const setLoginForm = () => {
-    setForm(false);
-  }
-  const setRegisterForm = () => {
-    setForm(true);
-  }
+  // const setLoginForm = () => {
+  //   setForm(false);
+  // }
+  // const setRegisterForm = () => {
+  //   setForm(true);
+  // }
 
-  const submitLogin = async () => {
-    if (!email || !password) {
-      return showPopup({
-        title: 'Formulir tidak lengkap',
-        description:
-          'Formulir tidak diisi dengan benar! Pastikan untuk mengisi formulir login dengan benar'
-      });
-    }
+  // const submitLogin = async () => {
+  //   if (!email || !password) {
+  //     return showPopup({
+  //       title: 'Formulir tidak lengkap',
+  //       description:
+  //         'Formulir tidak diisi dengan benar! Pastikan untuk mengisi formulir login dengan benar'
+  //     });
+  //   }
 
-    if (!validateEmail(email)) {
-      return showPopup({
-        title: 'Email tidak valid',
-        description: 'Pastikan format email untuk akun anda diisi dengan benar!'
-      });
-    }
+  //   if (!validateEmail(email)) {
+  //     return showPopup({
+  //       title: 'Email tidak valid',
+  //       description: 'Pastikan format email untuk akun anda diisi dengan benar!'
+  //     });
+  //   }
 
-    setLoading(true);
-    try {
-      await login({ email, password });
-      setLoading(false);
-      showPopup({
-        title: 'Berhasil Masuk',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis lorem bibendum, pulvinar est in, blandit sem. Pellentesque vitae mi eu quam tempor luctus in a purus. Duis quis sollicitudin tortor.'
-      });
-    } catch (err) {
-      let { message } = err;
-      if (err.code) {
-        message = createMessageFirebase(err.code);
-      }
-      showPopup({
-        title: 'Terjadi Kesalahan!',
-        description: message
-      });
-      setLoading(false);
-    }
-  };
+  //   setLoading(true);
+  //   try {
+  //     await login({ email, password });
+  //     setLoading(false);
+  //     showPopup({
+  //       title: 'Berhasil Masuk',
+  //       description:
+  //         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis lorem bibendum, pulvinar est in, blandit sem. Pellentesque vitae mi eu quam tempor luctus in a purus. Duis quis sollicitudin tortor.'
+  //     });
+  //   } catch (err) {
+  //     let { message } = err;
+  //     if (err.code) {
+  //       message = createMessageFirebase(err.code);
+  //     }
+  //     showPopup({
+  //       title: 'Terjadi Kesalahan!',
+  //       description: message
+  //     });
+  //     setLoading(false);
+  //   }
+  // };
 
   const submitGoogle = async () => {
     setLoading(true);
     const [res, err] = await handleAsync(loginGoogle());
     setLoading(false);
-
+    console.log("%c" + loading)
     if (err) {
       showPopup({
         title: 'Terjadi Kesalahan!',

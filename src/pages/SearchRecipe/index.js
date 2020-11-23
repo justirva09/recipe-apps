@@ -7,6 +7,7 @@ const SearchRecipe = () => {
   const [list, setList] = React.useState([]);
 
   React.useEffect(() => {
+    window.scrollTo(0, 0);
     if(bahanMakanan === "") {
        setList(resepList)
     }

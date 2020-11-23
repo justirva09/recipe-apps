@@ -4,8 +4,6 @@ import {
   firebaseService,
   clearProfile,
   setProfile,
-  clearUsers,
-  clearUserContact
 } from 'modules';
 
 const { dispatch } = store;

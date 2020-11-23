@@ -63,7 +63,7 @@ class Category extends React.Component {
     const { slug } = params;
     const newDataRecipe = this.getListRecipe();
     const filterTitle = this.getTitleSlug();
-
+    window.scrollTo(0, 0);
     document.title = `What in The Fridge - ${filterTitle[0].name}`
     return(
     <React.Fragment>

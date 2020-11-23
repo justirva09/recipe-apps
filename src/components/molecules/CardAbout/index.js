@@ -7,7 +7,7 @@ const CardAbout = ({data}) =>{
   <View className="card__about">
     <View className="card__header">
       <View className="card__thumb">
-        <img src={data.images} />
+        <img src={data.images}  alt={data ? data.nama : 'Orang'} />
       </View>
     </View>
     <View className="card__body">

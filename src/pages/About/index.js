@@ -1,4 +1,4 @@
-import {React, Component, $CombinedState} from 'libraries';
+import {React, Component} from 'libraries';
 import {View, CardAbout} from 'components'
 import profileData from 'assets/dummy/profile.json';
 

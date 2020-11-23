@@ -8,7 +8,6 @@ class BlockRecentRecipe extends Component {
     data: dataResep
   }
 
-
   handleLogout = async() => {
     try {
       await logout();
@@ -35,28 +34,27 @@ class BlockRecentRecipe extends Component {
     }
     
     
-    getRandomRecipe = (data) => {
-      var newArray = [];
-      var max = 3;
-      while(newArray.length < data.length) {
-        var item = this.randomArray(data);
-        var hasItem = false;
+    // getRandomRecipe = (data) => {
+    //   var newArray = [];
+    //   var max = 3;
+    //   while(newArray.length < data.length) {
+    //     var item = this.randomArray(data);
+    //     var hasItem = false;
     
-        newArray.forEach(val => {
-          if(val == item) {
-            hasItem = true;
-          }
-        })
-        if(!hasItem) {
-          newArray.push(item)
-        }
-      }
-      return newArray;
-    }
+    //     newArray.forEach(val => {
+    //       if(val == item) {
+    //         hasItem = true;
+    //       }
+    //     })
+    //     if(!hasItem) {
+    //       newArray.push(item)
+    //     }
+    //   }
+    //   return newArray;
+    // }
 
   render() {
-    const a = this.handleRand(dataResep)
-    console.log(a)
+    this.handleRand(dataResep)
     return(
       <section className="section-container">
         <View classNames="widgetTitle">

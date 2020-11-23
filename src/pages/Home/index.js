@@ -16,6 +16,7 @@ import resep from 'assets/dummy/resep.json';
 
 const Home = () => {
   document.title = `What in The Fridge's`
+  window.scrollTo(0, 0);
   return(
     <React.Fragment>
       <View className="container">

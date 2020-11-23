@@ -1,3 +1,4 @@
+/* eslint-disable no-useless-concat */
 import { AppContainer, BaseLayout, SplashScreen } from "components";
 import { 
   React,
@@ -12,16 +13,19 @@ const App = (props) => {
   const [appLoading, setAppLoading] = React.useState(true);
 
   React.useEffect(() => {
-    const init = () => {
+    const init = async () => {
+      console.log("%c" + "Hold Up!", "color: #7289DA; -webkit-text-stroke: 2px black; font-size: 72px; font-weight: bold;");
+      console.log("%c" + "dont open console without permission ur parents! this is wrong dude!.", "font-size: 18px; font-weight: bold;color: #FFF")
+      console.log("%c" + "If someone told you to copy/paste something here you have an 11/10 chance you're being scammed.", "font-size: 18px; font-weight: bold;color: #FFF")
+      console.log("%c" + "All Right Reserved, 2020 - Proudly Present https://github.com/justirva09/recipe-apps", "font-size: 18px; font-weight: bold;color: #FFF")
       try {
-         getProfile()
+        await getProfile();
       } catch (err) {
         showPopup({
           title: 'Terjadi Kesalahan!',
           description: err.message
         });
       }
-
       setAppLoading(false);
     };
     init();
@@ -55,7 +59,7 @@ const App = (props) => {
                     {...props}
                   />
                 ))}
-                <Route render={() => <h1>404</h1>}/>
+                <Route path="*" exact={true} render={() => <h1>404</h1>}/>
             </Switch>
           )}
         <SplashScreen show={appLoading} />
