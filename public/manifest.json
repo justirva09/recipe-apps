@@ -1,6 +1,6 @@
 {
-  "short_name": "Recipe Apps",
-  "name": "A web app to find recipes by matching the ingredients, that you've in the refrigerator",
+  "short_name": "What in The Fridge",
+  "name": "A web app to find recipes by matching the ingredients",
   "icons": [
     {
       "src": "logo.ico",
@@ -8,17 +8,17 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "logo.ico",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "llogo.ico",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "start_url": "/",
+  "start_url": "/beranda",
   "display": "standalone",
   "theme_color": "#e91e63",
   "background_color": "#ffffff"

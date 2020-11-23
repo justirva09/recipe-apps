@@ -169,7 +169,7 @@ const FormLogin = () => {
 }
 
 const LandingPages = () => {
-  document.title = `Recipe Apps`
+  document.title = `What in The Fridge`
   return(
     <React.Fragment>
       <View classNames="landingPages">
