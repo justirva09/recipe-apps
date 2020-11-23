@@ -15,7 +15,9 @@ const CardRecipes = ({ data }) => {
         <View className="cardRecipe--row">
           <View className="cardRecipe__header">
             <View className="cardRecipe__thumb">
-              <img src={data.images} alt={data.title ? data.title : 'Undefined'} />
+                <Link to={`/detail/${data.id_resep}/${slugTitle}`}>
+                  <img src={data.images} alt={data.title ? data.title : 'Undefined'} />
+                </Link>
             </View>
           </View>
             <View className="cardRecipe__body">

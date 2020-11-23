@@ -79,6 +79,7 @@ class Category extends React.Component {
                   <h4>{val.name}</h4>
                 </View>
               </View>
+              <h4 style={{marginTop: 3}}>{val.name}</h4>
             </View>
             ))}
           </View>
