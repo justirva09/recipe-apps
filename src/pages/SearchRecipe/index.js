@@ -1,5 +1,5 @@
 import { React } from 'libraries';
-import { View, CardRecipes } from 'components';
+import { View, CardRecipes, Header } from 'components';
 import resepList from 'assets/dummy/resep.json';
 
 const SearchRecipe = () => {
@@ -58,6 +58,7 @@ const SearchRecipe = () => {
   return(
     <React.Fragment>
       <View className="container">
+        <Header />
         <View className="searchElement">
           <input
             type="text"

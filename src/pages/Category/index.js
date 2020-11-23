@@ -1,5 +1,5 @@
 import { React } from 'libraries';
-import { View, CardRecipes } from 'components';
+import { View, CardRecipes, Header } from 'components';
 import resepList from 'assets/dummy/resep.json';
 
 const categoryType = [
@@ -68,6 +68,7 @@ class Category extends React.Component {
     return(
     <React.Fragment>
       <View className="container">
+        <Header />
         <View classNames="categoryBlock">
           <View classNames="categoryBlock__row row">
             {categoryType.map((val, i) => (
