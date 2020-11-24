@@ -1583,5 +1583,561 @@
              "Dalam panci, tuang susu kedelai. Masukkan daun pandan, jahe, gula, garam, dan air. Masak sambil terus diaduk hingga mendidih. Langsung matikan api.",
              "Siap disajikan hangat atau dingin."
           ]
-       }
+       },
+       {
+         "id_resep":31,
+         "title":"Es Kopi Susu",
+         "level":"Mudah",
+         "images":"https://i2.wp.com/resepkoki.id/wp-content/uploads/2020/03/Resep-Es-Kopi-Susu.jpg?fit=1079%2C1220&ssl=1",
+         "category":"Drink",
+         "slug" : "drink",
+         "bahan":[
+            {
+               "nama":"Kopi hitam",
+               "jumlah":"1 sendok teh"
+            },
+            {
+               "nama":"Krimer bubuk",
+               "jumlah":"1 sendok makan"
+            },
+            {
+               "nama":"Susu cair full cream",
+               "jumlah":"200 ml"
+            },
+            {
+               "nama":"Air",
+               "jumlah":"100 ml"
+            },
+            {
+               "nama":"Es batu",
+               "jumlah":"secukupnya"
+            },
+            {
+               "nama":"Gula aren (sirup)",
+               "jumlah":"50 gram"
+            },
+            {
+               "nama":"Air (sirup)",
+               "jumlah":"50 ml"
+            }
+         ],
+         "caraMasak":[
+            "Sirup gula aren: rebus air dan gula aren sampai mendidih, sisihkan.",
+            "Seduh 1 sendok teh penuh kopi instan dengan 100 ml Air mendidih. Setelah kopi jadi, saring dan buang ampasnya.",
+            "Tambahkan krimer bubuk dan susu cair aduk rata.",
+            "Tuang kopi susu kedalam gelas saji, tambahkan 2 sendok makan sirup gula aren, tambahkan es batu secukupnya.",
+            "Es kopi susu siap disajikan."
+         ]
+      },
+      {
+         "id_resep":32,
+         "title":"Jus Mangga",
+         "level":"Mudah",
+         "images":"https://i2.wp.com/resepkoki.id/wp-content/uploads/2019/12/Resep-Jus-Mangga.jpg?fit=975%2C1300&ssl=1",
+         "category":"Drink",
+         "slug" : "drink",
+         "bahan":[
+            {
+               "nama":"Mangga arumanis",
+               "jumlah":"3 buah"
+            },
+            {
+               "nama":"Yogurt plain",
+               "jumlah":"100 ml"
+            },
+            {
+               "nama":"Gula pasir",
+               "jumlah":"7 sendok makan"
+            },
+            {
+               "nama":"Es batu, sesuai selera",
+               "jumlah":"secukupnya"
+            },
+            {
+               "nama":"Air putih",
+               "jumlah":"secukupnya"
+            },
+            {
+               "nama":"Whip cream, siap pakai",
+               "jumlah":"secukupnya"
+            }
+         ],
+         "caraMasak":[
+            "Kupas buah mangga, lalu potong-potong daging mangga.",
+            "Masukan mangga dalam blender, haluskan bersama yoghurt plain, gula pasir, air dan es. Blender hingga lembut.",
+            "Tuang jus mangga dalam gelas saji lalu beri topping whip cream.",
+            "Anda bisa juga menambahkan potongan mangga di atas whip cream.",
+            "Siap disajikan."
+         ]
+      },
+      {
+         "id_resep":33,
+         "title":"Es Timun Serut",
+         "level":"Mudah",
+         "images":"https://i1.wp.com/resepkoki.id/wp-content/uploads/2017/05/Resep-Es-timun-serut.jpg?fit=1300%2C1300&ssl=1",
+         "category":"Drink",
+         "slug" : "drink",
+         "bahan":[
+            {
+               "nama":"Timun",
+               "jumlah":"2 buah"
+            },
+            {
+               "nama":"Sirup melon",
+               "jumlah":"250 ml"
+            },
+            {
+               "nama":"Jeruk nipis, peras airnya",
+               "jumlah":"1 buah"
+            },
+            {
+               "nama":"Air matang",
+               "jumlah":"800 ml"
+            },
+            {
+               "nama":"Es batu",
+               "jumlah":"secukupnya"
+            }
+         ],
+         "caraMasak":[
+            "Cuci bersih timun lalu belah dan buang bagian bijinya. Kemudian serut kasar buahnya.",
+            "Campur timun serut dengan air jeruk nipis, sirup melon, dan air matang. Aduk rata.",
+            "Tuang minuman dalam gelas saji lalu beri es batu secukupnya.",
+            "Siap disajikan."
+         ]
+      },
+      {
+         "id_resep":34,
+         "title":"Bakwan Sayur (Bala Bala)",
+         "level":"Mudah",
+         "images":"https://i1.wp.com/resepkoki.id/wp-content/uploads/2016/09/Resep-Bakwan.jpg?fit=1300%2C975&ssl=1",
+         "category":"Dessert",
+         "slug" : "desert",
+         "bahan":[
+            {
+               "nama":"Tepung terigu serbaguna",
+               "jumlah":"200 gram"
+            },
+            {
+               "nama":"Udang kupas, cincang kasar",
+               "jumlah":"150 gram"
+            },
+            {
+               "nama":"Kol, iris halus",
+               "jumlah":"100 gram"
+            },
+            {
+               "nama":"Buncis, iris halus",
+               "jumlah":"100 gram"
+            },
+            {
+               "nama":"Toge, siangi",
+               "jumlah":"50 gram"
+            },
+            {
+               "nama":"Wortel, iris korek api",
+               "jumlah":"1 buah"
+            },
+            {
+               "nama":"Telur",
+               "jumlah":"1 butir"
+            },
+            {
+               "nama":"Daun bawang, iris halus",
+               "jumlah":"1 batang"
+            },
+            {
+               "nama":"Daun seledri, iris halus",
+               "jumlah":"2 batang"
+            },
+            {
+               "nama":"Minyak untuk menggoreng",
+               "jumlah":"secukupnya"
+            },         
+            {
+               "nama":"Air",
+               "jumlah":"secukupnya"
+            },
+            {
+               "nama":"Bawang putih (Bumbu Halus)",
+               "jumlah":"3 siung"
+            },
+            {
+               "nama":"Bawang merah (Bumbu Halus)",
+               "jumlah":"5 butir"
+            },
+            {
+               "nama":"Merica hitam (Bumbu Halus)",
+               "jumlah":"1/2 sendok teh"
+            },
+            {
+               "nama":"Garam (Bumbu Halus)",
+               "jumlah":"secukupnya"
+            }
+         ],
+         "caraMasak":[
+            "Campur dan aduk rata, tepung, bumbu halus, telur, udang dan sayuran, tuang air sedikit demi sedikit sampai didapat kekentalan yang pas (adonan kekentalan sedang).",
+            "Panaskan minyak goreng, ambil sesendok adonan, goreng hingga matang kecokelatan kedua sisinya, angkat, tiriskan.",
+            "Sajikan hangat dengan cabe rawit."
+         ]
+      },
+      {
+         "id_resep":35,
+         "title":"Donat Jadul",
+         "level":"Sedang",
+         "images":"https://i2.wp.com/resepkoki.id/wp-content/uploads/2017/08/Resep-Donat-jadul.jpg?fit=1300%2C1300&ssl=1",
+         "category":"Dessert",
+         "slug" : "desert",
+         "bahan":[
+            {
+               "nama":"Tepung terigu serbaguna",
+               "jumlah":"150 gram"
+            },
+            {
+               "nama":"Tepung terigu protein tinggi",
+               "jumlah":"100 gram"
+            },
+            {
+               "nama":"Ragi instan",
+               "jumlah":"1 sendok teh"
+            },
+            {
+               "nama":"Susu bubuk",
+               "jumlah":"20 gram"
+            },
+            {
+               "nama":"Air hangat",
+               "jumlah":"125 ml"
+            },
+            {
+               "nama":"Gula pasir",
+               "jumlah":"50 gram"
+            },
+            {
+               "nama":"Kuning telur",
+               "jumlah":"2 butir"
+            },
+            {
+               "nama":"Margarin",
+               "jumlah":"35 gram"
+            },
+            {
+               "nama":"Gula pasir",
+               "jumlah":"500 gram"
+            },
+            {
+               "nama":"Garam",
+               "jumlah":"1/4 sendok teh"
+            },
+            {
+               "nama":"Gula halus (Topping)",
+               "jumlah":"secukupnya"
+            },
+            {
+               "nama":"Keju parut (Topping)",
+               "jumlah":"secukupnya"
+            },
+            {
+               "nama":"Meises coklat warna-warni (Topping)",
+               "jumlah":"secukupnya"
+            }
+         ],
+         "caraMasak":[
+            "Dalam wadah, campur semua bahan A lalu uleni hingga kalis.",
+            "Masukkan semua bahan B lalu lanjutkan uleni hingga kalis elastis.",
+            "Bulatkan adonan lalu tutup dengan kain bersih. Diamkan dan biarkan mengembang selama 30-40 menit.",
+            "Kempiskan adonan lalu bentuk silinder panjang. Potong-potong adonan dengan masing-masing beratnya 45-50 gram. Bulatkan tiap adonan kecil lalu istirahatkan kembali selama 15 menit..",
+            "Panaskan banyak minyak dalam wajan cekung.",
+            "Ambil 1 bulatan adonan lalu lubangi tengahnya dengan telunjuk jari. Langsung goreng adonan, sambil diputar bagian tengahnya menggunakan sumpit agar donat bisa lebih membulat saat digoreng. Balik sisi donat jika sisi bawahnya sudah kecoklatan. Goreng hingga matang lalu angkat. Tiriskan. Biarkan hingga dingin.",
+            "Hiasi atas donat dengan bahan topping.",
+            "Siap disajikan."
+         ]
+      },
+      {
+         "id_resep":36,
+         "title":"Keripik Tahu",
+         "level":"Mudah",
+         "images":"https://i2.wp.com/resepkoki.id/wp-content/uploads/2020/07/Resep-Keripik-Tahu.jpg?fit=1073%2C1294&ssl=1",
+         "category":"Dessert",
+         "slug" : "desert",
+         "bahan":[
+            {
+               "nama":"Tahu putih",
+               "jumlah":"10 potong"
+            },
+            {
+               "nama":"Garam",
+               "jumlah":"1 sendok teh"
+            },
+            {
+               "nama":"Air",
+               "jumlah":"secukupnya"
+            },
+            {
+               "nama":"Tepung terigu",
+               "jumlah":"100 gram"
+            },
+            {
+               "nama":"Tepung beras",
+               "jumlah":"1 sendok makan"
+            },
+            {
+               "nama":"Kaldu bubuk",
+               "jumlah":"1/2 sendok teh"
+            },
+            {
+               "nama":"Bubuk bawang putih",
+               "jumlah":"1/2 sendok teh"
+            }
+         ],
+         "caraMasak":[
+            "Potong-potong tahu jadi 4 bagian, kemudian rendam sebentar dengan air yang sudah dicampur 1 sendok teh garam.",
+            "Goreng tahu hingga matang, angkat dan tiriskan, diamkan hingga dingin.",
+            "Belah tahu pada salah satu sisinya, kemudian keluarkan bagian dalam isi tahu. Bagian isi jangan dibuang, bisa diolah menjadi makanan lain.",
+            "Campur semua bahan kering untuk pelapis, aduk rata. Kemudian lumuri tahu yang dikeluarkan isinya dengan bahan pelapis sampai rata.",
+            "Goreng dalam minyak panas dengan api sedang sampai kering, angkat dan tiriskan.",
+            "Biarkan dingin, keripik tahu renyah siap disajikan."
+         ]
+      },
+      {
+         "id_resep":37,
+         "title":"Telur Gulung Sosis",
+         "level":"Mudah",
+         "images":"https://i2.wp.com/resepkoki.id/wp-content/uploads/2020/09/Resep-Telur-gulung-sosis.jpg?fit=1079%2C1291&ssl=1",
+         "category":"Dessert",
+         "slug" : "desert",
+         "bahan":[
+            {
+               "nama":"Telur",
+               "jumlah":"3 butir"
+            },
+            {
+               "nama":"Air",
+               "jumlah":"50 ml"
+            },
+            {
+               "nama":"Tepung tapioka",
+               "jumlah":"1/2 sendok makan"
+            },
+            {
+               "nama":"Sosis, potong jadi 2",
+               "jumlah":"6 buah"
+            },
+            {
+               "nama":"Garam",
+               "jumlah":"1/4 sendok teh"
+            },
+            {
+               "nama":"Merica bubuk",
+               "jumlah":"1/4 sdt"
+            },
+            {
+               "nama":"Kaldu bubuk",
+               "jumlah":"1/4 sdt"
+            },
+            {
+               "nama":"Tusuk sate",
+               "jumlah":"10 buah"
+            },
+            {
+               "nama":"Saus sambal (Pelengkap)",
+               "jumlah":"secukupnya"
+            },
+            {
+               "nama":"Mayonaise (Pelengkap)",
+               "jumlah":"secukupnya"
+            }
+         ],
+         "caraMasak":[
+            "Tusuk sosis yang sudah dipotong-potong dengan tusuk sate. Kemudian, goreng sebentar saja, sisihkan.",
+            "Dalam mangkuk, campur air dengan tepung tapioka aduk rata. Tambahkan telur, air, garam, merica bubuk dan kaldu bubuk. Kocok rata dengan menggunakan garpu.",
+            "Siapkan wajan kecil, beri minyak agak banyak panaskan dengan api sedang. Tunggu sampai minyak benar-benar panas.",
+            "Masukkan satu sendok sayur adonan telur ke dalam minyak panas, menuangnya dari atas supaya telur menyebar.",
+            "Ambil 1 buah sosis, langsung gulung sampai sosis tertutup telur rapikan gulungan telur ditepi wajan. Proses ini harus dilakukan dengan cepat, kalau kelamaan telur tidak akan menempel.",
+            "Tiriskan telur gulung yang sudah digoreng diatas tisu, supaya tidak begitu berminyak. Goreng semua sampai adonan habis.",
+            "Sajikan dengan saus sambal dan mayonaise."
+         ]
+      },
+      {
+         "id_resep":38,
+         "title":"Keripik Tempe",
+         "level":"Mudah",
+         "images":"https://i1.wp.com/resepkoki.id/wp-content/uploads/2020/07/Resep-Keripik-Tempe-1.jpg?fit=1073%2C1290&ssl=1",
+         "category":"Dessert",
+         "slug" : "desert",
+         "bahan":[
+            {
+               "nama":"Tempe (besar - kurang lebih 500 gram)",
+               "jumlah":"2 papan"
+            },
+            {
+               "nama":"Tepung beras",
+               "jumlah":"80 gram"
+            },
+            {
+               "nama":"Tepung tapioka",
+               "jumlah":"20 gram"
+            },
+            {
+               "nama":"Air",
+               "jumlah":"200 ml"
+            },
+            {
+               "nama":"Daun jeruk, iris halus",
+               "jumlah":"2 lembar"
+            },
+            {
+               "nama":"Bawang putih (Bumbu Halus)",
+               "jumlah":"2 siung"
+            },
+            {
+               "nama":"Kemiri (Bumbu Halus)",
+               "jumlah":"2 butir"
+            },
+            {
+               "nama":"Daun jeruk (Bumbu Halus)",
+               "jumlah":"3 lembar"
+            },
+            {
+               "nama":"Garam (Bumbu Halus)",
+               "jumlah":"1 sendok teh"
+            },
+            {
+               "nama":"Ketumbar bubuk  (Bumbu Halus)",
+               "jumlah":"1/2 sendok makan"
+            }
+         ],
+         "caraMasak":[
+            "Iris tipis-tipis tempe, sisihkan.",
+            "Campur semua bahan basah untuk pelapis. Airnya dituang sedikit dulu dalam campuran tepung. Aduk sampai licin baru masukkan sisa air. Untuk keripik tempe ini adonan pelapis tidak kental tetapi cenderung encer ya.",
+            "Haluskan semua bumbu halus, kemudian campurkan dalam bahan pelapis aduk rata.",
+            "Masukkan tempe dalam bahan pelapis satu per satu, kemudian langsung goreng dalam minyak panas hingga seluruh permukaannya terendam. Saat mencelup gunakan tangan ya, jangan memakai sendok untuk menghindari tepung yang menggumpal.",
+            "Goreng dengan api sedang sampai kering keemasan, angkat dan tiriskan.",
+            "Oven keripik tempe yang sudah digoreng dengan suhu rendah 100°C selama 20 menit, supaya keripik tempe tahan renyah."
+         ]
+      },{
+         "id_resep":39,
+         "title":"Tempe Teriyaki",
+         "level":"Mudah",
+         "images":"https://i0.wp.com/resepkoki.id/wp-content/uploads/2020/11/Resep-Tempe-Teriyaki.jpg?fit=975%2C1300&ssl=1",
+         "category":"Main Dish",
+         "slug" : "main-dish",
+         "bahan":[
+            {
+               "nama":"Tempe, 2 papan",
+               "jumlah":"300 gram"
+            },
+            {
+               "nama":"Bawang bombay, iris lebar",
+               "jumlah":"1/2 buah"
+            },
+            {
+               "nama":"Bawang putih, cincang",
+               "jumlah":"4 siung"
+            },
+            {
+               "nama":"Cabai merah, iris serong",
+               "jumlah":"3 buah"
+            },
+            {
+               "nama":"Kecap manis",
+               "jumlah":"1 sendok makan"
+            },
+            {
+               "nama":"Saus teriyaki",
+               "jumlah":"2 sendok makan"
+            },
+            {
+               "nama":"Daun bawang, potong-potong",
+               "jumlah":"2 tangkai"
+            },
+            {
+               "nama":"Garam",
+               "jumlah":"secukupnya"
+            },
+            {
+               "nama":"Gula",
+               "jumlah":"secukupnya"
+            },
+            {
+               "nama":"Wijen sangrai, untuk taburan",
+               "jumlah":"secukupnya"
+            },
+            {
+               "nama":"Minyak goreng",
+               "jumlah":"secukupnya"
+            }
+         ],
+         "caraMasak":[
+            "Potong-potong tempe kecil memanjang kemudian goreng setengah matang. Angkat dan tiriskan.",
+            "Tumis bawang putih, bawang bombay, dan cabai merah sampai harum. Masukkan tempe aduk rata.",
+            "Tambahkan kecap manis, saus teriyaki, garam dan gula. Masak sampai bumbu meresap, koreksi rasanya lalu angkat.",
+            "Sajikan dengan taburan wijen sangrai dan irisan daun bawang."
+         ]
+      },
+      {
+         "id_resep":40,
+         "title":"Pindang Bumbu Sarden",
+         "level":"Sedang",
+         "images":"https://i2.wp.com/resepkoki.id/wp-content/uploads/2020/08/Resep-Pindang-Bumbu-Sarden.jpg?fit=1079%2C1162&ssl=1",
+         "category":"Main Dish",
+         "slug" : "main-dish",
+         "bahan":[
+            {
+               "nama":"Pindang salem",
+               "jumlah":"10 ekor"
+            },
+            {
+               "nama":"Saus tomat",
+               "jumlah":"1 sendok makan"
+            },
+            {
+               "nama":"Kecap manis",
+               "jumlah":"1 sendok makan"
+            },
+            {
+               "nama":"Jahe, geprek",
+               "jumlah":"1 ruas jari"
+            },
+            {
+               "nama":"Cabai rawit, utuh",
+               "jumlah":"10 buah"
+            },
+            {
+               "nama":"Tomat",
+               "jumlah":"2 buah"
+            },
+            {
+               "nama":"Air",
+               "jumlah":"300 ml"
+            },
+            {
+               "nama":"Garam ",
+               "jumlah":"secukupnya"
+            },
+            {
+               "nama":"Gula",
+               "jumlah":"secukupnya"
+            },
+            {
+               "nama":"Bawang merah (BUumbu Halus)",
+               "jumlah":"5 butir"
+            },
+            {
+               "nama":"Bawang putih (BUumbu Halus)",
+               "jumlah":"3 siung"
+            },
+            {
+               "nama":"Cabai merah (BUumbu Halus)",
+               "jumlah":"5 buah"
+            }
+         ],
+         "caraMasak":[
+            "Buang kepala ikan pindang, cuci bersih ikan, kemudian goreng setengah matang, sisihkan.",
+            "Tumis bumbu halus dan jahe sampai harum, masukkan pindang. Aduk rata.",
+            "Tambahkan air, masukkan potongan tomat, saus tomat dan kecap manis. Aduk rata.",
+            "Bumbui dengan garam dan gula. Aduk kembali dan koreksi rasanya.",
+            "Terakhir, masukkan cabai rawit utuh, masak hingga bumbu meresap dan air menyusut. Siap disajikan."
+         ]
+      }
 ]
