@@ -6,6 +6,7 @@ import Profile from './Profile';
 import About from './About';
 import LandingPages from './LandingPage';
 import SearchRecipe from './SearchRecipe';
+import Error from './Error';
 
 
 export {
@@ -16,5 +17,6 @@ export {
   About,
   Auth,
   LandingPages,
-  SearchRecipe
+  SearchRecipe,
+  Error
 }

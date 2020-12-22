@@ -1,4 +1,4 @@
-import { View, BlockRecentRecipe, Header } from 'components';
+import { View, BlockRecentRecipe, Header, Private } from 'components';
 import Featured from 'components/molecules/Featured';
 import { React } from 'libraries';
 import Slider from "react-slick";
@@ -19,6 +19,7 @@ const Home = () => {
   window.scrollTo(0, 0);
   return(
     <React.Fragment>
+      <Private>
       <View className="container">
         <Header />
         <View classNames="col-featured__row">
@@ -30,6 +31,7 @@ const Home = () => {
         </View>
         <BlockRecentRecipe />
       </View>
+      </Private>
     </React.Fragment>
   )
 }

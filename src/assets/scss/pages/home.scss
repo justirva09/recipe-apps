@@ -6,22 +6,3 @@
 body {
   background-image: url('https://1.bp.blogspot.com/-dJknBBjeII0/X7jzGDOp3gI/AAAAAAAAE-E/_GKfwBiqadYd3agK8WXdnWQei6KcsIrigCLcBGAsYHQ/s0/bg-food.png');
 }
-.splashscreen-background {
-  background-color: #d3843d;
-  text-align: center;
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}
-.splashscreen-logo img {
-  width: 100%;
-}
-.splashscreen-background.LoadingScreen {
-  display: none;
-}
-
-.splashscreen-background.LoadingScreen.LoadingScreen--show.LoadingScreen--animate {
-  display: block;
-}

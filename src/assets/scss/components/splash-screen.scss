@@ -1,0 +1,42 @@
+.splashscreen-background {
+  background-color: #d3843d;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  &__LoadingScreen {
+    display: none;
+    &--show {
+      display: block;
+    }
+  }
+  &__logo {
+    background-image: url(https://1.bp.blogspot.com/-sdWb9hBXEWY/X6JgxZ7WDuI/AAAAAAAAAxg/NPqR6MV5feMgPNTR_WGg0VK4vWAcsVx4gCLcBGAsYHQ/logo11_3_12058%2B1.png);
+    background-size: 65%;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    padding-bottom: 90vh;
+    background-repeat: no-repeat;
+    background-color: #d3843d;
+    transition: 0.3s ease;
+    animation: bounceLogo 1s infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+  }
+}
+
+@keyframes bounceLogo {
+  0% {
+    background-size: 60%;
+  }
+
+  50% {
+    background-size: 75%;
+  }
+
+  100% {
+    font-size: 65%;
+  }
+}

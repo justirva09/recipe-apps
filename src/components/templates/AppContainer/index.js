@@ -1,4 +1,4 @@
-import { React, PropTypes, NavLink } from 'libraries';
+import { React, NavLink } from 'libraries';
 import { View } from 'components/atoms';
 import { Popup } from 'components/molecules';
 import { AiOutlineAppstore, AiOutlineTags, AiOutlineUser, AiOutlineSearch, AiOutlineDeploymentUnit } from "react-icons/ai";
@@ -36,9 +36,5 @@ const AppContainer = ({children, showNav}) => {
   )
 }
 
-
-AppContainer.propsTypes = {
-  children: PropTypes.any
-}
 
 export default AppContainer;

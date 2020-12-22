@@ -1,4 +1,4 @@
-import {Home, Detail, Category, Profile, LandingPages, Auth, SearchRecipe, About} from 'pages';
+import {Home, Detail, Category, Profile, LandingPages, Auth, SearchRecipe, About, Error} from 'pages';
 
 const routes = [
   {
@@ -48,6 +48,12 @@ const routes = [
     path: '/login',
     exact: true,
     component: Auth
+  },
+  {
+    name: "Error",
+    path: '*',
+    exact: true,
+    component: Error
   }
 ];
 

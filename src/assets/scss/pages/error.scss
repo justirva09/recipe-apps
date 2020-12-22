@@ -1,0 +1,19 @@
+.error {
+  &__bg {
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    padding: 30vh;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .error {
+    &__bg {
+      background-position-x: 20%;
+      background-position-y: 50%;
+      padding: 30vh;
+    }
+  }
+}

@@ -1,18 +1,8 @@
-import { React, PropTypes, connect, useHistory } from 'libraries';
+import { React, PropTypes } from 'libraries';
 import { View } from 'components/atoms';
 import { Popup } from 'components/molecules';
-import { profileSelector } from 'modules';
 
-const BaseLayout = ({children, profile}) => {
-  const history = useHistory();
-
-  React.useEffect(() => {
-    if (profile) {
-      history.replace('/beranda');
-    } else {
-      history.replace('/')
-    }
-  }, [history, profile]);
+const BaseLayout = ({children}) => {
   
   return(
     <View classNames="baseLayout">
@@ -25,15 +15,6 @@ const BaseLayout = ({children, profile}) => {
 
 BaseLayout.propsTypes = {
   children: PropTypes.any,
-  profile: PropTypes.object
 }
 
-BaseLayout.defaultProps = {
-  profile: null
-}
-
-const reduxState = state => ({
-  profile: profileSelector(state)
-});
-
-export default connect(reduxState)(BaseLayout);
+export default BaseLayout
