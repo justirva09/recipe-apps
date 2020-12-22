@@ -5,10 +5,25 @@ import { logout, showPopup, updateProfile } from 'services';
 import { createMessageFirebase, handleAsync } from 'helper';
 
 const Profile = ({ profile, history }) => {
+  const [supportsPWA, setSupportsPWA] = React.useState(false);
+  const [promptInstall, setPromptInstall] = React.useState(null);
   const [photo, changePhoto] = React.useState(null);
   const [photoFile, changePhotoFile] = React.useState(null);
   const [name, changeName] = React.useState('');
   const [email, changeEmail] = React.useState('');
+
+  React.useEffect(() => {
+    console.log('in use')// I see in the console
+    const handler = e => {
+    console.log('in handler') // I do not see in the console
+    e.preventDefault();
+    setSupportsPWA(true);
+    setPromptInstall(e);
+    };
+    window.addEventListener("beforeinstallprompt", handler);
+    return () => window.removeEventListener("transitionend", handler);
+  }, []);
+
 
   const initData = React.useCallback(() => {
     if(profile) {
@@ -81,6 +96,16 @@ const Profile = ({ profile, history }) => {
 
     return res;
   };
+  const handlerInstaller = evt => {
+    evt.preventDefault();
+    if (promptInstall) {
+      promptInstall.prompt();
+    }else{
+      return;
+    };
+  };
+
+
 
   React.useEffect(() => {
     initData();
@@ -100,6 +125,18 @@ const Profile = ({ profile, history }) => {
              </View>
             </View>
             <View classNames="profile__body screenAnimation">
+             {supportsPWA && (
+                <View classNames="form-group">
+                <Button 
+                  color="secondary" 
+                  block 
+                  style={{marginTop: 8}}
+                  onClick={handlerInstaller}
+                >
+                  Install Apps
+                </Button>
+              </View>
+             )}
               <View classNames="form-group">
                 <input 
                   onChange={e => changeName(e.target.value)}

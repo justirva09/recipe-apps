@@ -13,5 +13,5 @@ export {
   Popup,
   CardAbout,
   Header,
-  ImageInput
+  ImageInput,
 }

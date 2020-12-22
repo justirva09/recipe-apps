@@ -20,6 +20,7 @@
   ],
   "start_url": "/beranda",
   "display": "standalone",
+  "scope": "/",
   "theme_color": "#e91e63",
   "background_color": "#ffffff"
 }
